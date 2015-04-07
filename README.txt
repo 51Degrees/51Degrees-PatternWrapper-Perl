@@ -1,4 +1,4 @@
-FiftyOneDegrees-Pattern Version 1.0.1.2
+FiftyOneDegrees-Pattern Version 1.0.1.4
 =======================================
 
 This is a Perl wrapper for 51Degrees Device Detection Pattern library.
@@ -45,10 +45,13 @@ COPYRIGHT AND LICENSE
 Code is Copyright 51Degrees 2014.
 All code and Lite data is distributed under the Mozilla Public License Version 2.
 
-1.0.1.2
+1.0.1.4
 
 - Fixed problem with VERSION_FROM and ABSTRACT_FROM in Makefile.PL.
 - Added JSON as a dependency.
+- Fixed a function returning char pointer to a local function array that was
+  triggering a compiler warning. This may have led to a segfault.
+- Updated 51Degrees C source code.
 
 1.0.0.0
 

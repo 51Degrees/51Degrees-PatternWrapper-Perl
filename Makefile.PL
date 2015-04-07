@@ -4,7 +4,7 @@ use ExtUtils::MakeMaker;
 # the contents of the Makefile that is written.
 WriteMakefile(
     NAME              => 'FiftyOneDegrees::PatternV3',
-    VERSION      => '1.0.1.2',
+    VERSION      => '1.0.1.4',
     OBJECT            => 'src/pattern/51Degrees.o src/51Degrees_wrap.o src/snprintf/snprintf.o',
     LDFROM          => '51Degrees.o 51Degrees_wrap.o snprintf.o',
     #C                 => ['pattern/51Degrees.c', '51Degrees_wrap.c', 'snprintf/snprintf.c'],
