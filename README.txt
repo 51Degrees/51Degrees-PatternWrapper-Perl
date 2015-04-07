@@ -45,6 +45,11 @@ COPYRIGHT AND LICENSE
 Code is Copyright 51Degrees 2014.
 All code and Lite data is distributed under the Mozilla Public License Version 2.
 
+1.0.1.2
+
+- Fixed problem with VERSION_FROM and ABSTRACT_FROM in Makefile.PL.
+- Added JSON as a dependency.
+
 1.0.0.0
 
 - Initial release.
