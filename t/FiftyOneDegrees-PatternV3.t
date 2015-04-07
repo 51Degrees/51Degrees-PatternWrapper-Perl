@@ -15,4 +15,4 @@ BEGIN { use_ok('FiftyOneDegrees::PatternV3') };
 # its man page ( perldoc Test::More ) for help writing this test script.
 
 say "Please be sure you have a valid Trie Lite or Premium data file.";
-say "Contact 51Degrees.mobi for details."; 
+say "Contact 51Degrees for details."; 
