@@ -2213,11 +2213,13 @@ int32_t processDeviceCSV(Workset *ws, char* result, int32_t resultLength) {
     return (int32_t)(currentPos - result);
 }
 
+
 /**
  * Process device properties into a JSON string
  */
 int32_t processDeviceJSON(Workset *ws, char* result, int32_t resultLength) {
-    int32_t propertyIndex, valueIndex, profileIndex;
+    int32_t propertyIndex, valueIndex, profileIndex, valueNameIndex, valueNameLength;
+	const char* valueName;
 	char* currentPos = result;
 	char* endPos = result + resultLength;
 
@@ -2242,14 +2244,7 @@ int32_t processDeviceJSON(Workset *ws, char* result, int32_t resultLength) {
         currentPos += snprintf(
             currentPos,
             (int32_t)(endPos - currentPos),
-            "\"");
-            
-        if(ws->dataSet->requiredPropertyCount > 0) {
-			currentPos += snprintf(
-				currentPos,
-				(int32_t)(endPos - currentPos),
-				",\n");
-		}
+            "\",\n");
 
         for(propertyIndex = 0; propertyIndex < ws->dataSet->requiredPropertyCount; propertyIndex++) {
             if (setValues(ws, propertyIndex) > 0) {
@@ -2259,11 +2254,24 @@ int32_t processDeviceJSON(Workset *ws, char* result, int32_t resultLength) {
                     "\"%s\": \"",
                     getPropertyName(ws->dataSet, *(ws->dataSet->requiredProperties + propertyIndex)));
                 for(valueIndex = 0; valueIndex < ws->valuesCount; valueIndex++) {
-                    currentPos += snprintf(
-                        currentPos,
-                        (int32_t)(endPos - currentPos),
-                        "%s",
-                        getValueName(ws->dataSet, *(ws->values + valueIndex)));
+					valueName = getValueName(ws->dataSet, *(ws->values + valueIndex));
+					valueNameLength = strlen(valueName);
+					for(valueNameIndex = 0; valueNameIndex < valueNameLength; valueNameIndex++) {
+						if(valueName[valueNameIndex] == 0) {
+							break;
+						}
+						else if(valueName[valueNameIndex] == '"') {
+							currentPos += snprintf(
+								currentPos,
+								(int32_t)(endPos - currentPos),
+								"\\");
+						}
+						currentPos += snprintf(
+							currentPos,
+							(int32_t)(endPos - currentPos),
+							"%c",
+							valueName[valueNameIndex]);
+					}
                     if (valueIndex < ws->valuesCount - 1) {
                         currentPos += snprintf(
                             currentPos,
@@ -2271,22 +2279,18 @@ int32_t processDeviceJSON(Workset *ws, char* result, int32_t resultLength) {
                             "|");
                     }
                 }
-                currentPos += snprintf(
-                    currentPos,
-                    (int32_t)(endPos - currentPos),
-                    "\"");
                 if (propertyIndex + 1 != ws->dataSet->requiredPropertyCount) {
                   currentPos += snprintf(
                     currentPos,
                     (int32_t)(endPos - currentPos),
-                    ",\n");
+                    "\",\n");
                 }
             }
         }
         currentPos += snprintf(
           currentPos,
           (int32_t)(endPos - currentPos),
-          "}");
+          "\"}");
     }
     return (int32_t)(currentPos - result);
 }
