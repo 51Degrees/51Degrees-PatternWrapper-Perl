@@ -1,4 +1,4 @@
-FiftyOneDegrees-Pattern Version 1.0.0.0
+FiftyOneDegrees-Pattern Version 1.0.1.2
 =======================================
 
 This is a Perl wrapper for 51Degrees Device Detection Pattern library.
