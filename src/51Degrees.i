@@ -40,8 +40,8 @@ DataSetInitStatus getInitStatus() {
         SWIG_exception(SWIG_IOError, "The data file could not be found. Check the file path and that the program has sufficient read permissions.");
       break;
     }
-  }
-
+}
+%newobject getMatch;
 %inline %{
 
   void destroyDataset(long dataSet) {
@@ -60,11 +60,12 @@ DataSetInitStatus getInitStatus() {
 	return (long)ds;
   }
 
+
   char* getMatch(long dataSet, char* userAgent) {
 	Workset *ws = NULL;
 	ws = createWorkset((DataSet*)dataSet);
     match(ws, userAgent);
-    char output[50000];
+    char *output = (char *) malloc(50000);
     processDeviceJSON(ws, output, 50000);
     freeWorkset(ws);
     return output;
