@@ -6,8 +6,8 @@
 #else
 #define EXTERNAL
 #endif
-DataSetInitStatus initStatus;
-DataSetInitStatus getInitStatus() {
+fiftyoneDegreesDataSetInitStatus initStatus;
+fiftyoneDegreesDataSetInitStatus getInitStatus() {
   return initStatus;
 }
 
@@ -19,7 +19,7 @@ DataSetInitStatus getInitStatus() {
 %exception dataSetInitWithPropertyString {
     
  	$action; 
- 	DataSetInitStatus initStatus = getInitStatus();
+ 	fiftyoneDegreesDataSetInitStatus initStatus = getInitStatus();
     switch (initStatus) {
       case DATA_SET_INIT_STATUS_SUCCESS: // nothing to do
       break;
@@ -45,13 +45,13 @@ DataSetInitStatus getInitStatus() {
 %inline %{
 
   void destroyDataset(long dataSet) {
-	destroy((DataSet*)dataSet);
+	fiftyoneDegreesDestroy((fiftyoneDegreesDataSet*)dataSet);
   }
 
   long dataSetInitWithPropertyString(char* fileName, char* propertyString) {
-	DataSet *ds = NULL;
-	ds = (DataSet*)malloc(sizeof(DataSet));
-	initStatus = initWithPropertyString((char*)fileName, ds, propertyString);
+	fiftyoneDegreesDataSet *ds = NULL;
+	ds = (fiftyoneDegreesDataSet*)malloc(sizeof(fiftyoneDegreesDataSet));
+	initStatus = fiftyoneDegreesInitWithPropertyString((char*)fileName, ds, propertyString);
 	if (initStatus != DATA_SET_INIT_STATUS_SUCCESS)
 	{
 		free(ds);
@@ -62,12 +62,12 @@ DataSetInitStatus getInitStatus() {
 
 
   char* getMatch(long dataSet, char* userAgent) {
-	Workset *ws = NULL;
-	ws = createWorkset((DataSet*)dataSet);
-    match(ws, userAgent);
+	fiftyoneDegreesWorkset *ws = NULL;
+	ws = fiftyoneDegreesCreateWorkset((fiftyoneDegreesDataSet*)dataSet);
+    fiftyoneDegreesMatch(ws, userAgent);
     char *output = (char *) malloc(50000);
-    processDeviceJSON(ws, output, 50000);
-    freeWorkset(ws);
+    fiftyoneDegreesProcessDeviceJSON(ws, output, 50000);
+    fiftyoneDegreesFreeWorkset(ws);
     return output;
   }
   

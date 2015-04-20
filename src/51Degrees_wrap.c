@@ -1482,42 +1482,42 @@ SWIG_Perl_SetModule(swig_module_info *module) {
 
 /* -------- TYPES TABLE (BEGIN) -------- */
 
-#define SWIGTYPE_p_NodeIndex_value swig_types[0]
-#define SWIGTYPE_p_ascii_string_t swig_types[1]
-#define SWIGTYPE_p_char swig_types[2]
-#define SWIGTYPE_p_component_t swig_types[3]
-#define SWIGTYPE_p_dataset_header_t swig_types[4]
-#define SWIGTYPE_p_dataset_t swig_types[5]
-#define SWIGTYPE_p_date_t swig_types[6]
-#define SWIGTYPE_p_e_DataSetInitStatus swig_types[7]
-#define SWIGTYPE_p_entity_header_t swig_types[8]
-#define SWIGTYPE_p_f_p_struct_workset_t__p_unsigned_char swig_types[9]
-#define SWIGTYPE_p_f_p_struct_workset_t_p_q_const__struct_node_t__int swig_types[10]
-#define SWIGTYPE_p_int16_t swig_types[11]
-#define SWIGTYPE_p_int32_t swig_types[12]
-#define SWIGTYPE_p_linked_signature_list_item_t swig_types[13]
-#define SWIGTYPE_p_linked_signature_list_t swig_types[14]
-#define SWIGTYPE_p_map_t swig_types[15]
-#define SWIGTYPE_p_matchMethod swig_types[16]
-#define SWIGTYPE_p_node_index_t swig_types[17]
-#define SWIGTYPE_p_node_index_value_t swig_types[18]
-#define SWIGTYPE_p_node_numeric_index_t swig_types[19]
-#define SWIGTYPE_p_node_t swig_types[20]
-#define SWIGTYPE_p_numeric_node_state swig_types[21]
-#define SWIGTYPE_p_p_char swig_types[22]
-#define SWIGTYPE_p_p_node_t swig_types[23]
-#define SWIGTYPE_p_p_profile_t swig_types[24]
-#define SWIGTYPE_p_p_property_t swig_types[25]
-#define SWIGTYPE_p_p_value_t swig_types[26]
-#define SWIGTYPE_p_profile_offset_t swig_types[27]
-#define SWIGTYPE_p_profile_t swig_types[28]
-#define SWIGTYPE_p_property_t swig_types[29]
-#define SWIGTYPE_p_range_t swig_types[30]
-#define SWIGTYPE_p_string_t swig_types[31]
-#define SWIGTYPE_p_strings_t swig_types[32]
-#define SWIGTYPE_p_unsigned_char swig_types[33]
-#define SWIGTYPE_p_value_t swig_types[34]
-#define SWIGTYPE_p_workset_t swig_types[35]
+#define SWIGTYPE_p_char swig_types[0]
+#define SWIGTYPE_p_e_fiftyoneDegrees_DataSetInitStatus swig_types[1]
+#define SWIGTYPE_p_f_p_struct_fiftyoneDegrees_workset_t__p_unsigned_char swig_types[2]
+#define SWIGTYPE_p_f_p_struct_fiftyoneDegrees_workset_t_p_q_const__struct_fiftyoneDegrees_node_t__int swig_types[3]
+#define SWIGTYPE_p_fiftyoneDegreesMatchMethod swig_types[4]
+#define SWIGTYPE_p_fiftyoneDegreesNodeIndex_value swig_types[5]
+#define SWIGTYPE_p_fiftyoneDegreesRange_t swig_types[6]
+#define SWIGTYPE_p_fiftyoneDegrees_ascii_string_t swig_types[7]
+#define SWIGTYPE_p_fiftyoneDegrees_component_t swig_types[8]
+#define SWIGTYPE_p_fiftyoneDegrees_dataset_header_t swig_types[9]
+#define SWIGTYPE_p_fiftyoneDegrees_dataset_t swig_types[10]
+#define SWIGTYPE_p_fiftyoneDegrees_date_t swig_types[11]
+#define SWIGTYPE_p_fiftyoneDegrees_entity_header_t swig_types[12]
+#define SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t swig_types[13]
+#define SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_t swig_types[14]
+#define SWIGTYPE_p_fiftyoneDegrees_map_t swig_types[15]
+#define SWIGTYPE_p_fiftyoneDegrees_node_index_t swig_types[16]
+#define SWIGTYPE_p_fiftyoneDegrees_node_index_value_t swig_types[17]
+#define SWIGTYPE_p_fiftyoneDegrees_node_numeric_index_t swig_types[18]
+#define SWIGTYPE_p_fiftyoneDegrees_node_t swig_types[19]
+#define SWIGTYPE_p_fiftyoneDegrees_numeric_node_state swig_types[20]
+#define SWIGTYPE_p_fiftyoneDegrees_profile_offset_t swig_types[21]
+#define SWIGTYPE_p_fiftyoneDegrees_profile_t swig_types[22]
+#define SWIGTYPE_p_fiftyoneDegrees_string_t swig_types[23]
+#define SWIGTYPE_p_fiftyoneDegrees_strings_t swig_types[24]
+#define SWIGTYPE_p_fiftyoneDegrees_value_t swig_types[25]
+#define SWIGTYPE_p_fiftyoneDegrees_workset_t swig_types[26]
+#define SWIGTYPE_p_int16_t swig_types[27]
+#define SWIGTYPE_p_int32_t swig_types[28]
+#define SWIGTYPE_p_p_char swig_types[29]
+#define SWIGTYPE_p_p_fiftyoneDegrees_node_t swig_types[30]
+#define SWIGTYPE_p_p_fiftyoneDegrees_profile_t swig_types[31]
+#define SWIGTYPE_p_p_fiftyoneDegrees_value_t swig_types[32]
+#define SWIGTYPE_p_p_property_t swig_types[33]
+#define SWIGTYPE_p_property_t swig_types[34]
+#define SWIGTYPE_p_unsigned_char swig_types[35]
 static swig_type_info *swig_types[37];
 static swig_module_info swig_module = {swig_types, 36, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
@@ -1558,8 +1558,8 @@ SWIGEXPORT void SWIG_init (CV *cv, CPerlObj *);
 #else
 #define EXTERNAL
 #endif
-DataSetInitStatus initStatus;
-DataSetInitStatus getInitStatus() {
+fiftyoneDegreesDataSetInitStatus initStatus;
+fiftyoneDegreesDataSetInitStatus getInitStatus() {
   return initStatus;
 }
 
@@ -1605,7 +1605,7 @@ SWIG_From_unsigned_SS_char  SWIG_PERL_DECL_ARGS_1(unsigned char value)
 typedef union {
   const byte characters[4];
   const int32_t integer;
-} NodeIndex_value;
+} fiftyoneDegreesNodeIndex_value;
 
 
 
@@ -1899,13 +1899,13 @@ SWIG_AsVal_int SWIG_PERL_DECL_ARGS_2(SV * obj, int *val)
 
 
   void destroyDataset(long dataSet) {
-	destroy((DataSet*)dataSet);
+	fiftyoneDegreesDestroy((fiftyoneDegreesDataSet*)dataSet);
   }
 
   long dataSetInitWithPropertyString(char* fileName, char* propertyString) {
-	DataSet *ds = NULL;
-	ds = (DataSet*)malloc(sizeof(DataSet));
-	initStatus = initWithPropertyString((char*)fileName, ds, propertyString);
+	fiftyoneDegreesDataSet *ds = NULL;
+	ds = (fiftyoneDegreesDataSet*)malloc(sizeof(fiftyoneDegreesDataSet));
+	initStatus = fiftyoneDegreesInitWithPropertyString((char*)fileName, ds, propertyString);
 	if (initStatus != DATA_SET_INIT_STATUS_SUCCESS)
 	{
 		free(ds);
@@ -1916,12 +1916,12 @@ SWIG_AsVal_int SWIG_PERL_DECL_ARGS_2(SV * obj, int *val)
 
 
   char* getMatch(long dataSet, char* userAgent) {
-	Workset *ws = NULL;
-	ws = createWorkset((DataSet*)dataSet);
-    match(ws, userAgent);
+	fiftyoneDegreesWorkset *ws = NULL;
+	ws = fiftyoneDegreesCreateWorkset((fiftyoneDegreesDataSet*)dataSet);
+    fiftyoneDegreesMatch(ws, userAgent);
     char *output = (char *) malloc(50000);
-    processDeviceJSON(ws, output, 50000);
-    freeWorkset(ws);
+    fiftyoneDegreesProcessDeviceJSON(ws, output, 50000);
+    fiftyoneDegreesFreeWorkset(ws);
     return output;
   }
   
@@ -1955,9 +1955,9 @@ SWIGCLASS_STATIC int swig_magic_readonly(pTHX_ SV *SWIGUNUSEDPARM(sv), MAGIC *SW
 #ifdef __cplusplus
 extern "C" {
 #endif
-XS(_wrap_RANGE_lower_get) {
+XS(_wrap_fiftyoneDegreesRANGE_lower_get) {
   {
-    struct range_t *arg1 = (struct range_t *) 0 ;
+    struct fiftyoneDegreesRange_t *arg1 = (struct fiftyoneDegreesRange_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -1965,13 +1965,13 @@ XS(_wrap_RANGE_lower_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: RANGE_lower_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesRANGE_lower_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_range_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegreesRange_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RANGE_lower_get" "', argument " "1"" of type '" "struct range_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesRANGE_lower_get" "', argument " "1"" of type '" "struct fiftyoneDegreesRange_t *""'"); 
     }
-    arg1 = (struct range_t *)(argp1);
+    arg1 = (struct fiftyoneDegreesRange_t *)(argp1);
     result = (int16_t) ((arg1)->lower);
     ST(argvi) = SWIG_NewPointerObj((int16_t *)memcpy((int16_t *)malloc(sizeof(int16_t)),&result,sizeof(int16_t)), SWIGTYPE_p_int16_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -1983,9 +1983,9 @@ XS(_wrap_RANGE_lower_get) {
 }
 
 
-XS(_wrap_RANGE_upper_get) {
+XS(_wrap_fiftyoneDegreesRANGE_upper_get) {
   {
-    struct range_t *arg1 = (struct range_t *) 0 ;
+    struct fiftyoneDegreesRange_t *arg1 = (struct fiftyoneDegreesRange_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -1993,13 +1993,13 @@ XS(_wrap_RANGE_upper_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: RANGE_upper_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesRANGE_upper_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_range_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegreesRange_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RANGE_upper_get" "', argument " "1"" of type '" "struct range_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesRANGE_upper_get" "', argument " "1"" of type '" "struct fiftyoneDegreesRange_t *""'"); 
     }
-    arg1 = (struct range_t *)(argp1);
+    arg1 = (struct fiftyoneDegreesRange_t *)(argp1);
     result = (int16_t) ((arg1)->upper);
     ST(argvi) = SWIG_NewPointerObj((int16_t *)memcpy((int16_t *)malloc(sizeof(int16_t)),&result,sizeof(int16_t)), SWIGTYPE_p_int16_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -2011,17 +2011,17 @@ XS(_wrap_RANGE_upper_get) {
 }
 
 
-XS(_wrap_new_RANGE) {
+XS(_wrap_new_fiftyoneDegreesRANGE) {
   {
     int argvi = 0;
-    struct range_t *result = 0 ;
+    struct fiftyoneDegreesRange_t *result = 0 ;
     dXSARGS;
     
     if ((items < 0) || (items > 0)) {
-      SWIG_croak("Usage: new_RANGE();");
+      SWIG_croak("Usage: new_fiftyoneDegreesRANGE();");
     }
-    result = (struct range_t *)calloc(1, sizeof(struct range_t));
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_range_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    result = (struct fiftyoneDegreesRange_t *)calloc(1, sizeof(struct fiftyoneDegreesRange_t));
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegreesRange_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
     XSRETURN(argvi);
   fail:
     SWIG_croak_null();
@@ -2029,22 +2029,22 @@ XS(_wrap_new_RANGE) {
 }
 
 
-XS(_wrap_delete_RANGE) {
+XS(_wrap_delete_fiftyoneDegreesRANGE) {
   {
-    struct range_t *arg1 = (struct range_t *) 0 ;
+    struct fiftyoneDegreesRange_t *arg1 = (struct fiftyoneDegreesRange_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: delete_RANGE(self);");
+      SWIG_croak("Usage: delete_fiftyoneDegreesRANGE(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_range_t, SWIG_POINTER_DISOWN |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegreesRange_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_RANGE" "', argument " "1"" of type '" "struct range_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_fiftyoneDegreesRANGE" "', argument " "1"" of type '" "struct fiftyoneDegreesRange_t *""'"); 
     }
-    arg1 = (struct range_t *)(argp1);
+    arg1 = (struct fiftyoneDegreesRange_t *)(argp1);
     free((char *) arg1);
     ST(argvi) = sv_newmortal();
     
@@ -2056,9 +2056,9 @@ XS(_wrap_delete_RANGE) {
 }
 
 
-XS(_wrap_AsciiString_length_get) {
+XS(_wrap_fiftyoneDegreesAsciiString_length_get) {
   {
-    struct ascii_string_t *arg1 = (struct ascii_string_t *) 0 ;
+    struct fiftyoneDegrees_ascii_string_t *arg1 = (struct fiftyoneDegrees_ascii_string_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -2066,13 +2066,13 @@ XS(_wrap_AsciiString_length_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: AsciiString_length_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesAsciiString_length_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_ascii_string_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_ascii_string_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AsciiString_length_get" "', argument " "1"" of type '" "struct ascii_string_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesAsciiString_length_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_ascii_string_t *""'"); 
     }
-    arg1 = (struct ascii_string_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_ascii_string_t *)(argp1);
     result = (int16_t) ((arg1)->length);
     ST(argvi) = SWIG_NewPointerObj((int16_t *)memcpy((int16_t *)malloc(sizeof(int16_t)),&result,sizeof(int16_t)), SWIGTYPE_p_int16_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -2084,9 +2084,9 @@ XS(_wrap_AsciiString_length_get) {
 }
 
 
-XS(_wrap_AsciiString_firstByte_get) {
+XS(_wrap_fiftyoneDegreesAsciiString_firstByte_get) {
   {
-    struct ascii_string_t *arg1 = (struct ascii_string_t *) 0 ;
+    struct fiftyoneDegrees_ascii_string_t *arg1 = (struct fiftyoneDegrees_ascii_string_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -2094,13 +2094,13 @@ XS(_wrap_AsciiString_firstByte_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: AsciiString_firstByte_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesAsciiString_firstByte_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_ascii_string_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_ascii_string_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AsciiString_firstByte_get" "', argument " "1"" of type '" "struct ascii_string_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesAsciiString_firstByte_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_ascii_string_t *""'"); 
     }
-    arg1 = (struct ascii_string_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_ascii_string_t *)(argp1);
     result = (byte)(byte) ((arg1)->firstByte);
     ST(argvi) = SWIG_From_unsigned_SS_char  SWIG_PERL_CALL_ARGS_1((unsigned char)(result)); argvi++ ;
     
@@ -2112,17 +2112,17 @@ XS(_wrap_AsciiString_firstByte_get) {
 }
 
 
-XS(_wrap_new_AsciiString) {
+XS(_wrap_new_fiftyoneDegreesAsciiString) {
   {
     int argvi = 0;
-    struct ascii_string_t *result = 0 ;
+    struct fiftyoneDegrees_ascii_string_t *result = 0 ;
     dXSARGS;
     
     if ((items < 0) || (items > 0)) {
-      SWIG_croak("Usage: new_AsciiString();");
+      SWIG_croak("Usage: new_fiftyoneDegreesAsciiString();");
     }
-    result = (struct ascii_string_t *)calloc(1, sizeof(struct ascii_string_t));
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ascii_string_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    result = (struct fiftyoneDegrees_ascii_string_t *)calloc(1, sizeof(struct fiftyoneDegrees_ascii_string_t));
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_ascii_string_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
     XSRETURN(argvi);
   fail:
     SWIG_croak_null();
@@ -2130,22 +2130,22 @@ XS(_wrap_new_AsciiString) {
 }
 
 
-XS(_wrap_delete_AsciiString) {
+XS(_wrap_delete_fiftyoneDegreesAsciiString) {
   {
-    struct ascii_string_t *arg1 = (struct ascii_string_t *) 0 ;
+    struct fiftyoneDegrees_ascii_string_t *arg1 = (struct fiftyoneDegrees_ascii_string_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: delete_AsciiString(self);");
+      SWIG_croak("Usage: delete_fiftyoneDegreesAsciiString(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_ascii_string_t, SWIG_POINTER_DISOWN |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_ascii_string_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_AsciiString" "', argument " "1"" of type '" "struct ascii_string_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_fiftyoneDegreesAsciiString" "', argument " "1"" of type '" "struct fiftyoneDegrees_ascii_string_t *""'"); 
     }
-    arg1 = (struct ascii_string_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_ascii_string_t *)(argp1);
     free((char *) arg1);
     ST(argvi) = sv_newmortal();
     
@@ -2157,9 +2157,9 @@ XS(_wrap_delete_AsciiString) {
 }
 
 
-XS(_wrap_Component_componentId_get) {
+XS(_wrap_fiftyoneDegreesComponent_componentId_get) {
   {
-    struct component_t *arg1 = (struct component_t *) 0 ;
+    struct fiftyoneDegrees_component_t *arg1 = (struct fiftyoneDegrees_component_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -2167,13 +2167,13 @@ XS(_wrap_Component_componentId_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Component_componentId_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesComponent_componentId_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_component_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_component_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Component_componentId_get" "', argument " "1"" of type '" "struct component_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesComponent_componentId_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_component_t *""'"); 
     }
-    arg1 = (struct component_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_component_t *)(argp1);
     result = (byte)(byte) ((arg1)->componentId);
     ST(argvi) = SWIG_From_unsigned_SS_char  SWIG_PERL_CALL_ARGS_1((unsigned char)(result)); argvi++ ;
     
@@ -2185,9 +2185,9 @@ XS(_wrap_Component_componentId_get) {
 }
 
 
-XS(_wrap_Component_nameOffset_get) {
+XS(_wrap_fiftyoneDegreesComponent_nameOffset_get) {
   {
-    struct component_t *arg1 = (struct component_t *) 0 ;
+    struct fiftyoneDegrees_component_t *arg1 = (struct fiftyoneDegrees_component_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -2195,13 +2195,13 @@ XS(_wrap_Component_nameOffset_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Component_nameOffset_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesComponent_nameOffset_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_component_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_component_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Component_nameOffset_get" "', argument " "1"" of type '" "struct component_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesComponent_nameOffset_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_component_t *""'"); 
     }
-    arg1 = (struct component_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_component_t *)(argp1);
     result = (int32_t) ((arg1)->nameOffset);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -2213,9 +2213,9 @@ XS(_wrap_Component_nameOffset_get) {
 }
 
 
-XS(_wrap_Component_defaultProfileOffset_get) {
+XS(_wrap_fiftyoneDegreesComponent_defaultProfileOffset_get) {
   {
-    struct component_t *arg1 = (struct component_t *) 0 ;
+    struct fiftyoneDegrees_component_t *arg1 = (struct fiftyoneDegrees_component_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -2223,13 +2223,13 @@ XS(_wrap_Component_defaultProfileOffset_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Component_defaultProfileOffset_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesComponent_defaultProfileOffset_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_component_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_component_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Component_defaultProfileOffset_get" "', argument " "1"" of type '" "struct component_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesComponent_defaultProfileOffset_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_component_t *""'"); 
     }
-    arg1 = (struct component_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_component_t *)(argp1);
     result = (int32_t) ((arg1)->defaultProfileOffset);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -2241,17 +2241,17 @@ XS(_wrap_Component_defaultProfileOffset_get) {
 }
 
 
-XS(_wrap_new_Component) {
+XS(_wrap_new_fiftyoneDegreesComponent) {
   {
     int argvi = 0;
-    struct component_t *result = 0 ;
+    struct fiftyoneDegrees_component_t *result = 0 ;
     dXSARGS;
     
     if ((items < 0) || (items > 0)) {
-      SWIG_croak("Usage: new_Component();");
+      SWIG_croak("Usage: new_fiftyoneDegreesComponent();");
     }
-    result = (struct component_t *)calloc(1, sizeof(struct component_t));
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_component_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    result = (struct fiftyoneDegrees_component_t *)calloc(1, sizeof(struct fiftyoneDegrees_component_t));
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_component_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
     XSRETURN(argvi);
   fail:
     SWIG_croak_null();
@@ -2259,22 +2259,22 @@ XS(_wrap_new_Component) {
 }
 
 
-XS(_wrap_delete_Component) {
+XS(_wrap_delete_fiftyoneDegreesComponent) {
   {
-    struct component_t *arg1 = (struct component_t *) 0 ;
+    struct fiftyoneDegrees_component_t *arg1 = (struct fiftyoneDegrees_component_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: delete_Component(self);");
+      SWIG_croak("Usage: delete_fiftyoneDegreesComponent(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_component_t, SWIG_POINTER_DISOWN |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_component_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Component" "', argument " "1"" of type '" "struct component_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_fiftyoneDegreesComponent" "', argument " "1"" of type '" "struct fiftyoneDegrees_component_t *""'"); 
     }
-    arg1 = (struct component_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_component_t *)(argp1);
     free((char *) arg1);
     ST(argvi) = sv_newmortal();
     
@@ -2286,9 +2286,9 @@ XS(_wrap_delete_Component) {
 }
 
 
-XS(_wrap_Map_nameOffset_get) {
+XS(_wrap_fiftyoneDegreesMap_nameOffset_get) {
   {
-    struct map_t *arg1 = (struct map_t *) 0 ;
+    struct fiftyoneDegrees_map_t *arg1 = (struct fiftyoneDegrees_map_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -2296,13 +2296,13 @@ XS(_wrap_Map_nameOffset_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Map_nameOffset_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesMap_nameOffset_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_map_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_map_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Map_nameOffset_get" "', argument " "1"" of type '" "struct map_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesMap_nameOffset_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_map_t *""'"); 
     }
-    arg1 = (struct map_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_map_t *)(argp1);
     result = (int32_t) ((arg1)->nameOffset);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -2314,17 +2314,17 @@ XS(_wrap_Map_nameOffset_get) {
 }
 
 
-XS(_wrap_new_Map) {
+XS(_wrap_new_fiftyoneDegreesMap) {
   {
     int argvi = 0;
-    struct map_t *result = 0 ;
+    struct fiftyoneDegrees_map_t *result = 0 ;
     dXSARGS;
     
     if ((items < 0) || (items > 0)) {
-      SWIG_croak("Usage: new_Map();");
+      SWIG_croak("Usage: new_fiftyoneDegreesMap();");
     }
-    result = (struct map_t *)calloc(1, sizeof(struct map_t));
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_map_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    result = (struct fiftyoneDegrees_map_t *)calloc(1, sizeof(struct fiftyoneDegrees_map_t));
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_map_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
     XSRETURN(argvi);
   fail:
     SWIG_croak_null();
@@ -2332,22 +2332,22 @@ XS(_wrap_new_Map) {
 }
 
 
-XS(_wrap_delete_Map) {
+XS(_wrap_delete_fiftyoneDegreesMap) {
   {
-    struct map_t *arg1 = (struct map_t *) 0 ;
+    struct fiftyoneDegrees_map_t *arg1 = (struct fiftyoneDegrees_map_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: delete_Map(self);");
+      SWIG_croak("Usage: delete_fiftyoneDegreesMap(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_map_t, SWIG_POINTER_DISOWN |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_map_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Map" "', argument " "1"" of type '" "struct map_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_fiftyoneDegreesMap" "', argument " "1"" of type '" "struct fiftyoneDegrees_map_t *""'"); 
     }
-    arg1 = (struct map_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_map_t *)(argp1);
     free((char *) arg1);
     ST(argvi) = sv_newmortal();
     
@@ -2359,9 +2359,9 @@ XS(_wrap_delete_Map) {
 }
 
 
-XS(_wrap_NodeNumericIndex_value_get) {
+XS(_wrap_fiftyoneDegreesNodeNumericIndex_value_get) {
   {
-    struct node_numeric_index_t *arg1 = (struct node_numeric_index_t *) 0 ;
+    struct fiftyoneDegrees_node_numeric_index_t *arg1 = (struct fiftyoneDegrees_node_numeric_index_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -2369,13 +2369,13 @@ XS(_wrap_NodeNumericIndex_value_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: NodeNumericIndex_value_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNodeNumericIndex_value_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_node_numeric_index_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_node_numeric_index_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NodeNumericIndex_value_get" "', argument " "1"" of type '" "struct node_numeric_index_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNodeNumericIndex_value_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_node_numeric_index_t *""'"); 
     }
-    arg1 = (struct node_numeric_index_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_node_numeric_index_t *)(argp1);
     result = (int16_t) ((arg1)->value);
     ST(argvi) = SWIG_NewPointerObj((int16_t *)memcpy((int16_t *)malloc(sizeof(int16_t)),&result,sizeof(int16_t)), SWIGTYPE_p_int16_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -2387,9 +2387,9 @@ XS(_wrap_NodeNumericIndex_value_get) {
 }
 
 
-XS(_wrap_NodeNumericIndex_relatedNodeOffset_get) {
+XS(_wrap_fiftyoneDegreesNodeNumericIndex_relatedNodeOffset_get) {
   {
-    struct node_numeric_index_t *arg1 = (struct node_numeric_index_t *) 0 ;
+    struct fiftyoneDegrees_node_numeric_index_t *arg1 = (struct fiftyoneDegrees_node_numeric_index_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -2397,13 +2397,13 @@ XS(_wrap_NodeNumericIndex_relatedNodeOffset_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: NodeNumericIndex_relatedNodeOffset_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNodeNumericIndex_relatedNodeOffset_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_node_numeric_index_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_node_numeric_index_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NodeNumericIndex_relatedNodeOffset_get" "', argument " "1"" of type '" "struct node_numeric_index_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNodeNumericIndex_relatedNodeOffset_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_node_numeric_index_t *""'"); 
     }
-    arg1 = (struct node_numeric_index_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_node_numeric_index_t *)(argp1);
     result = (int32_t) ((arg1)->relatedNodeOffset);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -2415,17 +2415,17 @@ XS(_wrap_NodeNumericIndex_relatedNodeOffset_get) {
 }
 
 
-XS(_wrap_new_NodeNumericIndex) {
+XS(_wrap_new_fiftyoneDegreesNodeNumericIndex) {
   {
     int argvi = 0;
-    struct node_numeric_index_t *result = 0 ;
+    struct fiftyoneDegrees_node_numeric_index_t *result = 0 ;
     dXSARGS;
     
     if ((items < 0) || (items > 0)) {
-      SWIG_croak("Usage: new_NodeNumericIndex();");
+      SWIG_croak("Usage: new_fiftyoneDegreesNodeNumericIndex();");
     }
-    result = (struct node_numeric_index_t *)calloc(1, sizeof(struct node_numeric_index_t));
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_node_numeric_index_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    result = (struct fiftyoneDegrees_node_numeric_index_t *)calloc(1, sizeof(struct fiftyoneDegrees_node_numeric_index_t));
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_node_numeric_index_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
     XSRETURN(argvi);
   fail:
     SWIG_croak_null();
@@ -2433,22 +2433,22 @@ XS(_wrap_new_NodeNumericIndex) {
 }
 
 
-XS(_wrap_delete_NodeNumericIndex) {
+XS(_wrap_delete_fiftyoneDegreesNodeNumericIndex) {
   {
-    struct node_numeric_index_t *arg1 = (struct node_numeric_index_t *) 0 ;
+    struct fiftyoneDegrees_node_numeric_index_t *arg1 = (struct fiftyoneDegrees_node_numeric_index_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: delete_NodeNumericIndex(self);");
+      SWIG_croak("Usage: delete_fiftyoneDegreesNodeNumericIndex(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_node_numeric_index_t, SWIG_POINTER_DISOWN |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_node_numeric_index_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_NodeNumericIndex" "', argument " "1"" of type '" "struct node_numeric_index_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_fiftyoneDegreesNodeNumericIndex" "', argument " "1"" of type '" "struct fiftyoneDegrees_node_numeric_index_t *""'"); 
     }
-    arg1 = (struct node_numeric_index_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_node_numeric_index_t *)(argp1);
     free((char *) arg1);
     ST(argvi) = sv_newmortal();
     
@@ -2460,9 +2460,9 @@ XS(_wrap_delete_NodeNumericIndex) {
 }
 
 
-XS(_wrap_NodeIndexValue_characters_get) {
+XS(_wrap_fiftyoneDegreesNodeIndexValue_characters_get) {
   {
-    union node_index_value_t *arg1 = (union node_index_value_t *) 0 ;
+    union fiftyoneDegrees_node_index_value_t *arg1 = (union fiftyoneDegrees_node_index_value_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -2470,13 +2470,13 @@ XS(_wrap_NodeIndexValue_characters_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: NodeIndexValue_characters_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNodeIndexValue_characters_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_node_index_value_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_node_index_value_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NodeIndexValue_characters_get" "', argument " "1"" of type '" "union node_index_value_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNodeIndexValue_characters_get" "', argument " "1"" of type '" "union fiftyoneDegrees_node_index_value_t *""'"); 
     }
-    arg1 = (union node_index_value_t *)(argp1);
+    arg1 = (union fiftyoneDegrees_node_index_value_t *)(argp1);
     result = (byte *)(byte *) ((arg1)->characters);
     ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_unsigned_char, 0 | 0); argvi++ ;
     
@@ -2488,9 +2488,9 @@ XS(_wrap_NodeIndexValue_characters_get) {
 }
 
 
-XS(_wrap_NodeIndexValue_integer_get) {
+XS(_wrap_fiftyoneDegreesNodeIndexValue_integer_get) {
   {
-    union node_index_value_t *arg1 = (union node_index_value_t *) 0 ;
+    union fiftyoneDegrees_node_index_value_t *arg1 = (union fiftyoneDegrees_node_index_value_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -2498,13 +2498,13 @@ XS(_wrap_NodeIndexValue_integer_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: NodeIndexValue_integer_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNodeIndexValue_integer_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_node_index_value_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_node_index_value_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NodeIndexValue_integer_get" "', argument " "1"" of type '" "union node_index_value_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNodeIndexValue_integer_get" "', argument " "1"" of type '" "union fiftyoneDegrees_node_index_value_t *""'"); 
     }
-    arg1 = (union node_index_value_t *)(argp1);
+    arg1 = (union fiftyoneDegrees_node_index_value_t *)(argp1);
     result = (int32_t) ((arg1)->integer);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -2516,17 +2516,17 @@ XS(_wrap_NodeIndexValue_integer_get) {
 }
 
 
-XS(_wrap_new_NodeIndexValue) {
+XS(_wrap_new_fiftyoneDegreesNodeIndexValue) {
   {
     int argvi = 0;
-    union node_index_value_t *result = 0 ;
+    union fiftyoneDegrees_node_index_value_t *result = 0 ;
     dXSARGS;
     
     if ((items < 0) || (items > 0)) {
-      SWIG_croak("Usage: new_NodeIndexValue();");
+      SWIG_croak("Usage: new_fiftyoneDegreesNodeIndexValue();");
     }
-    result = (union node_index_value_t *)calloc(1, sizeof(union node_index_value_t));
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_node_index_value_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    result = (union fiftyoneDegrees_node_index_value_t *)calloc(1, sizeof(union fiftyoneDegrees_node_index_value_t));
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_node_index_value_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
     XSRETURN(argvi);
   fail:
     SWIG_croak_null();
@@ -2534,22 +2534,22 @@ XS(_wrap_new_NodeIndexValue) {
 }
 
 
-XS(_wrap_delete_NodeIndexValue) {
+XS(_wrap_delete_fiftyoneDegreesNodeIndexValue) {
   {
-    union node_index_value_t *arg1 = (union node_index_value_t *) 0 ;
+    union fiftyoneDegrees_node_index_value_t *arg1 = (union fiftyoneDegrees_node_index_value_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: delete_NodeIndexValue(self);");
+      SWIG_croak("Usage: delete_fiftyoneDegreesNodeIndexValue(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_node_index_value_t, SWIG_POINTER_DISOWN |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_node_index_value_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_NodeIndexValue" "', argument " "1"" of type '" "union node_index_value_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_fiftyoneDegreesNodeIndexValue" "', argument " "1"" of type '" "union fiftyoneDegrees_node_index_value_t *""'"); 
     }
-    arg1 = (union node_index_value_t *)(argp1);
+    arg1 = (union fiftyoneDegrees_node_index_value_t *)(argp1);
     free((char *) arg1);
     ST(argvi) = sv_newmortal();
     
@@ -2561,9 +2561,9 @@ XS(_wrap_delete_NodeIndexValue) {
 }
 
 
-XS(_wrap_NodeIndex_isString_get) {
+XS(_wrap_fiftyoneDegreesNodeIndex_isString_get) {
   {
-    struct node_index_t *arg1 = (struct node_index_t *) 0 ;
+    struct fiftyoneDegrees_node_index_t *arg1 = (struct fiftyoneDegrees_node_index_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -2571,13 +2571,13 @@ XS(_wrap_NodeIndex_isString_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: NodeIndex_isString_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNodeIndex_isString_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_node_index_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_node_index_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NodeIndex_isString_get" "', argument " "1"" of type '" "struct node_index_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNodeIndex_isString_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_node_index_t *""'"); 
     }
-    arg1 = (struct node_index_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_node_index_t *)(argp1);
     result = (byte)(byte) ((arg1)->isString);
     ST(argvi) = SWIG_From_unsigned_SS_char  SWIG_PERL_CALL_ARGS_1((unsigned char)(result)); argvi++ ;
     
@@ -2589,9 +2589,9 @@ XS(_wrap_NodeIndex_isString_get) {
 }
 
 
-XS(_wrap_NodeIndex_relatedNodeOffset_get) {
+XS(_wrap_fiftyoneDegreesNodeIndex_relatedNodeOffset_get) {
   {
-    struct node_index_t *arg1 = (struct node_index_t *) 0 ;
+    struct fiftyoneDegrees_node_index_t *arg1 = (struct fiftyoneDegrees_node_index_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -2599,13 +2599,13 @@ XS(_wrap_NodeIndex_relatedNodeOffset_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: NodeIndex_relatedNodeOffset_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNodeIndex_relatedNodeOffset_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_node_index_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_node_index_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NodeIndex_relatedNodeOffset_get" "', argument " "1"" of type '" "struct node_index_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNodeIndex_relatedNodeOffset_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_node_index_t *""'"); 
     }
-    arg1 = (struct node_index_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_node_index_t *)(argp1);
     result = (int32_t) ((arg1)->relatedNodeOffset);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -2617,25 +2617,25 @@ XS(_wrap_NodeIndex_relatedNodeOffset_get) {
 }
 
 
-XS(_wrap_NodeIndex_value_get) {
+XS(_wrap_fiftyoneDegreesNodeIndex_value_get) {
   {
-    struct node_index_t *arg1 = (struct node_index_t *) 0 ;
+    struct fiftyoneDegrees_node_index_t *arg1 = (struct fiftyoneDegrees_node_index_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    NodeIndex_value *result = 0 ;
+    fiftyoneDegreesNodeIndex_value *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: NodeIndex_value_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNodeIndex_value_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_node_index_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_node_index_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NodeIndex_value_get" "', argument " "1"" of type '" "struct node_index_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNodeIndex_value_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_node_index_t *""'"); 
     }
-    arg1 = (struct node_index_t *)(argp1);
-    result = (NodeIndex_value *)& ((arg1)->value);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_NodeIndex_value, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_node_index_t *)(argp1);
+    result = (fiftyoneDegreesNodeIndex_value *)& ((arg1)->value);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegreesNodeIndex_value, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -2645,17 +2645,17 @@ XS(_wrap_NodeIndex_value_get) {
 }
 
 
-XS(_wrap_new_NodeIndex) {
+XS(_wrap_new_fiftyoneDegreesNodeIndex) {
   {
     int argvi = 0;
-    struct node_index_t *result = 0 ;
+    struct fiftyoneDegrees_node_index_t *result = 0 ;
     dXSARGS;
     
     if ((items < 0) || (items > 0)) {
-      SWIG_croak("Usage: new_NodeIndex();");
+      SWIG_croak("Usage: new_fiftyoneDegreesNodeIndex();");
     }
-    result = (struct node_index_t *)calloc(1, sizeof(struct node_index_t));
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_node_index_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    result = (struct fiftyoneDegrees_node_index_t *)calloc(1, sizeof(struct fiftyoneDegrees_node_index_t));
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_node_index_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
     XSRETURN(argvi);
   fail:
     SWIG_croak_null();
@@ -2663,22 +2663,22 @@ XS(_wrap_new_NodeIndex) {
 }
 
 
-XS(_wrap_delete_NodeIndex) {
+XS(_wrap_delete_fiftyoneDegreesNodeIndex) {
   {
-    struct node_index_t *arg1 = (struct node_index_t *) 0 ;
+    struct fiftyoneDegrees_node_index_t *arg1 = (struct fiftyoneDegrees_node_index_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: delete_NodeIndex(self);");
+      SWIG_croak("Usage: delete_fiftyoneDegreesNodeIndex(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_node_index_t, SWIG_POINTER_DISOWN |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_node_index_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_NodeIndex" "', argument " "1"" of type '" "struct node_index_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_fiftyoneDegreesNodeIndex" "', argument " "1"" of type '" "struct fiftyoneDegrees_node_index_t *""'"); 
     }
-    arg1 = (struct node_index_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_node_index_t *)(argp1);
     free((char *) arg1);
     ST(argvi) = sv_newmortal();
     
@@ -2690,9 +2690,9 @@ XS(_wrap_delete_NodeIndex) {
 }
 
 
-XS(_wrap_NodeIndex_value_characters_get) {
+XS(_wrap_fiftyoneDegreesNodeIndex_value_characters_get) {
   {
-    NodeIndex_value *arg1 = (NodeIndex_value *) 0 ;
+    fiftyoneDegreesNodeIndex_value *arg1 = (fiftyoneDegreesNodeIndex_value *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -2700,13 +2700,13 @@ XS(_wrap_NodeIndex_value_characters_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: NodeIndex_value_characters_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNodeIndex_value_characters_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_NodeIndex_value, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegreesNodeIndex_value, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NodeIndex_value_characters_get" "', argument " "1"" of type '" "NodeIndex_value *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNodeIndex_value_characters_get" "', argument " "1"" of type '" "fiftyoneDegreesNodeIndex_value *""'"); 
     }
-    arg1 = (NodeIndex_value *)(argp1);
+    arg1 = (fiftyoneDegreesNodeIndex_value *)(argp1);
     result = (byte *)(byte *) ((arg1)->characters);
     ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_unsigned_char, 0 | 0); argvi++ ;
     
@@ -2718,9 +2718,9 @@ XS(_wrap_NodeIndex_value_characters_get) {
 }
 
 
-XS(_wrap_NodeIndex_value_integer_get) {
+XS(_wrap_fiftyoneDegreesNodeIndex_value_integer_get) {
   {
-    NodeIndex_value *arg1 = (NodeIndex_value *) 0 ;
+    fiftyoneDegreesNodeIndex_value *arg1 = (fiftyoneDegreesNodeIndex_value *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -2728,13 +2728,13 @@ XS(_wrap_NodeIndex_value_integer_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: NodeIndex_value_integer_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNodeIndex_value_integer_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_NodeIndex_value, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegreesNodeIndex_value, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NodeIndex_value_integer_get" "', argument " "1"" of type '" "NodeIndex_value *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNodeIndex_value_integer_get" "', argument " "1"" of type '" "fiftyoneDegreesNodeIndex_value *""'"); 
     }
-    arg1 = (NodeIndex_value *)(argp1);
+    arg1 = (fiftyoneDegreesNodeIndex_value *)(argp1);
     result = (int32_t) ((arg1)->integer);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -2746,17 +2746,17 @@ XS(_wrap_NodeIndex_value_integer_get) {
 }
 
 
-XS(_wrap_new_NodeIndex_value) {
+XS(_wrap_new_fiftyoneDegreesNodeIndex_value) {
   {
     int argvi = 0;
-    NodeIndex_value *result = 0 ;
+    fiftyoneDegreesNodeIndex_value *result = 0 ;
     dXSARGS;
     
     if ((items < 0) || (items > 0)) {
-      SWIG_croak("Usage: new_NodeIndex_value();");
+      SWIG_croak("Usage: new_fiftyoneDegreesNodeIndex_value();");
     }
-    result = (NodeIndex_value *)calloc(1, sizeof(NodeIndex_value));
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_NodeIndex_value, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    result = (fiftyoneDegreesNodeIndex_value *)calloc(1, sizeof(fiftyoneDegreesNodeIndex_value));
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegreesNodeIndex_value, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
     XSRETURN(argvi);
   fail:
     SWIG_croak_null();
@@ -2764,22 +2764,22 @@ XS(_wrap_new_NodeIndex_value) {
 }
 
 
-XS(_wrap_delete_NodeIndex_value) {
+XS(_wrap_delete_fiftyoneDegreesNodeIndex_value) {
   {
-    NodeIndex_value *arg1 = (NodeIndex_value *) 0 ;
+    fiftyoneDegreesNodeIndex_value *arg1 = (fiftyoneDegreesNodeIndex_value *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: delete_NodeIndex_value(self);");
+      SWIG_croak("Usage: delete_fiftyoneDegreesNodeIndex_value(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_NodeIndex_value, SWIG_POINTER_DISOWN |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegreesNodeIndex_value, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_NodeIndex_value" "', argument " "1"" of type '" "NodeIndex_value *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_fiftyoneDegreesNodeIndex_value" "', argument " "1"" of type '" "fiftyoneDegreesNodeIndex_value *""'"); 
     }
-    arg1 = (NodeIndex_value *)(argp1);
+    arg1 = (fiftyoneDegreesNodeIndex_value *)(argp1);
     free((char *) arg1);
     ST(argvi) = sv_newmortal();
     
@@ -2791,9 +2791,9 @@ XS(_wrap_delete_NodeIndex_value) {
 }
 
 
-XS(_wrap_String_value_set) {
+XS(_wrap_fiftyoneDegreesString_value_set) {
   {
-    struct string_t *arg1 = (struct string_t *) 0 ;
+    struct fiftyoneDegrees_string_t *arg1 = (struct fiftyoneDegrees_string_t *) 0 ;
     byte *arg2 = (byte *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -2803,16 +2803,16 @@ XS(_wrap_String_value_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: String_value_set(self,value);");
+      SWIG_croak("Usage: fiftyoneDegreesString_value_set(self,value);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_string_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_string_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "String_value_set" "', argument " "1"" of type '" "struct string_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesString_value_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_string_t *""'"); 
     }
-    arg1 = (struct string_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_string_t *)(argp1);
     res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_unsigned_char, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "String_value_set" "', argument " "2"" of type '" "byte *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesString_value_set" "', argument " "2"" of type '" "byte *""'"); 
     }
     arg2 = (byte *)(argp2);
     if (arg1) (arg1)->value = arg2;
@@ -2828,9 +2828,9 @@ XS(_wrap_String_value_set) {
 }
 
 
-XS(_wrap_String_value_get) {
+XS(_wrap_fiftyoneDegreesString_value_get) {
   {
-    struct string_t *arg1 = (struct string_t *) 0 ;
+    struct fiftyoneDegrees_string_t *arg1 = (struct fiftyoneDegrees_string_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -2838,13 +2838,13 @@ XS(_wrap_String_value_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: String_value_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesString_value_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_string_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_string_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "String_value_get" "', argument " "1"" of type '" "struct string_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesString_value_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_string_t *""'"); 
     }
-    arg1 = (struct string_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_string_t *)(argp1);
     result = (byte *) ((arg1)->value);
     ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_unsigned_char, 0 | 0); argvi++ ;
     
@@ -2856,9 +2856,9 @@ XS(_wrap_String_value_get) {
 }
 
 
-XS(_wrap_String_length_set) {
+XS(_wrap_fiftyoneDegreesString_length_set) {
   {
-    struct string_t *arg1 = (struct string_t *) 0 ;
+    struct fiftyoneDegrees_string_t *arg1 = (struct fiftyoneDegrees_string_t *) 0 ;
     int16_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -2868,20 +2868,20 @@ XS(_wrap_String_length_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: String_length_set(self,length);");
+      SWIG_croak("Usage: fiftyoneDegreesString_length_set(self,length);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_string_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_string_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "String_length_set" "', argument " "1"" of type '" "struct string_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesString_length_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_string_t *""'"); 
     }
-    arg1 = (struct string_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_string_t *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int16_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "String_length_set" "', argument " "2"" of type '" "int16_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesString_length_set" "', argument " "2"" of type '" "int16_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "String_length_set" "', argument " "2"" of type '" "int16_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesString_length_set" "', argument " "2"" of type '" "int16_t""'");
       } else {
         arg2 = *((int16_t *)(argp2));
       }
@@ -2897,9 +2897,9 @@ XS(_wrap_String_length_set) {
 }
 
 
-XS(_wrap_String_length_get) {
+XS(_wrap_fiftyoneDegreesString_length_get) {
   {
-    struct string_t *arg1 = (struct string_t *) 0 ;
+    struct fiftyoneDegrees_string_t *arg1 = (struct fiftyoneDegrees_string_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -2907,13 +2907,13 @@ XS(_wrap_String_length_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: String_length_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesString_length_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_string_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_string_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "String_length_get" "', argument " "1"" of type '" "struct string_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesString_length_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_string_t *""'"); 
     }
-    arg1 = (struct string_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_string_t *)(argp1);
     result =  ((arg1)->length);
     ST(argvi) = SWIG_NewPointerObj((int16_t *)memcpy((int16_t *)malloc(sizeof(int16_t)),&result,sizeof(int16_t)), SWIGTYPE_p_int16_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -2925,17 +2925,17 @@ XS(_wrap_String_length_get) {
 }
 
 
-XS(_wrap_new_String) {
+XS(_wrap_new_fiftyoneDegreesString) {
   {
     int argvi = 0;
-    struct string_t *result = 0 ;
+    struct fiftyoneDegrees_string_t *result = 0 ;
     dXSARGS;
     
     if ((items < 0) || (items > 0)) {
-      SWIG_croak("Usage: new_String();");
+      SWIG_croak("Usage: new_fiftyoneDegreesString();");
     }
-    result = (struct string_t *)calloc(1, sizeof(struct string_t));
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_string_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    result = (struct fiftyoneDegrees_string_t *)calloc(1, sizeof(struct fiftyoneDegrees_string_t));
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_string_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
     XSRETURN(argvi);
   fail:
     SWIG_croak_null();
@@ -2943,22 +2943,22 @@ XS(_wrap_new_String) {
 }
 
 
-XS(_wrap_delete_String) {
+XS(_wrap_delete_fiftyoneDegreesString) {
   {
-    struct string_t *arg1 = (struct string_t *) 0 ;
+    struct fiftyoneDegrees_string_t *arg1 = (struct fiftyoneDegrees_string_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: delete_String(self);");
+      SWIG_croak("Usage: delete_fiftyoneDegreesString(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_string_t, SWIG_POINTER_DISOWN |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_string_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_String" "', argument " "1"" of type '" "struct string_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_fiftyoneDegreesString" "', argument " "1"" of type '" "struct fiftyoneDegrees_string_t *""'"); 
     }
-    arg1 = (struct string_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_string_t *)(argp1);
     free((char *) arg1);
     ST(argvi) = sv_newmortal();
     
@@ -2970,10 +2970,10 @@ XS(_wrap_delete_String) {
 }
 
 
-XS(_wrap_Strings_firstString_set) {
+XS(_wrap_fiftyoneDegreesStrings_firstString_set) {
   {
-    struct strings_t *arg1 = (struct strings_t *) 0 ;
-    String *arg2 = (String *) 0 ;
+    struct fiftyoneDegrees_strings_t *arg1 = (struct fiftyoneDegrees_strings_t *) 0 ;
+    fiftyoneDegreesString *arg2 = (fiftyoneDegreesString *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -2982,19 +2982,19 @@ XS(_wrap_Strings_firstString_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Strings_firstString_set(self,firstString);");
+      SWIG_croak("Usage: fiftyoneDegreesStrings_firstString_set(self,firstString);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_strings_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_strings_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Strings_firstString_set" "', argument " "1"" of type '" "struct strings_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesStrings_firstString_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_strings_t *""'"); 
     }
-    arg1 = (struct strings_t *)(argp1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_string_t, SWIG_POINTER_DISOWN |  0 );
+    arg1 = (struct fiftyoneDegrees_strings_t *)(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_fiftyoneDegrees_string_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Strings_firstString_set" "', argument " "2"" of type '" "String const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesStrings_firstString_set" "', argument " "2"" of type '" "fiftyoneDegreesString const *""'"); 
     }
-    arg2 = (String *)(argp2);
-    if (arg1) (arg1)->firstString = (String const *)arg2;
+    arg2 = (fiftyoneDegreesString *)(argp2);
+    if (arg1) (arg1)->firstString = (fiftyoneDegreesString const *)arg2;
     ST(argvi) = sv_newmortal();
     
     
@@ -3007,25 +3007,25 @@ XS(_wrap_Strings_firstString_set) {
 }
 
 
-XS(_wrap_Strings_firstString_get) {
+XS(_wrap_fiftyoneDegreesStrings_firstString_get) {
   {
-    struct strings_t *arg1 = (struct strings_t *) 0 ;
+    struct fiftyoneDegrees_strings_t *arg1 = (struct fiftyoneDegrees_strings_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    String *result = 0 ;
+    fiftyoneDegreesString *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Strings_firstString_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesStrings_firstString_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_strings_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_strings_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Strings_firstString_get" "', argument " "1"" of type '" "struct strings_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesStrings_firstString_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_strings_t *""'"); 
     }
-    arg1 = (struct strings_t *)(argp1);
-    result = (String *) ((arg1)->firstString);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_string_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_strings_t *)(argp1);
+    result = (fiftyoneDegreesString *) ((arg1)->firstString);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_string_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -3035,9 +3035,9 @@ XS(_wrap_Strings_firstString_get) {
 }
 
 
-XS(_wrap_Strings_count_get) {
+XS(_wrap_fiftyoneDegreesStrings_count_get) {
   {
-    struct strings_t *arg1 = (struct strings_t *) 0 ;
+    struct fiftyoneDegrees_strings_t *arg1 = (struct fiftyoneDegrees_strings_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -3045,13 +3045,13 @@ XS(_wrap_Strings_count_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Strings_count_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesStrings_count_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_strings_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_strings_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Strings_count_get" "', argument " "1"" of type '" "struct strings_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesStrings_count_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_strings_t *""'"); 
     }
-    arg1 = (struct strings_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_strings_t *)(argp1);
     result = (int32_t) ((arg1)->count);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -3063,17 +3063,17 @@ XS(_wrap_Strings_count_get) {
 }
 
 
-XS(_wrap_new_Strings) {
+XS(_wrap_new_fiftyoneDegreesStrings) {
   {
     int argvi = 0;
-    struct strings_t *result = 0 ;
+    struct fiftyoneDegrees_strings_t *result = 0 ;
     dXSARGS;
     
     if ((items < 0) || (items > 0)) {
-      SWIG_croak("Usage: new_Strings();");
+      SWIG_croak("Usage: new_fiftyoneDegreesStrings();");
     }
-    result = (struct strings_t *)calloc(1, sizeof(struct strings_t));
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_strings_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    result = (struct fiftyoneDegrees_strings_t *)calloc(1, sizeof(struct fiftyoneDegrees_strings_t));
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_strings_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
     XSRETURN(argvi);
   fail:
     SWIG_croak_null();
@@ -3081,22 +3081,22 @@ XS(_wrap_new_Strings) {
 }
 
 
-XS(_wrap_delete_Strings) {
+XS(_wrap_delete_fiftyoneDegreesStrings) {
   {
-    struct strings_t *arg1 = (struct strings_t *) 0 ;
+    struct fiftyoneDegrees_strings_t *arg1 = (struct fiftyoneDegrees_strings_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: delete_Strings(self);");
+      SWIG_croak("Usage: delete_fiftyoneDegreesStrings(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_strings_t, SWIG_POINTER_DISOWN |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_strings_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Strings" "', argument " "1"" of type '" "struct strings_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_fiftyoneDegreesStrings" "', argument " "1"" of type '" "struct fiftyoneDegrees_strings_t *""'"); 
     }
-    arg1 = (struct strings_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_strings_t *)(argp1);
     free((char *) arg1);
     ST(argvi) = sv_newmortal();
     
@@ -3108,9 +3108,9 @@ XS(_wrap_delete_Strings) {
 }
 
 
-XS(_wrap_Node_position_get) {
+XS(_wrap_fiftyoneDegreesNode_position_get) {
   {
-    struct node_t *arg1 = (struct node_t *) 0 ;
+    struct fiftyoneDegrees_node_t *arg1 = (struct fiftyoneDegrees_node_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -3118,13 +3118,13 @@ XS(_wrap_Node_position_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Node_position_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNode_position_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_node_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_node_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Node_position_get" "', argument " "1"" of type '" "struct node_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNode_position_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_node_t *""'"); 
     }
-    arg1 = (struct node_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_node_t *)(argp1);
     result = (int16_t) ((arg1)->position);
     ST(argvi) = SWIG_NewPointerObj((int16_t *)memcpy((int16_t *)malloc(sizeof(int16_t)),&result,sizeof(int16_t)), SWIGTYPE_p_int16_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -3136,9 +3136,9 @@ XS(_wrap_Node_position_get) {
 }
 
 
-XS(_wrap_Node_nextCharacterPosition_get) {
+XS(_wrap_fiftyoneDegreesNode_nextCharacterPosition_get) {
   {
-    struct node_t *arg1 = (struct node_t *) 0 ;
+    struct fiftyoneDegrees_node_t *arg1 = (struct fiftyoneDegrees_node_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -3146,13 +3146,13 @@ XS(_wrap_Node_nextCharacterPosition_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Node_nextCharacterPosition_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNode_nextCharacterPosition_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_node_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_node_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Node_nextCharacterPosition_get" "', argument " "1"" of type '" "struct node_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNode_nextCharacterPosition_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_node_t *""'"); 
     }
-    arg1 = (struct node_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_node_t *)(argp1);
     result = (int16_t) ((arg1)->nextCharacterPosition);
     ST(argvi) = SWIG_NewPointerObj((int16_t *)memcpy((int16_t *)malloc(sizeof(int16_t)),&result,sizeof(int16_t)), SWIGTYPE_p_int16_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -3164,9 +3164,9 @@ XS(_wrap_Node_nextCharacterPosition_get) {
 }
 
 
-XS(_wrap_Node_parentOffset_get) {
+XS(_wrap_fiftyoneDegreesNode_parentOffset_get) {
   {
-    struct node_t *arg1 = (struct node_t *) 0 ;
+    struct fiftyoneDegrees_node_t *arg1 = (struct fiftyoneDegrees_node_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -3174,13 +3174,13 @@ XS(_wrap_Node_parentOffset_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Node_parentOffset_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNode_parentOffset_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_node_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_node_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Node_parentOffset_get" "', argument " "1"" of type '" "struct node_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNode_parentOffset_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_node_t *""'"); 
     }
-    arg1 = (struct node_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_node_t *)(argp1);
     result = (int32_t) ((arg1)->parentOffset);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -3192,9 +3192,9 @@ XS(_wrap_Node_parentOffset_get) {
 }
 
 
-XS(_wrap_Node_characterStringOffset_get) {
+XS(_wrap_fiftyoneDegreesNode_characterStringOffset_get) {
   {
-    struct node_t *arg1 = (struct node_t *) 0 ;
+    struct fiftyoneDegrees_node_t *arg1 = (struct fiftyoneDegrees_node_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -3202,13 +3202,13 @@ XS(_wrap_Node_characterStringOffset_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Node_characterStringOffset_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNode_characterStringOffset_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_node_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_node_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Node_characterStringOffset_get" "', argument " "1"" of type '" "struct node_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNode_characterStringOffset_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_node_t *""'"); 
     }
-    arg1 = (struct node_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_node_t *)(argp1);
     result = (int32_t) ((arg1)->characterStringOffset);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -3220,9 +3220,9 @@ XS(_wrap_Node_characterStringOffset_get) {
 }
 
 
-XS(_wrap_Node_childrenCount_get) {
+XS(_wrap_fiftyoneDegreesNode_childrenCount_get) {
   {
-    struct node_t *arg1 = (struct node_t *) 0 ;
+    struct fiftyoneDegrees_node_t *arg1 = (struct fiftyoneDegrees_node_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -3230,13 +3230,13 @@ XS(_wrap_Node_childrenCount_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Node_childrenCount_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNode_childrenCount_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_node_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_node_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Node_childrenCount_get" "', argument " "1"" of type '" "struct node_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNode_childrenCount_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_node_t *""'"); 
     }
-    arg1 = (struct node_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_node_t *)(argp1);
     result = (int16_t) ((arg1)->childrenCount);
     ST(argvi) = SWIG_NewPointerObj((int16_t *)memcpy((int16_t *)malloc(sizeof(int16_t)),&result,sizeof(int16_t)), SWIGTYPE_p_int16_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -3248,9 +3248,9 @@ XS(_wrap_Node_childrenCount_get) {
 }
 
 
-XS(_wrap_Node_numericChildrenCount_get) {
+XS(_wrap_fiftyoneDegreesNode_numericChildrenCount_get) {
   {
-    struct node_t *arg1 = (struct node_t *) 0 ;
+    struct fiftyoneDegrees_node_t *arg1 = (struct fiftyoneDegrees_node_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -3258,13 +3258,13 @@ XS(_wrap_Node_numericChildrenCount_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Node_numericChildrenCount_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNode_numericChildrenCount_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_node_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_node_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Node_numericChildrenCount_get" "', argument " "1"" of type '" "struct node_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNode_numericChildrenCount_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_node_t *""'"); 
     }
-    arg1 = (struct node_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_node_t *)(argp1);
     result = (int16_t) ((arg1)->numericChildrenCount);
     ST(argvi) = SWIG_NewPointerObj((int16_t *)memcpy((int16_t *)malloc(sizeof(int16_t)),&result,sizeof(int16_t)), SWIGTYPE_p_int16_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -3276,9 +3276,9 @@ XS(_wrap_Node_numericChildrenCount_get) {
 }
 
 
-XS(_wrap_Node_signatureCount_get) {
+XS(_wrap_fiftyoneDegreesNode_signatureCount_get) {
   {
-    struct node_t *arg1 = (struct node_t *) 0 ;
+    struct fiftyoneDegrees_node_t *arg1 = (struct fiftyoneDegrees_node_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -3286,13 +3286,13 @@ XS(_wrap_Node_signatureCount_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Node_signatureCount_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNode_signatureCount_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_node_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_node_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Node_signatureCount_get" "', argument " "1"" of type '" "struct node_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNode_signatureCount_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_node_t *""'"); 
     }
-    arg1 = (struct node_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_node_t *)(argp1);
     result = (int32_t) ((arg1)->signatureCount);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -3304,17 +3304,17 @@ XS(_wrap_Node_signatureCount_get) {
 }
 
 
-XS(_wrap_new_Node) {
+XS(_wrap_new_fiftyoneDegreesNode) {
   {
     int argvi = 0;
-    struct node_t *result = 0 ;
+    struct fiftyoneDegrees_node_t *result = 0 ;
     dXSARGS;
     
     if ((items < 0) || (items > 0)) {
-      SWIG_croak("Usage: new_Node();");
+      SWIG_croak("Usage: new_fiftyoneDegreesNode();");
     }
-    result = (struct node_t *)calloc(1, sizeof(struct node_t));
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_node_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    result = (struct fiftyoneDegrees_node_t *)calloc(1, sizeof(struct fiftyoneDegrees_node_t));
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_node_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
     XSRETURN(argvi);
   fail:
     SWIG_croak_null();
@@ -3322,22 +3322,22 @@ XS(_wrap_new_Node) {
 }
 
 
-XS(_wrap_delete_Node) {
+XS(_wrap_delete_fiftyoneDegreesNode) {
   {
-    struct node_t *arg1 = (struct node_t *) 0 ;
+    struct fiftyoneDegrees_node_t *arg1 = (struct fiftyoneDegrees_node_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: delete_Node(self);");
+      SWIG_croak("Usage: delete_fiftyoneDegreesNode(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_node_t, SWIG_POINTER_DISOWN |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_node_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Node" "', argument " "1"" of type '" "struct node_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_fiftyoneDegreesNode" "', argument " "1"" of type '" "struct fiftyoneDegrees_node_t *""'"); 
     }
-    arg1 = (struct node_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_node_t *)(argp1);
     free((char *) arg1);
     ST(argvi) = sv_newmortal();
     
@@ -3349,9 +3349,9 @@ XS(_wrap_delete_Node) {
 }
 
 
-XS(_wrap_ProfileOffset_profileId_get) {
+XS(_wrap_fiftyoneDegreesProfileOffset_profileId_get) {
   {
-    struct profile_offset_t *arg1 = (struct profile_offset_t *) 0 ;
+    struct fiftyoneDegrees_profile_offset_t *arg1 = (struct fiftyoneDegrees_profile_offset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -3359,13 +3359,13 @@ XS(_wrap_ProfileOffset_profileId_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: ProfileOffset_profileId_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesProfileOffset_profileId_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_profile_offset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_profile_offset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ProfileOffset_profileId_get" "', argument " "1"" of type '" "struct profile_offset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProfileOffset_profileId_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_profile_offset_t *""'"); 
     }
-    arg1 = (struct profile_offset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_profile_offset_t *)(argp1);
     result = (int32_t) ((arg1)->profileId);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -3377,9 +3377,9 @@ XS(_wrap_ProfileOffset_profileId_get) {
 }
 
 
-XS(_wrap_ProfileOffset_offset_get) {
+XS(_wrap_fiftyoneDegreesProfileOffset_offset_get) {
   {
-    struct profile_offset_t *arg1 = (struct profile_offset_t *) 0 ;
+    struct fiftyoneDegrees_profile_offset_t *arg1 = (struct fiftyoneDegrees_profile_offset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -3387,13 +3387,13 @@ XS(_wrap_ProfileOffset_offset_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: ProfileOffset_offset_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesProfileOffset_offset_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_profile_offset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_profile_offset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ProfileOffset_offset_get" "', argument " "1"" of type '" "struct profile_offset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProfileOffset_offset_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_profile_offset_t *""'"); 
     }
-    arg1 = (struct profile_offset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_profile_offset_t *)(argp1);
     result = (int32_t) ((arg1)->offset);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -3405,17 +3405,17 @@ XS(_wrap_ProfileOffset_offset_get) {
 }
 
 
-XS(_wrap_new_ProfileOffset) {
+XS(_wrap_new_fiftyoneDegreesProfileOffset) {
   {
     int argvi = 0;
-    struct profile_offset_t *result = 0 ;
+    struct fiftyoneDegrees_profile_offset_t *result = 0 ;
     dXSARGS;
     
     if ((items < 0) || (items > 0)) {
-      SWIG_croak("Usage: new_ProfileOffset();");
+      SWIG_croak("Usage: new_fiftyoneDegreesProfileOffset();");
     }
-    result = (struct profile_offset_t *)calloc(1, sizeof(struct profile_offset_t));
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_profile_offset_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    result = (struct fiftyoneDegrees_profile_offset_t *)calloc(1, sizeof(struct fiftyoneDegrees_profile_offset_t));
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_profile_offset_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
     XSRETURN(argvi);
   fail:
     SWIG_croak_null();
@@ -3423,22 +3423,22 @@ XS(_wrap_new_ProfileOffset) {
 }
 
 
-XS(_wrap_delete_ProfileOffset) {
+XS(_wrap_delete_fiftyoneDegreesProfileOffset) {
   {
-    struct profile_offset_t *arg1 = (struct profile_offset_t *) 0 ;
+    struct fiftyoneDegrees_profile_offset_t *arg1 = (struct fiftyoneDegrees_profile_offset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: delete_ProfileOffset(self);");
+      SWIG_croak("Usage: delete_fiftyoneDegreesProfileOffset(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_profile_offset_t, SWIG_POINTER_DISOWN |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_profile_offset_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_ProfileOffset" "', argument " "1"" of type '" "struct profile_offset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_fiftyoneDegreesProfileOffset" "', argument " "1"" of type '" "struct fiftyoneDegrees_profile_offset_t *""'"); 
     }
-    arg1 = (struct profile_offset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_profile_offset_t *)(argp1);
     free((char *) arg1);
     ST(argvi) = sv_newmortal();
     
@@ -3450,7 +3450,7 @@ XS(_wrap_delete_ProfileOffset) {
 }
 
 
-XS(_wrap_Property_componentIndex_get) {
+XS(_wrap_fiftyoneDegreesProperty_componentIndex_get) {
   {
     struct property_t *arg1 = (struct property_t *) 0 ;
     void *argp1 = 0 ;
@@ -3460,11 +3460,11 @@ XS(_wrap_Property_componentIndex_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Property_componentIndex_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesProperty_componentIndex_get(self);");
     }
     res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_property_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Property_componentIndex_get" "', argument " "1"" of type '" "struct property_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProperty_componentIndex_get" "', argument " "1"" of type '" "struct property_t *""'"); 
     }
     arg1 = (struct property_t *)(argp1);
     result = (byte)(byte) ((arg1)->componentIndex);
@@ -3478,7 +3478,7 @@ XS(_wrap_Property_componentIndex_get) {
 }
 
 
-XS(_wrap_Property_displayOrder_get) {
+XS(_wrap_fiftyoneDegreesProperty_displayOrder_get) {
   {
     struct property_t *arg1 = (struct property_t *) 0 ;
     void *argp1 = 0 ;
@@ -3488,11 +3488,11 @@ XS(_wrap_Property_displayOrder_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Property_displayOrder_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesProperty_displayOrder_get(self);");
     }
     res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_property_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Property_displayOrder_get" "', argument " "1"" of type '" "struct property_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProperty_displayOrder_get" "', argument " "1"" of type '" "struct property_t *""'"); 
     }
     arg1 = (struct property_t *)(argp1);
     result = (byte)(byte) ((arg1)->displayOrder);
@@ -3506,7 +3506,7 @@ XS(_wrap_Property_displayOrder_get) {
 }
 
 
-XS(_wrap_Property_isMandatory_get) {
+XS(_wrap_fiftyoneDegreesProperty_isMandatory_get) {
   {
     struct property_t *arg1 = (struct property_t *) 0 ;
     void *argp1 = 0 ;
@@ -3516,11 +3516,11 @@ XS(_wrap_Property_isMandatory_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Property_isMandatory_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesProperty_isMandatory_get(self);");
     }
     res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_property_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Property_isMandatory_get" "', argument " "1"" of type '" "struct property_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProperty_isMandatory_get" "', argument " "1"" of type '" "struct property_t *""'"); 
     }
     arg1 = (struct property_t *)(argp1);
     result = (fod_bool)(fod_bool) ((arg1)->isMandatory);
@@ -3534,7 +3534,7 @@ XS(_wrap_Property_isMandatory_get) {
 }
 
 
-XS(_wrap_Property_isList_get) {
+XS(_wrap_fiftyoneDegreesProperty_isList_get) {
   {
     struct property_t *arg1 = (struct property_t *) 0 ;
     void *argp1 = 0 ;
@@ -3544,11 +3544,11 @@ XS(_wrap_Property_isList_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Property_isList_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesProperty_isList_get(self);");
     }
     res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_property_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Property_isList_get" "', argument " "1"" of type '" "struct property_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProperty_isList_get" "', argument " "1"" of type '" "struct property_t *""'"); 
     }
     arg1 = (struct property_t *)(argp1);
     result = (fod_bool)(fod_bool) ((arg1)->isList);
@@ -3562,7 +3562,7 @@ XS(_wrap_Property_isList_get) {
 }
 
 
-XS(_wrap_Property_showValues_get) {
+XS(_wrap_fiftyoneDegreesProperty_showValues_get) {
   {
     struct property_t *arg1 = (struct property_t *) 0 ;
     void *argp1 = 0 ;
@@ -3572,11 +3572,11 @@ XS(_wrap_Property_showValues_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Property_showValues_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesProperty_showValues_get(self);");
     }
     res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_property_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Property_showValues_get" "', argument " "1"" of type '" "struct property_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProperty_showValues_get" "', argument " "1"" of type '" "struct property_t *""'"); 
     }
     arg1 = (struct property_t *)(argp1);
     result = (fod_bool)(fod_bool) ((arg1)->showValues);
@@ -3590,7 +3590,7 @@ XS(_wrap_Property_showValues_get) {
 }
 
 
-XS(_wrap_Property_isObsolete_get) {
+XS(_wrap_fiftyoneDegreesProperty_isObsolete_get) {
   {
     struct property_t *arg1 = (struct property_t *) 0 ;
     void *argp1 = 0 ;
@@ -3600,11 +3600,11 @@ XS(_wrap_Property_isObsolete_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Property_isObsolete_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesProperty_isObsolete_get(self);");
     }
     res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_property_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Property_isObsolete_get" "', argument " "1"" of type '" "struct property_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProperty_isObsolete_get" "', argument " "1"" of type '" "struct property_t *""'"); 
     }
     arg1 = (struct property_t *)(argp1);
     result = (fod_bool)(fod_bool) ((arg1)->isObsolete);
@@ -3618,7 +3618,7 @@ XS(_wrap_Property_isObsolete_get) {
 }
 
 
-XS(_wrap_Property_show_get) {
+XS(_wrap_fiftyoneDegreesProperty_show_get) {
   {
     struct property_t *arg1 = (struct property_t *) 0 ;
     void *argp1 = 0 ;
@@ -3628,11 +3628,11 @@ XS(_wrap_Property_show_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Property_show_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesProperty_show_get(self);");
     }
     res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_property_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Property_show_get" "', argument " "1"" of type '" "struct property_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProperty_show_get" "', argument " "1"" of type '" "struct property_t *""'"); 
     }
     arg1 = (struct property_t *)(argp1);
     result = (fod_bool)(fod_bool) ((arg1)->show);
@@ -3646,7 +3646,7 @@ XS(_wrap_Property_show_get) {
 }
 
 
-XS(_wrap_Property_valueType_get) {
+XS(_wrap_fiftyoneDegreesProperty_valueType_get) {
   {
     struct property_t *arg1 = (struct property_t *) 0 ;
     void *argp1 = 0 ;
@@ -3656,11 +3656,11 @@ XS(_wrap_Property_valueType_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Property_valueType_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesProperty_valueType_get(self);");
     }
     res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_property_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Property_valueType_get" "', argument " "1"" of type '" "struct property_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProperty_valueType_get" "', argument " "1"" of type '" "struct property_t *""'"); 
     }
     arg1 = (struct property_t *)(argp1);
     result = (byte)(byte) ((arg1)->valueType);
@@ -3674,7 +3674,7 @@ XS(_wrap_Property_valueType_get) {
 }
 
 
-XS(_wrap_Property_defaultValueIndex_get) {
+XS(_wrap_fiftyoneDegreesProperty_defaultValueIndex_get) {
   {
     struct property_t *arg1 = (struct property_t *) 0 ;
     void *argp1 = 0 ;
@@ -3684,11 +3684,11 @@ XS(_wrap_Property_defaultValueIndex_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Property_defaultValueIndex_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesProperty_defaultValueIndex_get(self);");
     }
     res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_property_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Property_defaultValueIndex_get" "', argument " "1"" of type '" "struct property_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProperty_defaultValueIndex_get" "', argument " "1"" of type '" "struct property_t *""'"); 
     }
     arg1 = (struct property_t *)(argp1);
     result = (int32_t) ((arg1)->defaultValueIndex);
@@ -3702,7 +3702,7 @@ XS(_wrap_Property_defaultValueIndex_get) {
 }
 
 
-XS(_wrap_Property_nameOffset_get) {
+XS(_wrap_fiftyoneDegreesProperty_nameOffset_get) {
   {
     struct property_t *arg1 = (struct property_t *) 0 ;
     void *argp1 = 0 ;
@@ -3712,11 +3712,11 @@ XS(_wrap_Property_nameOffset_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Property_nameOffset_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesProperty_nameOffset_get(self);");
     }
     res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_property_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Property_nameOffset_get" "', argument " "1"" of type '" "struct property_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProperty_nameOffset_get" "', argument " "1"" of type '" "struct property_t *""'"); 
     }
     arg1 = (struct property_t *)(argp1);
     result = (int32_t) ((arg1)->nameOffset);
@@ -3730,7 +3730,7 @@ XS(_wrap_Property_nameOffset_get) {
 }
 
 
-XS(_wrap_Property_descriptionOffset_get) {
+XS(_wrap_fiftyoneDegreesProperty_descriptionOffset_get) {
   {
     struct property_t *arg1 = (struct property_t *) 0 ;
     void *argp1 = 0 ;
@@ -3740,11 +3740,11 @@ XS(_wrap_Property_descriptionOffset_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Property_descriptionOffset_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesProperty_descriptionOffset_get(self);");
     }
     res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_property_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Property_descriptionOffset_get" "', argument " "1"" of type '" "struct property_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProperty_descriptionOffset_get" "', argument " "1"" of type '" "struct property_t *""'"); 
     }
     arg1 = (struct property_t *)(argp1);
     result = (int32_t) ((arg1)->descriptionOffset);
@@ -3758,7 +3758,7 @@ XS(_wrap_Property_descriptionOffset_get) {
 }
 
 
-XS(_wrap_Property_categoryOffset_get) {
+XS(_wrap_fiftyoneDegreesProperty_categoryOffset_get) {
   {
     struct property_t *arg1 = (struct property_t *) 0 ;
     void *argp1 = 0 ;
@@ -3768,11 +3768,11 @@ XS(_wrap_Property_categoryOffset_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Property_categoryOffset_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesProperty_categoryOffset_get(self);");
     }
     res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_property_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Property_categoryOffset_get" "', argument " "1"" of type '" "struct property_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProperty_categoryOffset_get" "', argument " "1"" of type '" "struct property_t *""'"); 
     }
     arg1 = (struct property_t *)(argp1);
     result = (int32_t) ((arg1)->categoryOffset);
@@ -3786,7 +3786,7 @@ XS(_wrap_Property_categoryOffset_get) {
 }
 
 
-XS(_wrap_Property_urlOffset_get) {
+XS(_wrap_fiftyoneDegreesProperty_urlOffset_get) {
   {
     struct property_t *arg1 = (struct property_t *) 0 ;
     void *argp1 = 0 ;
@@ -3796,11 +3796,11 @@ XS(_wrap_Property_urlOffset_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Property_urlOffset_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesProperty_urlOffset_get(self);");
     }
     res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_property_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Property_urlOffset_get" "', argument " "1"" of type '" "struct property_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProperty_urlOffset_get" "', argument " "1"" of type '" "struct property_t *""'"); 
     }
     arg1 = (struct property_t *)(argp1);
     result = (int32_t) ((arg1)->urlOffset);
@@ -3814,7 +3814,7 @@ XS(_wrap_Property_urlOffset_get) {
 }
 
 
-XS(_wrap_Property_firstValueIndex_get) {
+XS(_wrap_fiftyoneDegreesProperty_firstValueIndex_get) {
   {
     struct property_t *arg1 = (struct property_t *) 0 ;
     void *argp1 = 0 ;
@@ -3824,11 +3824,11 @@ XS(_wrap_Property_firstValueIndex_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Property_firstValueIndex_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesProperty_firstValueIndex_get(self);");
     }
     res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_property_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Property_firstValueIndex_get" "', argument " "1"" of type '" "struct property_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProperty_firstValueIndex_get" "', argument " "1"" of type '" "struct property_t *""'"); 
     }
     arg1 = (struct property_t *)(argp1);
     result = (int32_t) ((arg1)->firstValueIndex);
@@ -3842,7 +3842,7 @@ XS(_wrap_Property_firstValueIndex_get) {
 }
 
 
-XS(_wrap_Property_lastValueIndex_get) {
+XS(_wrap_fiftyoneDegreesProperty_lastValueIndex_get) {
   {
     struct property_t *arg1 = (struct property_t *) 0 ;
     void *argp1 = 0 ;
@@ -3852,11 +3852,11 @@ XS(_wrap_Property_lastValueIndex_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Property_lastValueIndex_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesProperty_lastValueIndex_get(self);");
     }
     res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_property_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Property_lastValueIndex_get" "', argument " "1"" of type '" "struct property_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProperty_lastValueIndex_get" "', argument " "1"" of type '" "struct property_t *""'"); 
     }
     arg1 = (struct property_t *)(argp1);
     result = (int32_t) ((arg1)->lastValueIndex);
@@ -3870,7 +3870,7 @@ XS(_wrap_Property_lastValueIndex_get) {
 }
 
 
-XS(_wrap_Property_mapCount_get) {
+XS(_wrap_fiftyoneDegreesProperty_mapCount_get) {
   {
     struct property_t *arg1 = (struct property_t *) 0 ;
     void *argp1 = 0 ;
@@ -3880,11 +3880,11 @@ XS(_wrap_Property_mapCount_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Property_mapCount_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesProperty_mapCount_get(self);");
     }
     res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_property_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Property_mapCount_get" "', argument " "1"" of type '" "struct property_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProperty_mapCount_get" "', argument " "1"" of type '" "struct property_t *""'"); 
     }
     arg1 = (struct property_t *)(argp1);
     result = (int32_t) ((arg1)->mapCount);
@@ -3898,7 +3898,7 @@ XS(_wrap_Property_mapCount_get) {
 }
 
 
-XS(_wrap_Property_firstMapIndex_get) {
+XS(_wrap_fiftyoneDegreesProperty_firstMapIndex_get) {
   {
     struct property_t *arg1 = (struct property_t *) 0 ;
     void *argp1 = 0 ;
@@ -3908,11 +3908,11 @@ XS(_wrap_Property_firstMapIndex_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Property_firstMapIndex_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesProperty_firstMapIndex_get(self);");
     }
     res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_property_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Property_firstMapIndex_get" "', argument " "1"" of type '" "struct property_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProperty_firstMapIndex_get" "', argument " "1"" of type '" "struct property_t *""'"); 
     }
     arg1 = (struct property_t *)(argp1);
     result = (int32_t) ((arg1)->firstMapIndex);
@@ -3926,14 +3926,14 @@ XS(_wrap_Property_firstMapIndex_get) {
 }
 
 
-XS(_wrap_new_Property) {
+XS(_wrap_new_fiftyoneDegreesProperty) {
   {
     int argvi = 0;
     struct property_t *result = 0 ;
     dXSARGS;
     
     if ((items < 0) || (items > 0)) {
-      SWIG_croak("Usage: new_Property();");
+      SWIG_croak("Usage: new_fiftyoneDegreesProperty();");
     }
     result = (struct property_t *)calloc(1, sizeof(struct property_t));
     ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_property_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
@@ -3944,7 +3944,7 @@ XS(_wrap_new_Property) {
 }
 
 
-XS(_wrap_delete_Property) {
+XS(_wrap_delete_fiftyoneDegreesProperty) {
   {
     struct property_t *arg1 = (struct property_t *) 0 ;
     void *argp1 = 0 ;
@@ -3953,11 +3953,11 @@ XS(_wrap_delete_Property) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: delete_Property(self);");
+      SWIG_croak("Usage: delete_fiftyoneDegreesProperty(self);");
     }
     res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_property_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Property" "', argument " "1"" of type '" "struct property_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_fiftyoneDegreesProperty" "', argument " "1"" of type '" "struct property_t *""'"); 
     }
     arg1 = (struct property_t *)(argp1);
     free((char *) arg1);
@@ -3971,9 +3971,9 @@ XS(_wrap_delete_Property) {
 }
 
 
-XS(_wrap_Value_propertyIndex_get) {
+XS(_wrap_fiftyoneDegreesValue_propertyIndex_get) {
   {
-    struct value_t *arg1 = (struct value_t *) 0 ;
+    struct fiftyoneDegrees_value_t *arg1 = (struct fiftyoneDegrees_value_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -3981,13 +3981,13 @@ XS(_wrap_Value_propertyIndex_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Value_propertyIndex_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesValue_propertyIndex_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_value_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_value_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_propertyIndex_get" "', argument " "1"" of type '" "struct value_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesValue_propertyIndex_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_value_t *""'"); 
     }
-    arg1 = (struct value_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_value_t *)(argp1);
     result = (int16_t) ((arg1)->propertyIndex);
     ST(argvi) = SWIG_NewPointerObj((int16_t *)memcpy((int16_t *)malloc(sizeof(int16_t)),&result,sizeof(int16_t)), SWIGTYPE_p_int16_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -3999,9 +3999,9 @@ XS(_wrap_Value_propertyIndex_get) {
 }
 
 
-XS(_wrap_Value_nameOffset_get) {
+XS(_wrap_fiftyoneDegreesValue_nameOffset_get) {
   {
-    struct value_t *arg1 = (struct value_t *) 0 ;
+    struct fiftyoneDegrees_value_t *arg1 = (struct fiftyoneDegrees_value_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -4009,13 +4009,13 @@ XS(_wrap_Value_nameOffset_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Value_nameOffset_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesValue_nameOffset_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_value_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_value_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_nameOffset_get" "', argument " "1"" of type '" "struct value_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesValue_nameOffset_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_value_t *""'"); 
     }
-    arg1 = (struct value_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_value_t *)(argp1);
     result = (int32_t) ((arg1)->nameOffset);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -4027,9 +4027,9 @@ XS(_wrap_Value_nameOffset_get) {
 }
 
 
-XS(_wrap_Value_descriptionOffset_get) {
+XS(_wrap_fiftyoneDegreesValue_descriptionOffset_get) {
   {
-    struct value_t *arg1 = (struct value_t *) 0 ;
+    struct fiftyoneDegrees_value_t *arg1 = (struct fiftyoneDegrees_value_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -4037,13 +4037,13 @@ XS(_wrap_Value_descriptionOffset_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Value_descriptionOffset_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesValue_descriptionOffset_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_value_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_value_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_descriptionOffset_get" "', argument " "1"" of type '" "struct value_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesValue_descriptionOffset_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_value_t *""'"); 
     }
-    arg1 = (struct value_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_value_t *)(argp1);
     result = (int32_t) ((arg1)->descriptionOffset);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -4055,9 +4055,9 @@ XS(_wrap_Value_descriptionOffset_get) {
 }
 
 
-XS(_wrap_Value_urlOffset_get) {
+XS(_wrap_fiftyoneDegreesValue_urlOffset_get) {
   {
-    struct value_t *arg1 = (struct value_t *) 0 ;
+    struct fiftyoneDegrees_value_t *arg1 = (struct fiftyoneDegrees_value_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -4065,13 +4065,13 @@ XS(_wrap_Value_urlOffset_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Value_urlOffset_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesValue_urlOffset_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_value_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_value_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Value_urlOffset_get" "', argument " "1"" of type '" "struct value_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesValue_urlOffset_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_value_t *""'"); 
     }
-    arg1 = (struct value_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_value_t *)(argp1);
     result = (int32_t) ((arg1)->urlOffset);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -4083,17 +4083,17 @@ XS(_wrap_Value_urlOffset_get) {
 }
 
 
-XS(_wrap_new_Value) {
+XS(_wrap_new_fiftyoneDegreesValue) {
   {
     int argvi = 0;
-    struct value_t *result = 0 ;
+    struct fiftyoneDegrees_value_t *result = 0 ;
     dXSARGS;
     
     if ((items < 0) || (items > 0)) {
-      SWIG_croak("Usage: new_Value();");
+      SWIG_croak("Usage: new_fiftyoneDegreesValue();");
     }
-    result = (struct value_t *)calloc(1, sizeof(struct value_t));
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_value_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    result = (struct fiftyoneDegrees_value_t *)calloc(1, sizeof(struct fiftyoneDegrees_value_t));
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_value_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
     XSRETURN(argvi);
   fail:
     SWIG_croak_null();
@@ -4101,22 +4101,22 @@ XS(_wrap_new_Value) {
 }
 
 
-XS(_wrap_delete_Value) {
+XS(_wrap_delete_fiftyoneDegreesValue) {
   {
-    struct value_t *arg1 = (struct value_t *) 0 ;
+    struct fiftyoneDegrees_value_t *arg1 = (struct fiftyoneDegrees_value_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: delete_Value(self);");
+      SWIG_croak("Usage: delete_fiftyoneDegreesValue(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_value_t, SWIG_POINTER_DISOWN |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_value_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Value" "', argument " "1"" of type '" "struct value_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_fiftyoneDegreesValue" "', argument " "1"" of type '" "struct fiftyoneDegrees_value_t *""'"); 
     }
-    arg1 = (struct value_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_value_t *)(argp1);
     free((char *) arg1);
     ST(argvi) = sv_newmortal();
     
@@ -4128,9 +4128,9 @@ XS(_wrap_delete_Value) {
 }
 
 
-XS(_wrap_Profile_componentIndex_get) {
+XS(_wrap_fiftyoneDegreesProfile_componentIndex_get) {
   {
-    struct profile_t *arg1 = (struct profile_t *) 0 ;
+    struct fiftyoneDegrees_profile_t *arg1 = (struct fiftyoneDegrees_profile_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -4138,13 +4138,13 @@ XS(_wrap_Profile_componentIndex_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Profile_componentIndex_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesProfile_componentIndex_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_profile_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_profile_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Profile_componentIndex_get" "', argument " "1"" of type '" "struct profile_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProfile_componentIndex_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_profile_t *""'"); 
     }
-    arg1 = (struct profile_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_profile_t *)(argp1);
     result = (byte)(byte) ((arg1)->componentIndex);
     ST(argvi) = SWIG_From_unsigned_SS_char  SWIG_PERL_CALL_ARGS_1((unsigned char)(result)); argvi++ ;
     
@@ -4156,9 +4156,9 @@ XS(_wrap_Profile_componentIndex_get) {
 }
 
 
-XS(_wrap_Profile_profileId_get) {
+XS(_wrap_fiftyoneDegreesProfile_profileId_get) {
   {
-    struct profile_t *arg1 = (struct profile_t *) 0 ;
+    struct fiftyoneDegrees_profile_t *arg1 = (struct fiftyoneDegrees_profile_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -4166,13 +4166,13 @@ XS(_wrap_Profile_profileId_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Profile_profileId_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesProfile_profileId_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_profile_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_profile_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Profile_profileId_get" "', argument " "1"" of type '" "struct profile_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProfile_profileId_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_profile_t *""'"); 
     }
-    arg1 = (struct profile_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_profile_t *)(argp1);
     result = (int32_t) ((arg1)->profileId);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -4184,9 +4184,9 @@ XS(_wrap_Profile_profileId_get) {
 }
 
 
-XS(_wrap_Profile_valueCount_get) {
+XS(_wrap_fiftyoneDegreesProfile_valueCount_get) {
   {
-    struct profile_t *arg1 = (struct profile_t *) 0 ;
+    struct fiftyoneDegrees_profile_t *arg1 = (struct fiftyoneDegrees_profile_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -4194,13 +4194,13 @@ XS(_wrap_Profile_valueCount_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Profile_valueCount_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesProfile_valueCount_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_profile_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_profile_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Profile_valueCount_get" "', argument " "1"" of type '" "struct profile_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProfile_valueCount_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_profile_t *""'"); 
     }
-    arg1 = (struct profile_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_profile_t *)(argp1);
     result = (int32_t) ((arg1)->valueCount);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -4212,9 +4212,9 @@ XS(_wrap_Profile_valueCount_get) {
 }
 
 
-XS(_wrap_Profile_signatureCount_get) {
+XS(_wrap_fiftyoneDegreesProfile_signatureCount_get) {
   {
-    struct profile_t *arg1 = (struct profile_t *) 0 ;
+    struct fiftyoneDegrees_profile_t *arg1 = (struct fiftyoneDegrees_profile_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -4222,13 +4222,13 @@ XS(_wrap_Profile_signatureCount_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Profile_signatureCount_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesProfile_signatureCount_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_profile_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_profile_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Profile_signatureCount_get" "', argument " "1"" of type '" "struct profile_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProfile_signatureCount_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_profile_t *""'"); 
     }
-    arg1 = (struct profile_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_profile_t *)(argp1);
     result = (int32_t) ((arg1)->signatureCount);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -4240,17 +4240,17 @@ XS(_wrap_Profile_signatureCount_get) {
 }
 
 
-XS(_wrap_new_Profile) {
+XS(_wrap_new_fiftyoneDegreesProfile) {
   {
     int argvi = 0;
-    struct profile_t *result = 0 ;
+    struct fiftyoneDegrees_profile_t *result = 0 ;
     dXSARGS;
     
     if ((items < 0) || (items > 0)) {
-      SWIG_croak("Usage: new_Profile();");
+      SWIG_croak("Usage: new_fiftyoneDegreesProfile();");
     }
-    result = (struct profile_t *)calloc(1, sizeof(struct profile_t));
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_profile_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    result = (struct fiftyoneDegrees_profile_t *)calloc(1, sizeof(struct fiftyoneDegrees_profile_t));
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_profile_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
     XSRETURN(argvi);
   fail:
     SWIG_croak_null();
@@ -4258,22 +4258,22 @@ XS(_wrap_new_Profile) {
 }
 
 
-XS(_wrap_delete_Profile) {
+XS(_wrap_delete_fiftyoneDegreesProfile) {
   {
-    struct profile_t *arg1 = (struct profile_t *) 0 ;
+    struct fiftyoneDegrees_profile_t *arg1 = (struct fiftyoneDegrees_profile_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: delete_Profile(self);");
+      SWIG_croak("Usage: delete_fiftyoneDegreesProfile(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_profile_t, SWIG_POINTER_DISOWN |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_profile_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Profile" "', argument " "1"" of type '" "struct profile_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_fiftyoneDegreesProfile" "', argument " "1"" of type '" "struct fiftyoneDegrees_profile_t *""'"); 
     }
-    arg1 = (struct profile_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_profile_t *)(argp1);
     free((char *) arg1);
     ST(argvi) = sv_newmortal();
     
@@ -4285,9 +4285,9 @@ XS(_wrap_delete_Profile) {
 }
 
 
-XS(_wrap_Date_year_get) {
+XS(_wrap_fiftyoneDegreesDate_year_get) {
   {
-    struct date_t *arg1 = (struct date_t *) 0 ;
+    struct fiftyoneDegrees_date_t *arg1 = (struct fiftyoneDegrees_date_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -4295,13 +4295,13 @@ XS(_wrap_Date_year_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Date_year_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDate_year_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_date_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_date_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Date_year_get" "', argument " "1"" of type '" "struct date_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDate_year_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_date_t *""'"); 
     }
-    arg1 = (struct date_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_date_t *)(argp1);
     result = (int16_t) ((arg1)->year);
     ST(argvi) = SWIG_NewPointerObj((int16_t *)memcpy((int16_t *)malloc(sizeof(int16_t)),&result,sizeof(int16_t)), SWIGTYPE_p_int16_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -4313,9 +4313,9 @@ XS(_wrap_Date_year_get) {
 }
 
 
-XS(_wrap_Date_month_get) {
+XS(_wrap_fiftyoneDegreesDate_month_get) {
   {
-    struct date_t *arg1 = (struct date_t *) 0 ;
+    struct fiftyoneDegrees_date_t *arg1 = (struct fiftyoneDegrees_date_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -4323,13 +4323,13 @@ XS(_wrap_Date_month_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Date_month_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDate_month_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_date_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_date_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Date_month_get" "', argument " "1"" of type '" "struct date_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDate_month_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_date_t *""'"); 
     }
-    arg1 = (struct date_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_date_t *)(argp1);
     result = (byte)(byte) ((arg1)->month);
     ST(argvi) = SWIG_From_unsigned_SS_char  SWIG_PERL_CALL_ARGS_1((unsigned char)(result)); argvi++ ;
     
@@ -4341,9 +4341,9 @@ XS(_wrap_Date_month_get) {
 }
 
 
-XS(_wrap_Date_day_get) {
+XS(_wrap_fiftyoneDegreesDate_day_get) {
   {
-    struct date_t *arg1 = (struct date_t *) 0 ;
+    struct fiftyoneDegrees_date_t *arg1 = (struct fiftyoneDegrees_date_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -4351,13 +4351,13 @@ XS(_wrap_Date_day_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Date_day_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDate_day_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_date_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_date_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Date_day_get" "', argument " "1"" of type '" "struct date_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDate_day_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_date_t *""'"); 
     }
-    arg1 = (struct date_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_date_t *)(argp1);
     result = (byte)(byte) ((arg1)->day);
     ST(argvi) = SWIG_From_unsigned_SS_char  SWIG_PERL_CALL_ARGS_1((unsigned char)(result)); argvi++ ;
     
@@ -4369,17 +4369,17 @@ XS(_wrap_Date_day_get) {
 }
 
 
-XS(_wrap_new_Date) {
+XS(_wrap_new_fiftyoneDegreesDate) {
   {
     int argvi = 0;
-    struct date_t *result = 0 ;
+    struct fiftyoneDegrees_date_t *result = 0 ;
     dXSARGS;
     
     if ((items < 0) || (items > 0)) {
-      SWIG_croak("Usage: new_Date();");
+      SWIG_croak("Usage: new_fiftyoneDegreesDate();");
     }
-    result = (struct date_t *)calloc(1, sizeof(struct date_t));
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_date_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    result = (struct fiftyoneDegrees_date_t *)calloc(1, sizeof(struct fiftyoneDegrees_date_t));
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_date_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
     XSRETURN(argvi);
   fail:
     SWIG_croak_null();
@@ -4387,22 +4387,22 @@ XS(_wrap_new_Date) {
 }
 
 
-XS(_wrap_delete_Date) {
+XS(_wrap_delete_fiftyoneDegreesDate) {
   {
-    struct date_t *arg1 = (struct date_t *) 0 ;
+    struct fiftyoneDegrees_date_t *arg1 = (struct fiftyoneDegrees_date_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: delete_Date(self);");
+      SWIG_croak("Usage: delete_fiftyoneDegreesDate(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_date_t, SWIG_POINTER_DISOWN |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_date_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Date" "', argument " "1"" of type '" "struct date_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_fiftyoneDegreesDate" "', argument " "1"" of type '" "struct fiftyoneDegrees_date_t *""'"); 
     }
-    arg1 = (struct date_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_date_t *)(argp1);
     free((char *) arg1);
     ST(argvi) = sv_newmortal();
     
@@ -4414,9 +4414,9 @@ XS(_wrap_delete_Date) {
 }
 
 
-XS(_wrap_EntityHeader_startPosition_get) {
+XS(_wrap_fiftyoneDegreesEntityHeader_startPosition_get) {
   {
-    struct entity_header_t *arg1 = (struct entity_header_t *) 0 ;
+    struct fiftyoneDegrees_entity_header_t *arg1 = (struct fiftyoneDegrees_entity_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -4424,13 +4424,13 @@ XS(_wrap_EntityHeader_startPosition_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: EntityHeader_startPosition_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesEntityHeader_startPosition_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_entity_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_entity_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EntityHeader_startPosition_get" "', argument " "1"" of type '" "struct entity_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesEntityHeader_startPosition_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_entity_header_t *""'"); 
     }
-    arg1 = (struct entity_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_entity_header_t *)(argp1);
     result = (int32_t) ((arg1)->startPosition);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -4442,9 +4442,9 @@ XS(_wrap_EntityHeader_startPosition_get) {
 }
 
 
-XS(_wrap_EntityHeader_length_get) {
+XS(_wrap_fiftyoneDegreesEntityHeader_length_get) {
   {
-    struct entity_header_t *arg1 = (struct entity_header_t *) 0 ;
+    struct fiftyoneDegrees_entity_header_t *arg1 = (struct fiftyoneDegrees_entity_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -4452,13 +4452,13 @@ XS(_wrap_EntityHeader_length_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: EntityHeader_length_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesEntityHeader_length_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_entity_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_entity_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EntityHeader_length_get" "', argument " "1"" of type '" "struct entity_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesEntityHeader_length_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_entity_header_t *""'"); 
     }
-    arg1 = (struct entity_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_entity_header_t *)(argp1);
     result = (int32_t) ((arg1)->length);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -4470,9 +4470,9 @@ XS(_wrap_EntityHeader_length_get) {
 }
 
 
-XS(_wrap_EntityHeader_count_get) {
+XS(_wrap_fiftyoneDegreesEntityHeader_count_get) {
   {
-    struct entity_header_t *arg1 = (struct entity_header_t *) 0 ;
+    struct fiftyoneDegrees_entity_header_t *arg1 = (struct fiftyoneDegrees_entity_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -4480,13 +4480,13 @@ XS(_wrap_EntityHeader_count_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: EntityHeader_count_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesEntityHeader_count_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_entity_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_entity_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EntityHeader_count_get" "', argument " "1"" of type '" "struct entity_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesEntityHeader_count_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_entity_header_t *""'"); 
     }
-    arg1 = (struct entity_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_entity_header_t *)(argp1);
     result = (int32_t) ((arg1)->count);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -4498,17 +4498,17 @@ XS(_wrap_EntityHeader_count_get) {
 }
 
 
-XS(_wrap_new_EntityHeader) {
+XS(_wrap_new_fiftyoneDegreesEntityHeader) {
   {
     int argvi = 0;
-    struct entity_header_t *result = 0 ;
+    struct fiftyoneDegrees_entity_header_t *result = 0 ;
     dXSARGS;
     
     if ((items < 0) || (items > 0)) {
-      SWIG_croak("Usage: new_EntityHeader();");
+      SWIG_croak("Usage: new_fiftyoneDegreesEntityHeader();");
     }
-    result = (struct entity_header_t *)calloc(1, sizeof(struct entity_header_t));
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_entity_header_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    result = (struct fiftyoneDegrees_entity_header_t *)calloc(1, sizeof(struct fiftyoneDegrees_entity_header_t));
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_entity_header_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
     XSRETURN(argvi);
   fail:
     SWIG_croak_null();
@@ -4516,22 +4516,22 @@ XS(_wrap_new_EntityHeader) {
 }
 
 
-XS(_wrap_delete_EntityHeader) {
+XS(_wrap_delete_fiftyoneDegreesEntityHeader) {
   {
-    struct entity_header_t *arg1 = (struct entity_header_t *) 0 ;
+    struct fiftyoneDegrees_entity_header_t *arg1 = (struct fiftyoneDegrees_entity_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: delete_EntityHeader(self);");
+      SWIG_croak("Usage: delete_fiftyoneDegreesEntityHeader(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_entity_header_t, SWIG_POINTER_DISOWN |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_entity_header_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_EntityHeader" "', argument " "1"" of type '" "struct entity_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_fiftyoneDegreesEntityHeader" "', argument " "1"" of type '" "struct fiftyoneDegrees_entity_header_t *""'"); 
     }
-    arg1 = (struct entity_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_entity_header_t *)(argp1);
     free((char *) arg1);
     ST(argvi) = sv_newmortal();
     
@@ -4543,9 +4543,9 @@ XS(_wrap_delete_EntityHeader) {
 }
 
 
-XS(_wrap_NumericNodeState_target_set) {
+XS(_wrap_fiftyoneDegreesNumericNodeState_target_set) {
   {
-    struct numeric_node_state *arg1 = (struct numeric_node_state *) 0 ;
+    struct fiftyoneDegrees_numeric_node_state *arg1 = (struct fiftyoneDegrees_numeric_node_state *) 0 ;
     int16_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -4555,20 +4555,20 @@ XS(_wrap_NumericNodeState_target_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: NumericNodeState_target_set(self,target);");
+      SWIG_croak("Usage: fiftyoneDegreesNumericNodeState_target_set(self,target);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_numeric_node_state, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_numeric_node_state, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NumericNodeState_target_set" "', argument " "1"" of type '" "struct numeric_node_state *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNumericNodeState_target_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_numeric_node_state *""'"); 
     }
-    arg1 = (struct numeric_node_state *)(argp1);
+    arg1 = (struct fiftyoneDegrees_numeric_node_state *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int16_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "NumericNodeState_target_set" "', argument " "2"" of type '" "int16_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesNumericNodeState_target_set" "', argument " "2"" of type '" "int16_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "NumericNodeState_target_set" "', argument " "2"" of type '" "int16_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesNumericNodeState_target_set" "', argument " "2"" of type '" "int16_t""'");
       } else {
         arg2 = *((int16_t *)(argp2));
       }
@@ -4584,9 +4584,9 @@ XS(_wrap_NumericNodeState_target_set) {
 }
 
 
-XS(_wrap_NumericNodeState_target_get) {
+XS(_wrap_fiftyoneDegreesNumericNodeState_target_get) {
   {
-    struct numeric_node_state *arg1 = (struct numeric_node_state *) 0 ;
+    struct fiftyoneDegrees_numeric_node_state *arg1 = (struct fiftyoneDegrees_numeric_node_state *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -4594,13 +4594,13 @@ XS(_wrap_NumericNodeState_target_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: NumericNodeState_target_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNumericNodeState_target_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_numeric_node_state, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_numeric_node_state, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NumericNodeState_target_get" "', argument " "1"" of type '" "struct numeric_node_state *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNumericNodeState_target_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_numeric_node_state *""'"); 
     }
-    arg1 = (struct numeric_node_state *)(argp1);
+    arg1 = (struct fiftyoneDegrees_numeric_node_state *)(argp1);
     result =  ((arg1)->target);
     ST(argvi) = SWIG_NewPointerObj((int16_t *)memcpy((int16_t *)malloc(sizeof(int16_t)),&result,sizeof(int16_t)), SWIGTYPE_p_int16_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -4612,10 +4612,10 @@ XS(_wrap_NumericNodeState_target_get) {
 }
 
 
-XS(_wrap_NumericNodeState_node_set) {
+XS(_wrap_fiftyoneDegreesNumericNodeState_node_set) {
   {
-    struct numeric_node_state *arg1 = (struct numeric_node_state *) 0 ;
-    Node *arg2 = (Node *) 0 ;
+    struct fiftyoneDegrees_numeric_node_state *arg1 = (struct fiftyoneDegrees_numeric_node_state *) 0 ;
+    fiftyoneDegreesNode *arg2 = (fiftyoneDegreesNode *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -4624,19 +4624,19 @@ XS(_wrap_NumericNodeState_node_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: NumericNodeState_node_set(self,node);");
+      SWIG_croak("Usage: fiftyoneDegreesNumericNodeState_node_set(self,node);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_numeric_node_state, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_numeric_node_state, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NumericNodeState_node_set" "', argument " "1"" of type '" "struct numeric_node_state *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNumericNodeState_node_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_numeric_node_state *""'"); 
     }
-    arg1 = (struct numeric_node_state *)(argp1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_node_t, SWIG_POINTER_DISOWN |  0 );
+    arg1 = (struct fiftyoneDegrees_numeric_node_state *)(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_fiftyoneDegrees_node_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "NumericNodeState_node_set" "', argument " "2"" of type '" "Node const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesNumericNodeState_node_set" "', argument " "2"" of type '" "fiftyoneDegreesNode const *""'"); 
     }
-    arg2 = (Node *)(argp2);
-    if (arg1) (arg1)->node = (Node const *)arg2;
+    arg2 = (fiftyoneDegreesNode *)(argp2);
+    if (arg1) (arg1)->node = (fiftyoneDegreesNode const *)arg2;
     ST(argvi) = sv_newmortal();
     
     
@@ -4649,25 +4649,25 @@ XS(_wrap_NumericNodeState_node_set) {
 }
 
 
-XS(_wrap_NumericNodeState_node_get) {
+XS(_wrap_fiftyoneDegreesNumericNodeState_node_get) {
   {
-    struct numeric_node_state *arg1 = (struct numeric_node_state *) 0 ;
+    struct fiftyoneDegrees_numeric_node_state *arg1 = (struct fiftyoneDegrees_numeric_node_state *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    Node *result = 0 ;
+    fiftyoneDegreesNode *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: NumericNodeState_node_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNumericNodeState_node_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_numeric_node_state, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_numeric_node_state, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NumericNodeState_node_get" "', argument " "1"" of type '" "struct numeric_node_state *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNumericNodeState_node_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_numeric_node_state *""'"); 
     }
-    arg1 = (struct numeric_node_state *)(argp1);
-    result = (Node *) ((arg1)->node);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_node_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_numeric_node_state *)(argp1);
+    result = (fiftyoneDegreesNode *) ((arg1)->node);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_node_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -4677,10 +4677,10 @@ XS(_wrap_NumericNodeState_node_get) {
 }
 
 
-XS(_wrap_NumericNodeState_firstNodeNumericIndex_set) {
+XS(_wrap_fiftyoneDegreesNumericNodeState_firstNodeNumericIndex_set) {
   {
-    struct numeric_node_state *arg1 = (struct numeric_node_state *) 0 ;
-    NodeNumericIndex *arg2 = (NodeNumericIndex *) 0 ;
+    struct fiftyoneDegrees_numeric_node_state *arg1 = (struct fiftyoneDegrees_numeric_node_state *) 0 ;
+    fiftyoneDegreesNodeNumericIndex *arg2 = (fiftyoneDegreesNodeNumericIndex *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -4689,19 +4689,19 @@ XS(_wrap_NumericNodeState_firstNodeNumericIndex_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: NumericNodeState_firstNodeNumericIndex_set(self,firstNodeNumericIndex);");
+      SWIG_croak("Usage: fiftyoneDegreesNumericNodeState_firstNodeNumericIndex_set(self,firstNodeNumericIndex);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_numeric_node_state, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_numeric_node_state, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NumericNodeState_firstNodeNumericIndex_set" "', argument " "1"" of type '" "struct numeric_node_state *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNumericNodeState_firstNodeNumericIndex_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_numeric_node_state *""'"); 
     }
-    arg1 = (struct numeric_node_state *)(argp1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_node_numeric_index_t, SWIG_POINTER_DISOWN |  0 );
+    arg1 = (struct fiftyoneDegrees_numeric_node_state *)(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_fiftyoneDegrees_node_numeric_index_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "NumericNodeState_firstNodeNumericIndex_set" "', argument " "2"" of type '" "NodeNumericIndex const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesNumericNodeState_firstNodeNumericIndex_set" "', argument " "2"" of type '" "fiftyoneDegreesNodeNumericIndex const *""'"); 
     }
-    arg2 = (NodeNumericIndex *)(argp2);
-    if (arg1) (arg1)->firstNodeNumericIndex = (NodeNumericIndex const *)arg2;
+    arg2 = (fiftyoneDegreesNodeNumericIndex *)(argp2);
+    if (arg1) (arg1)->firstNodeNumericIndex = (fiftyoneDegreesNodeNumericIndex const *)arg2;
     ST(argvi) = sv_newmortal();
     
     
@@ -4714,25 +4714,25 @@ XS(_wrap_NumericNodeState_firstNodeNumericIndex_set) {
 }
 
 
-XS(_wrap_NumericNodeState_firstNodeNumericIndex_get) {
+XS(_wrap_fiftyoneDegreesNumericNodeState_firstNodeNumericIndex_get) {
   {
-    struct numeric_node_state *arg1 = (struct numeric_node_state *) 0 ;
+    struct fiftyoneDegrees_numeric_node_state *arg1 = (struct fiftyoneDegrees_numeric_node_state *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    NodeNumericIndex *result = 0 ;
+    fiftyoneDegreesNodeNumericIndex *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: NumericNodeState_firstNodeNumericIndex_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNumericNodeState_firstNodeNumericIndex_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_numeric_node_state, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_numeric_node_state, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NumericNodeState_firstNodeNumericIndex_get" "', argument " "1"" of type '" "struct numeric_node_state *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNumericNodeState_firstNodeNumericIndex_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_numeric_node_state *""'"); 
     }
-    arg1 = (struct numeric_node_state *)(argp1);
-    result = (NodeNumericIndex *) ((arg1)->firstNodeNumericIndex);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_node_numeric_index_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_numeric_node_state *)(argp1);
+    result = (fiftyoneDegreesNodeNumericIndex *) ((arg1)->firstNodeNumericIndex);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_node_numeric_index_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -4742,10 +4742,10 @@ XS(_wrap_NumericNodeState_firstNodeNumericIndex_get) {
 }
 
 
-XS(_wrap_NumericNodeState_range_set) {
+XS(_wrap_fiftyoneDegreesNumericNodeState_range_set) {
   {
-    struct numeric_node_state *arg1 = (struct numeric_node_state *) 0 ;
-    RANGE *arg2 = (RANGE *) 0 ;
+    struct fiftyoneDegrees_numeric_node_state *arg1 = (struct fiftyoneDegrees_numeric_node_state *) 0 ;
+    fiftyoneDegreesRANGE *arg2 = (fiftyoneDegreesRANGE *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -4754,19 +4754,19 @@ XS(_wrap_NumericNodeState_range_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: NumericNodeState_range_set(self,range);");
+      SWIG_croak("Usage: fiftyoneDegreesNumericNodeState_range_set(self,range);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_numeric_node_state, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_numeric_node_state, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NumericNodeState_range_set" "', argument " "1"" of type '" "struct numeric_node_state *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNumericNodeState_range_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_numeric_node_state *""'"); 
     }
-    arg1 = (struct numeric_node_state *)(argp1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_range_t, SWIG_POINTER_DISOWN |  0 );
+    arg1 = (struct fiftyoneDegrees_numeric_node_state *)(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_fiftyoneDegreesRange_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "NumericNodeState_range_set" "', argument " "2"" of type '" "RANGE const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesNumericNodeState_range_set" "', argument " "2"" of type '" "fiftyoneDegreesRANGE const *""'"); 
     }
-    arg2 = (RANGE *)(argp2);
-    if (arg1) (arg1)->range = (RANGE const *)arg2;
+    arg2 = (fiftyoneDegreesRANGE *)(argp2);
+    if (arg1) (arg1)->range = (fiftyoneDegreesRANGE const *)arg2;
     ST(argvi) = sv_newmortal();
     
     
@@ -4779,25 +4779,25 @@ XS(_wrap_NumericNodeState_range_set) {
 }
 
 
-XS(_wrap_NumericNodeState_range_get) {
+XS(_wrap_fiftyoneDegreesNumericNodeState_range_get) {
   {
-    struct numeric_node_state *arg1 = (struct numeric_node_state *) 0 ;
+    struct fiftyoneDegrees_numeric_node_state *arg1 = (struct fiftyoneDegrees_numeric_node_state *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    RANGE *result = 0 ;
+    fiftyoneDegreesRANGE *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: NumericNodeState_range_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNumericNodeState_range_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_numeric_node_state, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_numeric_node_state, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NumericNodeState_range_get" "', argument " "1"" of type '" "struct numeric_node_state *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNumericNodeState_range_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_numeric_node_state *""'"); 
     }
-    arg1 = (struct numeric_node_state *)(argp1);
-    result = (RANGE *) ((arg1)->range);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_range_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_numeric_node_state *)(argp1);
+    result = (fiftyoneDegreesRANGE *) ((arg1)->range);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegreesRange_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -4807,9 +4807,9 @@ XS(_wrap_NumericNodeState_range_get) {
 }
 
 
-XS(_wrap_NumericNodeState_startIndex_set) {
+XS(_wrap_fiftyoneDegreesNumericNodeState_startIndex_set) {
   {
-    struct numeric_node_state *arg1 = (struct numeric_node_state *) 0 ;
+    struct fiftyoneDegrees_numeric_node_state *arg1 = (struct fiftyoneDegrees_numeric_node_state *) 0 ;
     int32_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -4819,20 +4819,20 @@ XS(_wrap_NumericNodeState_startIndex_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: NumericNodeState_startIndex_set(self,startIndex);");
+      SWIG_croak("Usage: fiftyoneDegreesNumericNodeState_startIndex_set(self,startIndex);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_numeric_node_state, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_numeric_node_state, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NumericNodeState_startIndex_set" "', argument " "1"" of type '" "struct numeric_node_state *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNumericNodeState_startIndex_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_numeric_node_state *""'"); 
     }
-    arg1 = (struct numeric_node_state *)(argp1);
+    arg1 = (struct fiftyoneDegrees_numeric_node_state *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "NumericNodeState_startIndex_set" "', argument " "2"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesNumericNodeState_startIndex_set" "', argument " "2"" of type '" "int32_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "NumericNodeState_startIndex_set" "', argument " "2"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesNumericNodeState_startIndex_set" "', argument " "2"" of type '" "int32_t""'");
       } else {
         arg2 = *((int32_t *)(argp2));
       }
@@ -4848,9 +4848,9 @@ XS(_wrap_NumericNodeState_startIndex_set) {
 }
 
 
-XS(_wrap_NumericNodeState_startIndex_get) {
+XS(_wrap_fiftyoneDegreesNumericNodeState_startIndex_get) {
   {
-    struct numeric_node_state *arg1 = (struct numeric_node_state *) 0 ;
+    struct fiftyoneDegrees_numeric_node_state *arg1 = (struct fiftyoneDegrees_numeric_node_state *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -4858,13 +4858,13 @@ XS(_wrap_NumericNodeState_startIndex_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: NumericNodeState_startIndex_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNumericNodeState_startIndex_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_numeric_node_state, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_numeric_node_state, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NumericNodeState_startIndex_get" "', argument " "1"" of type '" "struct numeric_node_state *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNumericNodeState_startIndex_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_numeric_node_state *""'"); 
     }
-    arg1 = (struct numeric_node_state *)(argp1);
+    arg1 = (struct fiftyoneDegrees_numeric_node_state *)(argp1);
     result =  ((arg1)->startIndex);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -4876,9 +4876,9 @@ XS(_wrap_NumericNodeState_startIndex_get) {
 }
 
 
-XS(_wrap_NumericNodeState_lowIndex_set) {
+XS(_wrap_fiftyoneDegreesNumericNodeState_lowIndex_set) {
   {
-    struct numeric_node_state *arg1 = (struct numeric_node_state *) 0 ;
+    struct fiftyoneDegrees_numeric_node_state *arg1 = (struct fiftyoneDegrees_numeric_node_state *) 0 ;
     int32_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -4888,20 +4888,20 @@ XS(_wrap_NumericNodeState_lowIndex_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: NumericNodeState_lowIndex_set(self,lowIndex);");
+      SWIG_croak("Usage: fiftyoneDegreesNumericNodeState_lowIndex_set(self,lowIndex);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_numeric_node_state, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_numeric_node_state, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NumericNodeState_lowIndex_set" "', argument " "1"" of type '" "struct numeric_node_state *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNumericNodeState_lowIndex_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_numeric_node_state *""'"); 
     }
-    arg1 = (struct numeric_node_state *)(argp1);
+    arg1 = (struct fiftyoneDegrees_numeric_node_state *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "NumericNodeState_lowIndex_set" "', argument " "2"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesNumericNodeState_lowIndex_set" "', argument " "2"" of type '" "int32_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "NumericNodeState_lowIndex_set" "', argument " "2"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesNumericNodeState_lowIndex_set" "', argument " "2"" of type '" "int32_t""'");
       } else {
         arg2 = *((int32_t *)(argp2));
       }
@@ -4917,9 +4917,9 @@ XS(_wrap_NumericNodeState_lowIndex_set) {
 }
 
 
-XS(_wrap_NumericNodeState_lowIndex_get) {
+XS(_wrap_fiftyoneDegreesNumericNodeState_lowIndex_get) {
   {
-    struct numeric_node_state *arg1 = (struct numeric_node_state *) 0 ;
+    struct fiftyoneDegrees_numeric_node_state *arg1 = (struct fiftyoneDegrees_numeric_node_state *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -4927,13 +4927,13 @@ XS(_wrap_NumericNodeState_lowIndex_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: NumericNodeState_lowIndex_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNumericNodeState_lowIndex_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_numeric_node_state, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_numeric_node_state, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NumericNodeState_lowIndex_get" "', argument " "1"" of type '" "struct numeric_node_state *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNumericNodeState_lowIndex_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_numeric_node_state *""'"); 
     }
-    arg1 = (struct numeric_node_state *)(argp1);
+    arg1 = (struct fiftyoneDegrees_numeric_node_state *)(argp1);
     result =  ((arg1)->lowIndex);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -4945,9 +4945,9 @@ XS(_wrap_NumericNodeState_lowIndex_get) {
 }
 
 
-XS(_wrap_NumericNodeState_highIndex_set) {
+XS(_wrap_fiftyoneDegreesNumericNodeState_highIndex_set) {
   {
-    struct numeric_node_state *arg1 = (struct numeric_node_state *) 0 ;
+    struct fiftyoneDegrees_numeric_node_state *arg1 = (struct fiftyoneDegrees_numeric_node_state *) 0 ;
     int32_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -4957,20 +4957,20 @@ XS(_wrap_NumericNodeState_highIndex_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: NumericNodeState_highIndex_set(self,highIndex);");
+      SWIG_croak("Usage: fiftyoneDegreesNumericNodeState_highIndex_set(self,highIndex);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_numeric_node_state, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_numeric_node_state, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NumericNodeState_highIndex_set" "', argument " "1"" of type '" "struct numeric_node_state *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNumericNodeState_highIndex_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_numeric_node_state *""'"); 
     }
-    arg1 = (struct numeric_node_state *)(argp1);
+    arg1 = (struct fiftyoneDegrees_numeric_node_state *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "NumericNodeState_highIndex_set" "', argument " "2"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesNumericNodeState_highIndex_set" "', argument " "2"" of type '" "int32_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "NumericNodeState_highIndex_set" "', argument " "2"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesNumericNodeState_highIndex_set" "', argument " "2"" of type '" "int32_t""'");
       } else {
         arg2 = *((int32_t *)(argp2));
       }
@@ -4986,9 +4986,9 @@ XS(_wrap_NumericNodeState_highIndex_set) {
 }
 
 
-XS(_wrap_NumericNodeState_highIndex_get) {
+XS(_wrap_fiftyoneDegreesNumericNodeState_highIndex_get) {
   {
-    struct numeric_node_state *arg1 = (struct numeric_node_state *) 0 ;
+    struct fiftyoneDegrees_numeric_node_state *arg1 = (struct fiftyoneDegrees_numeric_node_state *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -4996,13 +4996,13 @@ XS(_wrap_NumericNodeState_highIndex_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: NumericNodeState_highIndex_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNumericNodeState_highIndex_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_numeric_node_state, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_numeric_node_state, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NumericNodeState_highIndex_get" "', argument " "1"" of type '" "struct numeric_node_state *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNumericNodeState_highIndex_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_numeric_node_state *""'"); 
     }
-    arg1 = (struct numeric_node_state *)(argp1);
+    arg1 = (struct fiftyoneDegrees_numeric_node_state *)(argp1);
     result =  ((arg1)->highIndex);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -5014,9 +5014,9 @@ XS(_wrap_NumericNodeState_highIndex_get) {
 }
 
 
-XS(_wrap_NumericNodeState_lowInRange_set) {
+XS(_wrap_fiftyoneDegreesNumericNodeState_lowInRange_set) {
   {
-    struct numeric_node_state *arg1 = (struct numeric_node_state *) 0 ;
+    struct fiftyoneDegrees_numeric_node_state *arg1 = (struct fiftyoneDegrees_numeric_node_state *) 0 ;
     fod_bool arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -5026,16 +5026,16 @@ XS(_wrap_NumericNodeState_lowInRange_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: NumericNodeState_lowInRange_set(self,lowInRange);");
+      SWIG_croak("Usage: fiftyoneDegreesNumericNodeState_lowInRange_set(self,lowInRange);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_numeric_node_state, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_numeric_node_state, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NumericNodeState_lowInRange_set" "', argument " "1"" of type '" "struct numeric_node_state *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNumericNodeState_lowInRange_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_numeric_node_state *""'"); 
     }
-    arg1 = (struct numeric_node_state *)(argp1);
+    arg1 = (struct fiftyoneDegrees_numeric_node_state *)(argp1);
     ecode2 = SWIG_AsVal_unsigned_SS_char SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
     if (!SWIG_IsOK(ecode2)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "NumericNodeState_lowInRange_set" "', argument " "2"" of type '" "fod_bool""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "fiftyoneDegreesNumericNodeState_lowInRange_set" "', argument " "2"" of type '" "fod_bool""'");
     } 
     arg2 = (fod_bool)(val2);
     if (arg1) (arg1)->lowInRange = arg2;
@@ -5051,9 +5051,9 @@ XS(_wrap_NumericNodeState_lowInRange_set) {
 }
 
 
-XS(_wrap_NumericNodeState_lowInRange_get) {
+XS(_wrap_fiftyoneDegreesNumericNodeState_lowInRange_get) {
   {
-    struct numeric_node_state *arg1 = (struct numeric_node_state *) 0 ;
+    struct fiftyoneDegrees_numeric_node_state *arg1 = (struct fiftyoneDegrees_numeric_node_state *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5061,13 +5061,13 @@ XS(_wrap_NumericNodeState_lowInRange_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: NumericNodeState_lowInRange_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNumericNodeState_lowInRange_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_numeric_node_state, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_numeric_node_state, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NumericNodeState_lowInRange_get" "', argument " "1"" of type '" "struct numeric_node_state *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNumericNodeState_lowInRange_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_numeric_node_state *""'"); 
     }
-    arg1 = (struct numeric_node_state *)(argp1);
+    arg1 = (struct fiftyoneDegrees_numeric_node_state *)(argp1);
     result = (fod_bool) ((arg1)->lowInRange);
     ST(argvi) = SWIG_From_unsigned_SS_char  SWIG_PERL_CALL_ARGS_1((unsigned char)(result)); argvi++ ;
     
@@ -5079,9 +5079,9 @@ XS(_wrap_NumericNodeState_lowInRange_get) {
 }
 
 
-XS(_wrap_NumericNodeState_highInRange_set) {
+XS(_wrap_fiftyoneDegreesNumericNodeState_highInRange_set) {
   {
-    struct numeric_node_state *arg1 = (struct numeric_node_state *) 0 ;
+    struct fiftyoneDegrees_numeric_node_state *arg1 = (struct fiftyoneDegrees_numeric_node_state *) 0 ;
     fod_bool arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -5091,16 +5091,16 @@ XS(_wrap_NumericNodeState_highInRange_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: NumericNodeState_highInRange_set(self,highInRange);");
+      SWIG_croak("Usage: fiftyoneDegreesNumericNodeState_highInRange_set(self,highInRange);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_numeric_node_state, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_numeric_node_state, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NumericNodeState_highInRange_set" "', argument " "1"" of type '" "struct numeric_node_state *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNumericNodeState_highInRange_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_numeric_node_state *""'"); 
     }
-    arg1 = (struct numeric_node_state *)(argp1);
+    arg1 = (struct fiftyoneDegrees_numeric_node_state *)(argp1);
     ecode2 = SWIG_AsVal_unsigned_SS_char SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
     if (!SWIG_IsOK(ecode2)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "NumericNodeState_highInRange_set" "', argument " "2"" of type '" "fod_bool""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "fiftyoneDegreesNumericNodeState_highInRange_set" "', argument " "2"" of type '" "fod_bool""'");
     } 
     arg2 = (fod_bool)(val2);
     if (arg1) (arg1)->highInRange = arg2;
@@ -5116,9 +5116,9 @@ XS(_wrap_NumericNodeState_highInRange_set) {
 }
 
 
-XS(_wrap_NumericNodeState_highInRange_get) {
+XS(_wrap_fiftyoneDegreesNumericNodeState_highInRange_get) {
   {
-    struct numeric_node_state *arg1 = (struct numeric_node_state *) 0 ;
+    struct fiftyoneDegrees_numeric_node_state *arg1 = (struct fiftyoneDegrees_numeric_node_state *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5126,13 +5126,13 @@ XS(_wrap_NumericNodeState_highInRange_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: NumericNodeState_highInRange_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesNumericNodeState_highInRange_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_numeric_node_state, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_numeric_node_state, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NumericNodeState_highInRange_get" "', argument " "1"" of type '" "struct numeric_node_state *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesNumericNodeState_highInRange_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_numeric_node_state *""'"); 
     }
-    arg1 = (struct numeric_node_state *)(argp1);
+    arg1 = (struct fiftyoneDegrees_numeric_node_state *)(argp1);
     result = (fod_bool) ((arg1)->highInRange);
     ST(argvi) = SWIG_From_unsigned_SS_char  SWIG_PERL_CALL_ARGS_1((unsigned char)(result)); argvi++ ;
     
@@ -5144,17 +5144,17 @@ XS(_wrap_NumericNodeState_highInRange_get) {
 }
 
 
-XS(_wrap_new_NumericNodeState) {
+XS(_wrap_new_fiftyoneDegreesNumericNodeState) {
   {
     int argvi = 0;
-    struct numeric_node_state *result = 0 ;
+    struct fiftyoneDegrees_numeric_node_state *result = 0 ;
     dXSARGS;
     
     if ((items < 0) || (items > 0)) {
-      SWIG_croak("Usage: new_NumericNodeState();");
+      SWIG_croak("Usage: new_fiftyoneDegreesNumericNodeState();");
     }
-    result = (struct numeric_node_state *)calloc(1, sizeof(struct numeric_node_state));
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_numeric_node_state, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    result = (struct fiftyoneDegrees_numeric_node_state *)calloc(1, sizeof(struct fiftyoneDegrees_numeric_node_state));
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_numeric_node_state, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
     XSRETURN(argvi);
   fail:
     SWIG_croak_null();
@@ -5162,22 +5162,22 @@ XS(_wrap_new_NumericNodeState) {
 }
 
 
-XS(_wrap_delete_NumericNodeState) {
+XS(_wrap_delete_fiftyoneDegreesNumericNodeState) {
   {
-    struct numeric_node_state *arg1 = (struct numeric_node_state *) 0 ;
+    struct fiftyoneDegrees_numeric_node_state *arg1 = (struct fiftyoneDegrees_numeric_node_state *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: delete_NumericNodeState(self);");
+      SWIG_croak("Usage: delete_fiftyoneDegreesNumericNodeState(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_numeric_node_state, SWIG_POINTER_DISOWN |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_numeric_node_state, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_NumericNodeState" "', argument " "1"" of type '" "struct numeric_node_state *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_fiftyoneDegreesNumericNodeState" "', argument " "1"" of type '" "struct fiftyoneDegrees_numeric_node_state *""'"); 
     }
-    arg1 = (struct numeric_node_state *)(argp1);
+    arg1 = (struct fiftyoneDegrees_numeric_node_state *)(argp1);
     free((char *) arg1);
     ST(argvi) = sv_newmortal();
     
@@ -5189,9 +5189,9 @@ XS(_wrap_delete_NumericNodeState) {
 }
 
 
-XS(_wrap_DataSetHeader_versionMajor_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_versionMajor_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5199,13 +5199,13 @@ XS(_wrap_DataSetHeader_versionMajor_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_versionMajor_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_versionMajor_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_versionMajor_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_versionMajor_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     result = (int32_t) ((arg1)->versionMajor);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -5217,9 +5217,9 @@ XS(_wrap_DataSetHeader_versionMajor_get) {
 }
 
 
-XS(_wrap_DataSetHeader_versionMinor_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_versionMinor_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5227,13 +5227,13 @@ XS(_wrap_DataSetHeader_versionMinor_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_versionMinor_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_versionMinor_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_versionMinor_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_versionMinor_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     result = (int32_t) ((arg1)->versionMinor);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -5245,9 +5245,9 @@ XS(_wrap_DataSetHeader_versionMinor_get) {
 }
 
 
-XS(_wrap_DataSetHeader_versionBuild_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_versionBuild_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5255,13 +5255,13 @@ XS(_wrap_DataSetHeader_versionBuild_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_versionBuild_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_versionBuild_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_versionBuild_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_versionBuild_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     result = (int32_t) ((arg1)->versionBuild);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -5273,9 +5273,9 @@ XS(_wrap_DataSetHeader_versionBuild_get) {
 }
 
 
-XS(_wrap_DataSetHeader_versionRevision_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_versionRevision_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5283,13 +5283,13 @@ XS(_wrap_DataSetHeader_versionRevision_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_versionRevision_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_versionRevision_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_versionRevision_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_versionRevision_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     result = (int32_t) ((arg1)->versionRevision);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -5301,9 +5301,9 @@ XS(_wrap_DataSetHeader_versionRevision_get) {
 }
 
 
-XS(_wrap_DataSetHeader_tag_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_tag_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5311,13 +5311,13 @@ XS(_wrap_DataSetHeader_tag_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_tag_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_tag_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_tag_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_tag_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     result = (byte *)(byte *) ((arg1)->tag);
     ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_unsigned_char, 0 | 0); argvi++ ;
     
@@ -5329,9 +5329,9 @@ XS(_wrap_DataSetHeader_tag_get) {
 }
 
 
-XS(_wrap_DataSetHeader_copyrightOffset_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_copyrightOffset_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5339,13 +5339,13 @@ XS(_wrap_DataSetHeader_copyrightOffset_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_copyrightOffset_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_copyrightOffset_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_copyrightOffset_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_copyrightOffset_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     result = (int32_t) ((arg1)->copyrightOffset);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -5357,9 +5357,9 @@ XS(_wrap_DataSetHeader_copyrightOffset_get) {
 }
 
 
-XS(_wrap_DataSetHeader_age_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_age_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5367,13 +5367,13 @@ XS(_wrap_DataSetHeader_age_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_age_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_age_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_age_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_age_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     result = (int16_t) ((arg1)->age);
     ST(argvi) = SWIG_NewPointerObj((int16_t *)memcpy((int16_t *)malloc(sizeof(int16_t)),&result,sizeof(int16_t)), SWIGTYPE_p_int16_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -5385,9 +5385,9 @@ XS(_wrap_DataSetHeader_age_get) {
 }
 
 
-XS(_wrap_DataSetHeader_minUserAgentCount_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_minUserAgentCount_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5395,13 +5395,13 @@ XS(_wrap_DataSetHeader_minUserAgentCount_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_minUserAgentCount_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_minUserAgentCount_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_minUserAgentCount_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_minUserAgentCount_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     result = (int32_t) ((arg1)->minUserAgentCount);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -5413,9 +5413,9 @@ XS(_wrap_DataSetHeader_minUserAgentCount_get) {
 }
 
 
-XS(_wrap_DataSetHeader_nameOffset_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_nameOffset_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5423,13 +5423,13 @@ XS(_wrap_DataSetHeader_nameOffset_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_nameOffset_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_nameOffset_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_nameOffset_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_nameOffset_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     result = (int32_t) ((arg1)->nameOffset);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -5441,9 +5441,9 @@ XS(_wrap_DataSetHeader_nameOffset_get) {
 }
 
 
-XS(_wrap_DataSetHeader_formatOffset_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_formatOffset_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5451,13 +5451,13 @@ XS(_wrap_DataSetHeader_formatOffset_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_formatOffset_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_formatOffset_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_formatOffset_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_formatOffset_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     result = (int32_t) ((arg1)->formatOffset);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -5469,25 +5469,25 @@ XS(_wrap_DataSetHeader_formatOffset_get) {
 }
 
 
-XS(_wrap_DataSetHeader_published_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_published_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    Date *result = 0 ;
+    fiftyoneDegreesDate *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_published_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_published_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_published_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_published_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
-    result = (Date *)& ((arg1)->published);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_date_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
+    result = (fiftyoneDegreesDate *)& ((arg1)->published);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_date_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -5497,25 +5497,25 @@ XS(_wrap_DataSetHeader_published_get) {
 }
 
 
-XS(_wrap_DataSetHeader_nextUpdate_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_nextUpdate_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    Date *result = 0 ;
+    fiftyoneDegreesDate *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_nextUpdate_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_nextUpdate_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_nextUpdate_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_nextUpdate_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
-    result = (Date *)& ((arg1)->nextUpdate);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_date_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
+    result = (fiftyoneDegreesDate *)& ((arg1)->nextUpdate);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_date_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -5525,9 +5525,9 @@ XS(_wrap_DataSetHeader_nextUpdate_get) {
 }
 
 
-XS(_wrap_DataSetHeader_deviceCombinations_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_deviceCombinations_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5535,13 +5535,13 @@ XS(_wrap_DataSetHeader_deviceCombinations_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_deviceCombinations_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_deviceCombinations_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_deviceCombinations_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_deviceCombinations_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     result = (int32_t) ((arg1)->deviceCombinations);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -5553,9 +5553,9 @@ XS(_wrap_DataSetHeader_deviceCombinations_get) {
 }
 
 
-XS(_wrap_DataSetHeader_maxUserAgentLength_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_maxUserAgentLength_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5563,13 +5563,13 @@ XS(_wrap_DataSetHeader_maxUserAgentLength_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_maxUserAgentLength_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_maxUserAgentLength_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_maxUserAgentLength_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_maxUserAgentLength_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     result = (int16_t) ((arg1)->maxUserAgentLength);
     ST(argvi) = SWIG_NewPointerObj((int16_t *)memcpy((int16_t *)malloc(sizeof(int16_t)),&result,sizeof(int16_t)), SWIGTYPE_p_int16_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -5581,9 +5581,9 @@ XS(_wrap_DataSetHeader_maxUserAgentLength_get) {
 }
 
 
-XS(_wrap_DataSetHeader_minUserAgentLength_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_minUserAgentLength_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5591,13 +5591,13 @@ XS(_wrap_DataSetHeader_minUserAgentLength_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_minUserAgentLength_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_minUserAgentLength_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_minUserAgentLength_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_minUserAgentLength_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     result = (int16_t) ((arg1)->minUserAgentLength);
     ST(argvi) = SWIG_NewPointerObj((int16_t *)memcpy((int16_t *)malloc(sizeof(int16_t)),&result,sizeof(int16_t)), SWIGTYPE_p_int16_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -5609,9 +5609,9 @@ XS(_wrap_DataSetHeader_minUserAgentLength_get) {
 }
 
 
-XS(_wrap_DataSetHeader_lowestCharacter_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_lowestCharacter_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5619,13 +5619,13 @@ XS(_wrap_DataSetHeader_lowestCharacter_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_lowestCharacter_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_lowestCharacter_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_lowestCharacter_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_lowestCharacter_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     result = (char)(char) ((arg1)->lowestCharacter);
     ST(argvi) = SWIG_From_char  SWIG_PERL_CALL_ARGS_1((char)(result)); argvi++ ;
     
@@ -5637,9 +5637,9 @@ XS(_wrap_DataSetHeader_lowestCharacter_get) {
 }
 
 
-XS(_wrap_DataSetHeader_highestCharacter_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_highestCharacter_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5647,13 +5647,13 @@ XS(_wrap_DataSetHeader_highestCharacter_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_highestCharacter_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_highestCharacter_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_highestCharacter_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_highestCharacter_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     result = (char)(char) ((arg1)->highestCharacter);
     ST(argvi) = SWIG_From_char  SWIG_PERL_CALL_ARGS_1((char)(result)); argvi++ ;
     
@@ -5665,9 +5665,9 @@ XS(_wrap_DataSetHeader_highestCharacter_get) {
 }
 
 
-XS(_wrap_DataSetHeader_maxSignatures_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_maxSignatures_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5675,13 +5675,13 @@ XS(_wrap_DataSetHeader_maxSignatures_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_maxSignatures_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_maxSignatures_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_maxSignatures_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_maxSignatures_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     result = (int32_t) ((arg1)->maxSignatures);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -5693,9 +5693,9 @@ XS(_wrap_DataSetHeader_maxSignatures_get) {
 }
 
 
-XS(_wrap_DataSetHeader_signatureProfilesCount_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_signatureProfilesCount_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5703,13 +5703,13 @@ XS(_wrap_DataSetHeader_signatureProfilesCount_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_signatureProfilesCount_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_signatureProfilesCount_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_signatureProfilesCount_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_signatureProfilesCount_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     result = (int32_t) ((arg1)->signatureProfilesCount);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -5721,9 +5721,9 @@ XS(_wrap_DataSetHeader_signatureProfilesCount_get) {
 }
 
 
-XS(_wrap_DataSetHeader_signatureNodesCount_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_signatureNodesCount_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5731,13 +5731,13 @@ XS(_wrap_DataSetHeader_signatureNodesCount_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_signatureNodesCount_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_signatureNodesCount_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_signatureNodesCount_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_signatureNodesCount_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     result = (int32_t) ((arg1)->signatureNodesCount);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -5749,9 +5749,9 @@ XS(_wrap_DataSetHeader_signatureNodesCount_get) {
 }
 
 
-XS(_wrap_DataSetHeader_maxValues_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_maxValues_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5759,13 +5759,13 @@ XS(_wrap_DataSetHeader_maxValues_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_maxValues_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_maxValues_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_maxValues_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_maxValues_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     result = (int16_t) ((arg1)->maxValues);
     ST(argvi) = SWIG_NewPointerObj((int16_t *)memcpy((int16_t *)malloc(sizeof(int16_t)),&result,sizeof(int16_t)), SWIGTYPE_p_int16_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -5777,9 +5777,9 @@ XS(_wrap_DataSetHeader_maxValues_get) {
 }
 
 
-XS(_wrap_DataSetHeader_csvBufferLength_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_csvBufferLength_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5787,13 +5787,13 @@ XS(_wrap_DataSetHeader_csvBufferLength_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_csvBufferLength_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_csvBufferLength_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_csvBufferLength_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_csvBufferLength_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     result = (int32_t) ((arg1)->csvBufferLength);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -5805,9 +5805,9 @@ XS(_wrap_DataSetHeader_csvBufferLength_get) {
 }
 
 
-XS(_wrap_DataSetHeader_jsonBufferLength_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_jsonBufferLength_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5815,13 +5815,13 @@ XS(_wrap_DataSetHeader_jsonBufferLength_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_jsonBufferLength_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_jsonBufferLength_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_jsonBufferLength_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_jsonBufferLength_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     result = (int32_t) ((arg1)->jsonBufferLength);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -5833,9 +5833,9 @@ XS(_wrap_DataSetHeader_jsonBufferLength_get) {
 }
 
 
-XS(_wrap_DataSetHeader_xmlBufferLength_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_xmlBufferLength_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5843,13 +5843,13 @@ XS(_wrap_DataSetHeader_xmlBufferLength_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_xmlBufferLength_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_xmlBufferLength_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_xmlBufferLength_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_xmlBufferLength_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     result = (int32_t) ((arg1)->xmlBufferLength);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -5861,9 +5861,9 @@ XS(_wrap_DataSetHeader_xmlBufferLength_get) {
 }
 
 
-XS(_wrap_DataSetHeader_maxSignaturesClosest_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_maxSignaturesClosest_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -5871,13 +5871,13 @@ XS(_wrap_DataSetHeader_maxSignaturesClosest_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_maxSignaturesClosest_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_maxSignaturesClosest_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_maxSignaturesClosest_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_maxSignaturesClosest_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     result = (int32_t) ((arg1)->maxSignaturesClosest);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -5889,25 +5889,25 @@ XS(_wrap_DataSetHeader_maxSignaturesClosest_get) {
 }
 
 
-XS(_wrap_DataSetHeader_strings_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_strings_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    EntityHeader *result = 0 ;
+    fiftyoneDegreesEntityHeader *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_strings_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_strings_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_strings_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_strings_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
-    result = (EntityHeader *)& ((arg1)->strings);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_entity_header_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
+    result = (fiftyoneDegreesEntityHeader *)& ((arg1)->strings);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_entity_header_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -5917,25 +5917,25 @@ XS(_wrap_DataSetHeader_strings_get) {
 }
 
 
-XS(_wrap_DataSetHeader_components_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_components_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    EntityHeader *result = 0 ;
+    fiftyoneDegreesEntityHeader *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_components_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_components_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_components_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_components_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
-    result = (EntityHeader *)& ((arg1)->components);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_entity_header_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
+    result = (fiftyoneDegreesEntityHeader *)& ((arg1)->components);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_entity_header_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -5945,25 +5945,25 @@ XS(_wrap_DataSetHeader_components_get) {
 }
 
 
-XS(_wrap_DataSetHeader_maps_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_maps_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    EntityHeader *result = 0 ;
+    fiftyoneDegreesEntityHeader *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_maps_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_maps_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_maps_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_maps_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
-    result = (EntityHeader *)& ((arg1)->maps);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_entity_header_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
+    result = (fiftyoneDegreesEntityHeader *)& ((arg1)->maps);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_entity_header_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -5973,25 +5973,25 @@ XS(_wrap_DataSetHeader_maps_get) {
 }
 
 
-XS(_wrap_DataSetHeader_properties_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_properties_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    EntityHeader *result = 0 ;
+    fiftyoneDegreesEntityHeader *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_properties_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_properties_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_properties_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_properties_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
-    result = (EntityHeader *)& ((arg1)->properties);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_entity_header_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
+    result = (fiftyoneDegreesEntityHeader *)& ((arg1)->properties);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_entity_header_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -6001,25 +6001,25 @@ XS(_wrap_DataSetHeader_properties_get) {
 }
 
 
-XS(_wrap_DataSetHeader_values_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_values_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    EntityHeader *result = 0 ;
+    fiftyoneDegreesEntityHeader *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_values_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_values_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_values_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_values_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
-    result = (EntityHeader *)& ((arg1)->values);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_entity_header_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
+    result = (fiftyoneDegreesEntityHeader *)& ((arg1)->values);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_entity_header_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -6029,25 +6029,25 @@ XS(_wrap_DataSetHeader_values_get) {
 }
 
 
-XS(_wrap_DataSetHeader_profiles_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_profiles_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    EntityHeader *result = 0 ;
+    fiftyoneDegreesEntityHeader *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_profiles_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_profiles_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_profiles_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_profiles_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
-    result = (EntityHeader *)& ((arg1)->profiles);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_entity_header_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
+    result = (fiftyoneDegreesEntityHeader *)& ((arg1)->profiles);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_entity_header_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -6057,25 +6057,25 @@ XS(_wrap_DataSetHeader_profiles_get) {
 }
 
 
-XS(_wrap_DataSetHeader_signatures_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_signatures_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    EntityHeader *result = 0 ;
+    fiftyoneDegreesEntityHeader *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_signatures_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_signatures_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_signatures_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_signatures_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
-    result = (EntityHeader *)& ((arg1)->signatures);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_entity_header_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
+    result = (fiftyoneDegreesEntityHeader *)& ((arg1)->signatures);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_entity_header_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -6085,25 +6085,25 @@ XS(_wrap_DataSetHeader_signatures_get) {
 }
 
 
-XS(_wrap_DataSetHeader_rankedSignatureIndexes_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_rankedSignatureIndexes_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    EntityHeader *result = 0 ;
+    fiftyoneDegreesEntityHeader *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_rankedSignatureIndexes_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_rankedSignatureIndexes_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_rankedSignatureIndexes_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_rankedSignatureIndexes_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
-    result = (EntityHeader *)& ((arg1)->rankedSignatureIndexes);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_entity_header_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
+    result = (fiftyoneDegreesEntityHeader *)& ((arg1)->rankedSignatureIndexes);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_entity_header_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -6113,25 +6113,25 @@ XS(_wrap_DataSetHeader_rankedSignatureIndexes_get) {
 }
 
 
-XS(_wrap_DataSetHeader_nodes_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_nodes_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    EntityHeader *result = 0 ;
+    fiftyoneDegreesEntityHeader *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_nodes_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_nodes_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_nodes_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_nodes_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
-    result = (EntityHeader *)& ((arg1)->nodes);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_entity_header_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
+    result = (fiftyoneDegreesEntityHeader *)& ((arg1)->nodes);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_entity_header_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -6141,25 +6141,25 @@ XS(_wrap_DataSetHeader_nodes_get) {
 }
 
 
-XS(_wrap_DataSetHeader_rootNodes_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_rootNodes_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    EntityHeader *result = 0 ;
+    fiftyoneDegreesEntityHeader *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_rootNodes_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_rootNodes_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_rootNodes_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_rootNodes_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
-    result = (EntityHeader *)& ((arg1)->rootNodes);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_entity_header_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
+    result = (fiftyoneDegreesEntityHeader *)& ((arg1)->rootNodes);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_entity_header_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -6169,25 +6169,25 @@ XS(_wrap_DataSetHeader_rootNodes_get) {
 }
 
 
-XS(_wrap_DataSetHeader_profileOffsets_get) {
+XS(_wrap_fiftyoneDegreesDataSetHeader_profileOffsets_get) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    EntityHeader *result = 0 ;
+    fiftyoneDegreesEntityHeader *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSetHeader_profileOffsets_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSetHeader_profileOffsets_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSetHeader_profileOffsets_get" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSetHeader_profileOffsets_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
-    result = (EntityHeader *)& ((arg1)->profileOffsets);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_entity_header_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
+    result = (fiftyoneDegreesEntityHeader *)& ((arg1)->profileOffsets);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_entity_header_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -6197,17 +6197,17 @@ XS(_wrap_DataSetHeader_profileOffsets_get) {
 }
 
 
-XS(_wrap_new_DataSetHeader) {
+XS(_wrap_new_fiftyoneDegreesDataSetHeader) {
   {
     int argvi = 0;
-    struct dataset_header_t *result = 0 ;
+    struct fiftyoneDegrees_dataset_header_t *result = 0 ;
     dXSARGS;
     
     if ((items < 0) || (items > 0)) {
-      SWIG_croak("Usage: new_DataSetHeader();");
+      SWIG_croak("Usage: new_fiftyoneDegreesDataSetHeader();");
     }
-    result = (struct dataset_header_t *)calloc(1, sizeof(struct dataset_header_t));
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_dataset_header_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    result = (struct fiftyoneDegrees_dataset_header_t *)calloc(1, sizeof(struct fiftyoneDegrees_dataset_header_t));
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
     XSRETURN(argvi);
   fail:
     SWIG_croak_null();
@@ -6215,22 +6215,22 @@ XS(_wrap_new_DataSetHeader) {
 }
 
 
-XS(_wrap_delete_DataSetHeader) {
+XS(_wrap_delete_fiftyoneDegreesDataSetHeader) {
   {
-    struct dataset_header_t *arg1 = (struct dataset_header_t *) 0 ;
+    struct fiftyoneDegrees_dataset_header_t *arg1 = (struct fiftyoneDegrees_dataset_header_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: delete_DataSetHeader(self);");
+      SWIG_croak("Usage: delete_fiftyoneDegreesDataSetHeader(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_header_t, SWIG_POINTER_DISOWN |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_DataSetHeader" "', argument " "1"" of type '" "struct dataset_header_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_fiftyoneDegreesDataSetHeader" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_header_t *""'"); 
     }
-    arg1 = (struct dataset_header_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_header_t *)(argp1);
     free((char *) arg1);
     ST(argvi) = sv_newmortal();
     
@@ -6242,25 +6242,25 @@ XS(_wrap_delete_DataSetHeader) {
 }
 
 
-XS(_wrap_DataSet_header_get) {
+XS(_wrap_fiftyoneDegreesDataSet_header_get) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    DataSetHeader *result = 0 ;
+    fiftyoneDegreesDataSetHeader *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSet_header_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_header_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_header_get" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_header_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
-    result = (DataSetHeader *)& ((arg1)->header);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_dataset_header_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
+    result = (fiftyoneDegreesDataSetHeader *)& ((arg1)->header);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -6270,9 +6270,9 @@ XS(_wrap_DataSet_header_get) {
 }
 
 
-XS(_wrap_DataSet_sizeOfSignature_set) {
+XS(_wrap_fiftyoneDegreesDataSet_sizeOfSignature_set) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     int32_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -6282,20 +6282,20 @@ XS(_wrap_DataSet_sizeOfSignature_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: DataSet_sizeOfSignature_set(self,sizeOfSignature);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_sizeOfSignature_set(self,sizeOfSignature);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_sizeOfSignature_set" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_sizeOfSignature_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DataSet_sizeOfSignature_set" "', argument " "2"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesDataSet_sizeOfSignature_set" "', argument " "2"" of type '" "int32_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "DataSet_sizeOfSignature_set" "', argument " "2"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesDataSet_sizeOfSignature_set" "', argument " "2"" of type '" "int32_t""'");
       } else {
         arg2 = *((int32_t *)(argp2));
       }
@@ -6311,9 +6311,9 @@ XS(_wrap_DataSet_sizeOfSignature_set) {
 }
 
 
-XS(_wrap_DataSet_sizeOfSignature_get) {
+XS(_wrap_fiftyoneDegreesDataSet_sizeOfSignature_get) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -6321,13 +6321,13 @@ XS(_wrap_DataSet_sizeOfSignature_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSet_sizeOfSignature_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_sizeOfSignature_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_sizeOfSignature_get" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_sizeOfSignature_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
     result =  ((arg1)->sizeOfSignature);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -6339,9 +6339,9 @@ XS(_wrap_DataSet_sizeOfSignature_get) {
 }
 
 
-XS(_wrap_DataSet_signatureStartOfNodes_set) {
+XS(_wrap_fiftyoneDegreesDataSet_signatureStartOfNodes_set) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     int32_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -6351,20 +6351,20 @@ XS(_wrap_DataSet_signatureStartOfNodes_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: DataSet_signatureStartOfNodes_set(self,signatureStartOfNodes);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_signatureStartOfNodes_set(self,signatureStartOfNodes);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_signatureStartOfNodes_set" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_signatureStartOfNodes_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DataSet_signatureStartOfNodes_set" "', argument " "2"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesDataSet_signatureStartOfNodes_set" "', argument " "2"" of type '" "int32_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "DataSet_signatureStartOfNodes_set" "', argument " "2"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesDataSet_signatureStartOfNodes_set" "', argument " "2"" of type '" "int32_t""'");
       } else {
         arg2 = *((int32_t *)(argp2));
       }
@@ -6380,9 +6380,9 @@ XS(_wrap_DataSet_signatureStartOfNodes_set) {
 }
 
 
-XS(_wrap_DataSet_signatureStartOfNodes_get) {
+XS(_wrap_fiftyoneDegreesDataSet_signatureStartOfNodes_get) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -6390,13 +6390,13 @@ XS(_wrap_DataSet_signatureStartOfNodes_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSet_signatureStartOfNodes_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_signatureStartOfNodes_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_signatureStartOfNodes_get" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_signatureStartOfNodes_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
     result =  ((arg1)->signatureStartOfNodes);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -6408,10 +6408,10 @@ XS(_wrap_DataSet_signatureStartOfNodes_get) {
 }
 
 
-XS(_wrap_DataSet_requiredProperties_set) {
+XS(_wrap_fiftyoneDegreesDataSet_requiredProperties_set) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
-    Property **arg2 = (Property **) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
+    fiftyoneDegreesProperty **arg2 = (fiftyoneDegreesProperty **) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -6420,19 +6420,19 @@ XS(_wrap_DataSet_requiredProperties_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: DataSet_requiredProperties_set(self,requiredProperties);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_requiredProperties_set(self,requiredProperties);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_requiredProperties_set" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_requiredProperties_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
     res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_p_property_t, 0 |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DataSet_requiredProperties_set" "', argument " "2"" of type '" "Property const **""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesDataSet_requiredProperties_set" "', argument " "2"" of type '" "fiftyoneDegreesProperty const **""'"); 
     }
-    arg2 = (Property **)(argp2);
-    if (arg1) (arg1)->requiredProperties = (Property const **)arg2;
+    arg2 = (fiftyoneDegreesProperty **)(argp2);
+    if (arg1) (arg1)->requiredProperties = (fiftyoneDegreesProperty const **)arg2;
     ST(argvi) = sv_newmortal();
     
     
@@ -6445,24 +6445,24 @@ XS(_wrap_DataSet_requiredProperties_set) {
 }
 
 
-XS(_wrap_DataSet_requiredProperties_get) {
+XS(_wrap_fiftyoneDegreesDataSet_requiredProperties_get) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    Property **result = 0 ;
+    fiftyoneDegreesProperty **result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSet_requiredProperties_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_requiredProperties_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_requiredProperties_get" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_requiredProperties_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
-    result = (Property **) ((arg1)->requiredProperties);
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
+    result = (fiftyoneDegreesProperty **) ((arg1)->requiredProperties);
     ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_p_property_t, 0 | 0); argvi++ ;
     
     XSRETURN(argvi);
@@ -6473,9 +6473,9 @@ XS(_wrap_DataSet_requiredProperties_get) {
 }
 
 
-XS(_wrap_DataSet_requiredPropertyCount_set) {
+XS(_wrap_fiftyoneDegreesDataSet_requiredPropertyCount_set) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     int32_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -6485,20 +6485,20 @@ XS(_wrap_DataSet_requiredPropertyCount_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: DataSet_requiredPropertyCount_set(self,requiredPropertyCount);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_requiredPropertyCount_set(self,requiredPropertyCount);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_requiredPropertyCount_set" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_requiredPropertyCount_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DataSet_requiredPropertyCount_set" "', argument " "2"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesDataSet_requiredPropertyCount_set" "', argument " "2"" of type '" "int32_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "DataSet_requiredPropertyCount_set" "', argument " "2"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesDataSet_requiredPropertyCount_set" "', argument " "2"" of type '" "int32_t""'");
       } else {
         arg2 = *((int32_t *)(argp2));
       }
@@ -6514,9 +6514,9 @@ XS(_wrap_DataSet_requiredPropertyCount_set) {
 }
 
 
-XS(_wrap_DataSet_requiredPropertyCount_get) {
+XS(_wrap_fiftyoneDegreesDataSet_requiredPropertyCount_get) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -6524,13 +6524,13 @@ XS(_wrap_DataSet_requiredPropertyCount_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSet_requiredPropertyCount_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_requiredPropertyCount_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_requiredPropertyCount_get" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_requiredPropertyCount_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
     result =  ((arg1)->requiredPropertyCount);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -6542,9 +6542,9 @@ XS(_wrap_DataSet_requiredPropertyCount_get) {
 }
 
 
-XS(_wrap_DataSet_strings_set) {
+XS(_wrap_fiftyoneDegreesDataSet_strings_set) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     byte *arg2 = (byte *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -6554,16 +6554,16 @@ XS(_wrap_DataSet_strings_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: DataSet_strings_set(self,strings);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_strings_set(self,strings);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_strings_set" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_strings_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
     res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_unsigned_char, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DataSet_strings_set" "', argument " "2"" of type '" "byte const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesDataSet_strings_set" "', argument " "2"" of type '" "byte const *""'"); 
     }
     arg2 = (byte *)(argp2);
     if (arg1) (arg1)->strings = (byte const *)arg2;
@@ -6579,9 +6579,9 @@ XS(_wrap_DataSet_strings_set) {
 }
 
 
-XS(_wrap_DataSet_strings_get) {
+XS(_wrap_fiftyoneDegreesDataSet_strings_get) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -6589,13 +6589,13 @@ XS(_wrap_DataSet_strings_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSet_strings_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_strings_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_strings_get" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_strings_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
     result = (byte *) ((arg1)->strings);
     ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_unsigned_char, 0 | 0); argvi++ ;
     
@@ -6607,10 +6607,10 @@ XS(_wrap_DataSet_strings_get) {
 }
 
 
-XS(_wrap_DataSet_components_set) {
+XS(_wrap_fiftyoneDegreesDataSet_components_set) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
-    Component *arg2 = (Component *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
+    fiftyoneDegreesComponent *arg2 = (fiftyoneDegreesComponent *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -6619,19 +6619,19 @@ XS(_wrap_DataSet_components_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: DataSet_components_set(self,components);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_components_set(self,components);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_components_set" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_components_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_component_t, SWIG_POINTER_DISOWN |  0 );
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_fiftyoneDegrees_component_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DataSet_components_set" "', argument " "2"" of type '" "Component const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesDataSet_components_set" "', argument " "2"" of type '" "fiftyoneDegreesComponent const *""'"); 
     }
-    arg2 = (Component *)(argp2);
-    if (arg1) (arg1)->components = (Component const *)arg2;
+    arg2 = (fiftyoneDegreesComponent *)(argp2);
+    if (arg1) (arg1)->components = (fiftyoneDegreesComponent const *)arg2;
     ST(argvi) = sv_newmortal();
     
     
@@ -6644,25 +6644,25 @@ XS(_wrap_DataSet_components_set) {
 }
 
 
-XS(_wrap_DataSet_components_get) {
+XS(_wrap_fiftyoneDegreesDataSet_components_get) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    Component *result = 0 ;
+    fiftyoneDegreesComponent *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSet_components_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_components_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_components_get" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_components_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
-    result = (Component *) ((arg1)->components);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_component_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
+    result = (fiftyoneDegreesComponent *) ((arg1)->components);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_component_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -6672,10 +6672,10 @@ XS(_wrap_DataSet_components_get) {
 }
 
 
-XS(_wrap_DataSet_maps_set) {
+XS(_wrap_fiftyoneDegreesDataSet_maps_set) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
-    Map *arg2 = (Map *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
+    fiftyoneDegreesMap *arg2 = (fiftyoneDegreesMap *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -6684,19 +6684,19 @@ XS(_wrap_DataSet_maps_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: DataSet_maps_set(self,maps);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_maps_set(self,maps);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_maps_set" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_maps_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_map_t, SWIG_POINTER_DISOWN |  0 );
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_fiftyoneDegrees_map_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DataSet_maps_set" "', argument " "2"" of type '" "Map const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesDataSet_maps_set" "', argument " "2"" of type '" "fiftyoneDegreesMap const *""'"); 
     }
-    arg2 = (Map *)(argp2);
-    if (arg1) (arg1)->maps = (Map const *)arg2;
+    arg2 = (fiftyoneDegreesMap *)(argp2);
+    if (arg1) (arg1)->maps = (fiftyoneDegreesMap const *)arg2;
     ST(argvi) = sv_newmortal();
     
     
@@ -6709,25 +6709,25 @@ XS(_wrap_DataSet_maps_set) {
 }
 
 
-XS(_wrap_DataSet_maps_get) {
+XS(_wrap_fiftyoneDegreesDataSet_maps_get) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    Map *result = 0 ;
+    fiftyoneDegreesMap *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSet_maps_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_maps_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_maps_get" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_maps_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
-    result = (Map *) ((arg1)->maps);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_map_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
+    result = (fiftyoneDegreesMap *) ((arg1)->maps);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_map_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -6737,10 +6737,10 @@ XS(_wrap_DataSet_maps_get) {
 }
 
 
-XS(_wrap_DataSet_properties_set) {
+XS(_wrap_fiftyoneDegreesDataSet_properties_set) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
-    Property *arg2 = (Property *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
+    fiftyoneDegreesProperty *arg2 = (fiftyoneDegreesProperty *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -6749,19 +6749,19 @@ XS(_wrap_DataSet_properties_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: DataSet_properties_set(self,properties);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_properties_set(self,properties);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_properties_set" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_properties_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
     res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_property_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DataSet_properties_set" "', argument " "2"" of type '" "Property const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesDataSet_properties_set" "', argument " "2"" of type '" "fiftyoneDegreesProperty const *""'"); 
     }
-    arg2 = (Property *)(argp2);
-    if (arg1) (arg1)->properties = (Property const *)arg2;
+    arg2 = (fiftyoneDegreesProperty *)(argp2);
+    if (arg1) (arg1)->properties = (fiftyoneDegreesProperty const *)arg2;
     ST(argvi) = sv_newmortal();
     
     
@@ -6774,24 +6774,24 @@ XS(_wrap_DataSet_properties_set) {
 }
 
 
-XS(_wrap_DataSet_properties_get) {
+XS(_wrap_fiftyoneDegreesDataSet_properties_get) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    Property *result = 0 ;
+    fiftyoneDegreesProperty *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSet_properties_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_properties_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_properties_get" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_properties_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
-    result = (Property *) ((arg1)->properties);
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
+    result = (fiftyoneDegreesProperty *) ((arg1)->properties);
     ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_property_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
@@ -6802,10 +6802,10 @@ XS(_wrap_DataSet_properties_get) {
 }
 
 
-XS(_wrap_DataSet_values_set) {
+XS(_wrap_fiftyoneDegreesDataSet_values_set) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
-    Value *arg2 = (Value *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
+    fiftyoneDegreesValue *arg2 = (fiftyoneDegreesValue *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -6814,19 +6814,19 @@ XS(_wrap_DataSet_values_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: DataSet_values_set(self,values);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_values_set(self,values);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_values_set" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_values_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_value_t, SWIG_POINTER_DISOWN |  0 );
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_fiftyoneDegrees_value_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DataSet_values_set" "', argument " "2"" of type '" "Value const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesDataSet_values_set" "', argument " "2"" of type '" "fiftyoneDegreesValue const *""'"); 
     }
-    arg2 = (Value *)(argp2);
-    if (arg1) (arg1)->values = (Value const *)arg2;
+    arg2 = (fiftyoneDegreesValue *)(argp2);
+    if (arg1) (arg1)->values = (fiftyoneDegreesValue const *)arg2;
     ST(argvi) = sv_newmortal();
     
     
@@ -6839,25 +6839,25 @@ XS(_wrap_DataSet_values_set) {
 }
 
 
-XS(_wrap_DataSet_values_get) {
+XS(_wrap_fiftyoneDegreesDataSet_values_get) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    Value *result = 0 ;
+    fiftyoneDegreesValue *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSet_values_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_values_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_values_get" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_values_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
-    result = (Value *) ((arg1)->values);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_value_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
+    result = (fiftyoneDegreesValue *) ((arg1)->values);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_value_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -6867,9 +6867,9 @@ XS(_wrap_DataSet_values_get) {
 }
 
 
-XS(_wrap_DataSet_profiles_set) {
+XS(_wrap_fiftyoneDegreesDataSet_profiles_set) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     byte *arg2 = (byte *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -6879,16 +6879,16 @@ XS(_wrap_DataSet_profiles_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: DataSet_profiles_set(self,profiles);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_profiles_set(self,profiles);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_profiles_set" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_profiles_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
     res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_unsigned_char, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DataSet_profiles_set" "', argument " "2"" of type '" "byte const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesDataSet_profiles_set" "', argument " "2"" of type '" "byte const *""'"); 
     }
     arg2 = (byte *)(argp2);
     if (arg1) (arg1)->profiles = (byte const *)arg2;
@@ -6904,9 +6904,9 @@ XS(_wrap_DataSet_profiles_set) {
 }
 
 
-XS(_wrap_DataSet_profiles_get) {
+XS(_wrap_fiftyoneDegreesDataSet_profiles_get) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -6914,13 +6914,13 @@ XS(_wrap_DataSet_profiles_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSet_profiles_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_profiles_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_profiles_get" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_profiles_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
     result = (byte *) ((arg1)->profiles);
     ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_unsigned_char, 0 | 0); argvi++ ;
     
@@ -6932,9 +6932,9 @@ XS(_wrap_DataSet_profiles_get) {
 }
 
 
-XS(_wrap_DataSet_signatures_set) {
+XS(_wrap_fiftyoneDegreesDataSet_signatures_set) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     byte *arg2 = (byte *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -6944,16 +6944,16 @@ XS(_wrap_DataSet_signatures_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: DataSet_signatures_set(self,signatures);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_signatures_set(self,signatures);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_signatures_set" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_signatures_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
     res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_unsigned_char, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DataSet_signatures_set" "', argument " "2"" of type '" "byte const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesDataSet_signatures_set" "', argument " "2"" of type '" "byte const *""'"); 
     }
     arg2 = (byte *)(argp2);
     if (arg1) (arg1)->signatures = (byte const *)arg2;
@@ -6969,9 +6969,9 @@ XS(_wrap_DataSet_signatures_set) {
 }
 
 
-XS(_wrap_DataSet_signatures_get) {
+XS(_wrap_fiftyoneDegreesDataSet_signatures_get) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -6979,13 +6979,13 @@ XS(_wrap_DataSet_signatures_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSet_signatures_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_signatures_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_signatures_get" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_signatures_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
     result = (byte *) ((arg1)->signatures);
     ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_unsigned_char, 0 | 0); argvi++ ;
     
@@ -6997,9 +6997,9 @@ XS(_wrap_DataSet_signatures_get) {
 }
 
 
-XS(_wrap_DataSet_rankedSignatureIndexes_set) {
+XS(_wrap_fiftyoneDegreesDataSet_rankedSignatureIndexes_set) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     int32_t *arg2 = (int32_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -7009,16 +7009,16 @@ XS(_wrap_DataSet_rankedSignatureIndexes_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: DataSet_rankedSignatureIndexes_set(self,rankedSignatureIndexes);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_rankedSignatureIndexes_set(self,rankedSignatureIndexes);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_rankedSignatureIndexes_set" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_rankedSignatureIndexes_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
     res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_int32_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DataSet_rankedSignatureIndexes_set" "', argument " "2"" of type '" "int32_t const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesDataSet_rankedSignatureIndexes_set" "', argument " "2"" of type '" "int32_t const *""'"); 
     }
     arg2 = (int32_t *)(argp2);
     if (arg1) (arg1)->rankedSignatureIndexes = (int32_t const *)arg2;
@@ -7034,9 +7034,9 @@ XS(_wrap_DataSet_rankedSignatureIndexes_set) {
 }
 
 
-XS(_wrap_DataSet_rankedSignatureIndexes_get) {
+XS(_wrap_fiftyoneDegreesDataSet_rankedSignatureIndexes_get) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -7044,13 +7044,13 @@ XS(_wrap_DataSet_rankedSignatureIndexes_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSet_rankedSignatureIndexes_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_rankedSignatureIndexes_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_rankedSignatureIndexes_get" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_rankedSignatureIndexes_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
     result = (int32_t *) ((arg1)->rankedSignatureIndexes);
     ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_int32_t, 0 | 0); argvi++ ;
     
@@ -7062,9 +7062,9 @@ XS(_wrap_DataSet_rankedSignatureIndexes_get) {
 }
 
 
-XS(_wrap_DataSet_nodes_set) {
+XS(_wrap_fiftyoneDegreesDataSet_nodes_set) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     byte *arg2 = (byte *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -7074,16 +7074,16 @@ XS(_wrap_DataSet_nodes_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: DataSet_nodes_set(self,nodes);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_nodes_set(self,nodes);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_nodes_set" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_nodes_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
     res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_unsigned_char, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DataSet_nodes_set" "', argument " "2"" of type '" "byte const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesDataSet_nodes_set" "', argument " "2"" of type '" "byte const *""'"); 
     }
     arg2 = (byte *)(argp2);
     if (arg1) (arg1)->nodes = (byte const *)arg2;
@@ -7099,9 +7099,9 @@ XS(_wrap_DataSet_nodes_set) {
 }
 
 
-XS(_wrap_DataSet_nodes_get) {
+XS(_wrap_fiftyoneDegreesDataSet_nodes_get) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -7109,13 +7109,13 @@ XS(_wrap_DataSet_nodes_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSet_nodes_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_nodes_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_nodes_get" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_nodes_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
     result = (byte *) ((arg1)->nodes);
     ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_unsigned_char, 0 | 0); argvi++ ;
     
@@ -7127,10 +7127,10 @@ XS(_wrap_DataSet_nodes_get) {
 }
 
 
-XS(_wrap_DataSet_rootNodes_set) {
+XS(_wrap_fiftyoneDegreesDataSet_rootNodes_set) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
-    Node **arg2 = (Node **) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
+    fiftyoneDegreesNode **arg2 = (fiftyoneDegreesNode **) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -7139,19 +7139,19 @@ XS(_wrap_DataSet_rootNodes_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: DataSet_rootNodes_set(self,rootNodes);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_rootNodes_set(self,rootNodes);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_rootNodes_set" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_rootNodes_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_p_node_t, 0 |  0 );
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_p_fiftyoneDegrees_node_t, 0 |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DataSet_rootNodes_set" "', argument " "2"" of type '" "Node const **""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesDataSet_rootNodes_set" "', argument " "2"" of type '" "fiftyoneDegreesNode const **""'"); 
     }
-    arg2 = (Node **)(argp2);
-    if (arg1) (arg1)->rootNodes = (Node const **)arg2;
+    arg2 = (fiftyoneDegreesNode **)(argp2);
+    if (arg1) (arg1)->rootNodes = (fiftyoneDegreesNode const **)arg2;
     ST(argvi) = sv_newmortal();
     
     
@@ -7164,25 +7164,25 @@ XS(_wrap_DataSet_rootNodes_set) {
 }
 
 
-XS(_wrap_DataSet_rootNodes_get) {
+XS(_wrap_fiftyoneDegreesDataSet_rootNodes_get) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    Node **result = 0 ;
+    fiftyoneDegreesNode **result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSet_rootNodes_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_rootNodes_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_rootNodes_get" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_rootNodes_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
-    result = (Node **) ((arg1)->rootNodes);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_p_node_t, 0 | 0); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
+    result = (fiftyoneDegreesNode **) ((arg1)->rootNodes);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_p_fiftyoneDegrees_node_t, 0 | 0); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -7192,10 +7192,10 @@ XS(_wrap_DataSet_rootNodes_get) {
 }
 
 
-XS(_wrap_DataSet_profileOffsets_set) {
+XS(_wrap_fiftyoneDegreesDataSet_profileOffsets_set) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
-    ProfileOffset *arg2 = (ProfileOffset *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
+    fiftyoneDegreesProfileOffset *arg2 = (fiftyoneDegreesProfileOffset *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -7204,19 +7204,19 @@ XS(_wrap_DataSet_profileOffsets_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: DataSet_profileOffsets_set(self,profileOffsets);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_profileOffsets_set(self,profileOffsets);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_profileOffsets_set" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_profileOffsets_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_profile_offset_t, SWIG_POINTER_DISOWN |  0 );
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_fiftyoneDegrees_profile_offset_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DataSet_profileOffsets_set" "', argument " "2"" of type '" "ProfileOffset const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesDataSet_profileOffsets_set" "', argument " "2"" of type '" "fiftyoneDegreesProfileOffset const *""'"); 
     }
-    arg2 = (ProfileOffset *)(argp2);
-    if (arg1) (arg1)->profileOffsets = (ProfileOffset const *)arg2;
+    arg2 = (fiftyoneDegreesProfileOffset *)(argp2);
+    if (arg1) (arg1)->profileOffsets = (fiftyoneDegreesProfileOffset const *)arg2;
     ST(argvi) = sv_newmortal();
     
     
@@ -7229,25 +7229,25 @@ XS(_wrap_DataSet_profileOffsets_set) {
 }
 
 
-XS(_wrap_DataSet_profileOffsets_get) {
+XS(_wrap_fiftyoneDegreesDataSet_profileOffsets_get) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    ProfileOffset *result = 0 ;
+    fiftyoneDegreesProfileOffset *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: DataSet_profileOffsets_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesDataSet_profileOffsets_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DataSet_profileOffsets_get" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDataSet_profileOffsets_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
-    result = (ProfileOffset *) ((arg1)->profileOffsets);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_profile_offset_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
+    result = (fiftyoneDegreesProfileOffset *) ((arg1)->profileOffsets);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_profile_offset_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -7257,17 +7257,17 @@ XS(_wrap_DataSet_profileOffsets_get) {
 }
 
 
-XS(_wrap_new_DataSet) {
+XS(_wrap_new_fiftyoneDegreesDataSet) {
   {
     int argvi = 0;
-    struct dataset_t *result = 0 ;
+    struct fiftyoneDegrees_dataset_t *result = 0 ;
     dXSARGS;
     
     if ((items < 0) || (items > 0)) {
-      SWIG_croak("Usage: new_DataSet();");
+      SWIG_croak("Usage: new_fiftyoneDegreesDataSet();");
     }
-    result = (struct dataset_t *)calloc(1, sizeof(struct dataset_t));
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_dataset_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    result = (struct fiftyoneDegrees_dataset_t *)calloc(1, sizeof(struct fiftyoneDegrees_dataset_t));
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_dataset_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
     XSRETURN(argvi);
   fail:
     SWIG_croak_null();
@@ -7275,22 +7275,22 @@ XS(_wrap_new_DataSet) {
 }
 
 
-XS(_wrap_delete_DataSet) {
+XS(_wrap_delete_fiftyoneDegreesDataSet) {
   {
-    struct dataset_t *arg1 = (struct dataset_t *) 0 ;
+    struct fiftyoneDegrees_dataset_t *arg1 = (struct fiftyoneDegrees_dataset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: delete_DataSet(self);");
+      SWIG_croak("Usage: delete_fiftyoneDegreesDataSet(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, SWIG_POINTER_DISOWN |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_DataSet" "', argument " "1"" of type '" "struct dataset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_fiftyoneDegreesDataSet" "', argument " "1"" of type '" "struct fiftyoneDegrees_dataset_t *""'"); 
     }
-    arg1 = (struct dataset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_dataset_t *)(argp1);
     free((char *) arg1);
     ST(argvi) = sv_newmortal();
     
@@ -7302,10 +7302,10 @@ XS(_wrap_delete_DataSet) {
 }
 
 
-XS(_wrap_LinkedSignatureListItem_next_set) {
+XS(_wrap_fiftyoneDegreesLinkedSignatureListItem_next_set) {
   {
-    struct linked_signature_list_item_t *arg1 = (struct linked_signature_list_item_t *) 0 ;
-    struct linked_signature_list_item_t *arg2 = (struct linked_signature_list_item_t *) 0 ;
+    struct fiftyoneDegrees_linked_signature_list_item_t *arg1 = (struct fiftyoneDegrees_linked_signature_list_item_t *) 0 ;
+    struct fiftyoneDegrees_linked_signature_list_item_t *arg2 = (struct fiftyoneDegrees_linked_signature_list_item_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -7314,18 +7314,18 @@ XS(_wrap_LinkedSignatureListItem_next_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: LinkedSignatureListItem_next_set(self,next);");
+      SWIG_croak("Usage: fiftyoneDegreesLinkedSignatureListItem_next_set(self,next);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_linked_signature_list_item_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "LinkedSignatureListItem_next_set" "', argument " "1"" of type '" "struct linked_signature_list_item_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesLinkedSignatureListItem_next_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_linked_signature_list_item_t *""'"); 
     }
-    arg1 = (struct linked_signature_list_item_t *)(argp1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_linked_signature_list_item_t, SWIG_POINTER_DISOWN |  0 );
+    arg1 = (struct fiftyoneDegrees_linked_signature_list_item_t *)(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "LinkedSignatureListItem_next_set" "', argument " "2"" of type '" "struct linked_signature_list_item_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesLinkedSignatureListItem_next_set" "', argument " "2"" of type '" "struct fiftyoneDegrees_linked_signature_list_item_t *""'"); 
     }
-    arg2 = (struct linked_signature_list_item_t *)(argp2);
+    arg2 = (struct fiftyoneDegrees_linked_signature_list_item_t *)(argp2);
     if (arg1) (arg1)->next = arg2;
     ST(argvi) = sv_newmortal();
     
@@ -7339,25 +7339,25 @@ XS(_wrap_LinkedSignatureListItem_next_set) {
 }
 
 
-XS(_wrap_LinkedSignatureListItem_next_get) {
+XS(_wrap_fiftyoneDegreesLinkedSignatureListItem_next_get) {
   {
-    struct linked_signature_list_item_t *arg1 = (struct linked_signature_list_item_t *) 0 ;
+    struct fiftyoneDegrees_linked_signature_list_item_t *arg1 = (struct fiftyoneDegrees_linked_signature_list_item_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    struct linked_signature_list_item_t *result = 0 ;
+    struct fiftyoneDegrees_linked_signature_list_item_t *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: LinkedSignatureListItem_next_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesLinkedSignatureListItem_next_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_linked_signature_list_item_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "LinkedSignatureListItem_next_get" "', argument " "1"" of type '" "struct linked_signature_list_item_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesLinkedSignatureListItem_next_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_linked_signature_list_item_t *""'"); 
     }
-    arg1 = (struct linked_signature_list_item_t *)(argp1);
-    result = (struct linked_signature_list_item_t *) ((arg1)->next);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_linked_signature_list_item_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_linked_signature_list_item_t *)(argp1);
+    result = (struct fiftyoneDegrees_linked_signature_list_item_t *) ((arg1)->next);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -7367,10 +7367,10 @@ XS(_wrap_LinkedSignatureListItem_next_get) {
 }
 
 
-XS(_wrap_LinkedSignatureListItem_previous_set) {
+XS(_wrap_fiftyoneDegreesLinkedSignatureListItem_previous_set) {
   {
-    struct linked_signature_list_item_t *arg1 = (struct linked_signature_list_item_t *) 0 ;
-    struct linked_signature_list_item_t *arg2 = (struct linked_signature_list_item_t *) 0 ;
+    struct fiftyoneDegrees_linked_signature_list_item_t *arg1 = (struct fiftyoneDegrees_linked_signature_list_item_t *) 0 ;
+    struct fiftyoneDegrees_linked_signature_list_item_t *arg2 = (struct fiftyoneDegrees_linked_signature_list_item_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -7379,18 +7379,18 @@ XS(_wrap_LinkedSignatureListItem_previous_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: LinkedSignatureListItem_previous_set(self,previous);");
+      SWIG_croak("Usage: fiftyoneDegreesLinkedSignatureListItem_previous_set(self,previous);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_linked_signature_list_item_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "LinkedSignatureListItem_previous_set" "', argument " "1"" of type '" "struct linked_signature_list_item_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesLinkedSignatureListItem_previous_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_linked_signature_list_item_t *""'"); 
     }
-    arg1 = (struct linked_signature_list_item_t *)(argp1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_linked_signature_list_item_t, SWIG_POINTER_DISOWN |  0 );
+    arg1 = (struct fiftyoneDegrees_linked_signature_list_item_t *)(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "LinkedSignatureListItem_previous_set" "', argument " "2"" of type '" "struct linked_signature_list_item_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesLinkedSignatureListItem_previous_set" "', argument " "2"" of type '" "struct fiftyoneDegrees_linked_signature_list_item_t *""'"); 
     }
-    arg2 = (struct linked_signature_list_item_t *)(argp2);
+    arg2 = (struct fiftyoneDegrees_linked_signature_list_item_t *)(argp2);
     if (arg1) (arg1)->previous = arg2;
     ST(argvi) = sv_newmortal();
     
@@ -7404,25 +7404,25 @@ XS(_wrap_LinkedSignatureListItem_previous_set) {
 }
 
 
-XS(_wrap_LinkedSignatureListItem_previous_get) {
+XS(_wrap_fiftyoneDegreesLinkedSignatureListItem_previous_get) {
   {
-    struct linked_signature_list_item_t *arg1 = (struct linked_signature_list_item_t *) 0 ;
+    struct fiftyoneDegrees_linked_signature_list_item_t *arg1 = (struct fiftyoneDegrees_linked_signature_list_item_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    struct linked_signature_list_item_t *result = 0 ;
+    struct fiftyoneDegrees_linked_signature_list_item_t *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: LinkedSignatureListItem_previous_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesLinkedSignatureListItem_previous_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_linked_signature_list_item_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "LinkedSignatureListItem_previous_get" "', argument " "1"" of type '" "struct linked_signature_list_item_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesLinkedSignatureListItem_previous_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_linked_signature_list_item_t *""'"); 
     }
-    arg1 = (struct linked_signature_list_item_t *)(argp1);
-    result = (struct linked_signature_list_item_t *) ((arg1)->previous);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_linked_signature_list_item_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_linked_signature_list_item_t *)(argp1);
+    result = (struct fiftyoneDegrees_linked_signature_list_item_t *) ((arg1)->previous);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -7432,9 +7432,9 @@ XS(_wrap_LinkedSignatureListItem_previous_get) {
 }
 
 
-XS(_wrap_LinkedSignatureListItem_rankedSignatureIndex_set) {
+XS(_wrap_fiftyoneDegreesLinkedSignatureListItem_rankedSignatureIndex_set) {
   {
-    struct linked_signature_list_item_t *arg1 = (struct linked_signature_list_item_t *) 0 ;
+    struct fiftyoneDegrees_linked_signature_list_item_t *arg1 = (struct fiftyoneDegrees_linked_signature_list_item_t *) 0 ;
     int32_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -7444,20 +7444,20 @@ XS(_wrap_LinkedSignatureListItem_rankedSignatureIndex_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: LinkedSignatureListItem_rankedSignatureIndex_set(self,rankedSignatureIndex);");
+      SWIG_croak("Usage: fiftyoneDegreesLinkedSignatureListItem_rankedSignatureIndex_set(self,rankedSignatureIndex);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_linked_signature_list_item_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "LinkedSignatureListItem_rankedSignatureIndex_set" "', argument " "1"" of type '" "struct linked_signature_list_item_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesLinkedSignatureListItem_rankedSignatureIndex_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_linked_signature_list_item_t *""'"); 
     }
-    arg1 = (struct linked_signature_list_item_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_linked_signature_list_item_t *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "LinkedSignatureListItem_rankedSignatureIndex_set" "', argument " "2"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesLinkedSignatureListItem_rankedSignatureIndex_set" "', argument " "2"" of type '" "int32_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "LinkedSignatureListItem_rankedSignatureIndex_set" "', argument " "2"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesLinkedSignatureListItem_rankedSignatureIndex_set" "', argument " "2"" of type '" "int32_t""'");
       } else {
         arg2 = *((int32_t *)(argp2));
       }
@@ -7473,9 +7473,9 @@ XS(_wrap_LinkedSignatureListItem_rankedSignatureIndex_set) {
 }
 
 
-XS(_wrap_LinkedSignatureListItem_rankedSignatureIndex_get) {
+XS(_wrap_fiftyoneDegreesLinkedSignatureListItem_rankedSignatureIndex_get) {
   {
-    struct linked_signature_list_item_t *arg1 = (struct linked_signature_list_item_t *) 0 ;
+    struct fiftyoneDegrees_linked_signature_list_item_t *arg1 = (struct fiftyoneDegrees_linked_signature_list_item_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -7483,13 +7483,13 @@ XS(_wrap_LinkedSignatureListItem_rankedSignatureIndex_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: LinkedSignatureListItem_rankedSignatureIndex_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesLinkedSignatureListItem_rankedSignatureIndex_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_linked_signature_list_item_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "LinkedSignatureListItem_rankedSignatureIndex_get" "', argument " "1"" of type '" "struct linked_signature_list_item_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesLinkedSignatureListItem_rankedSignatureIndex_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_linked_signature_list_item_t *""'"); 
     }
-    arg1 = (struct linked_signature_list_item_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_linked_signature_list_item_t *)(argp1);
     result =  ((arg1)->rankedSignatureIndex);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -7501,9 +7501,9 @@ XS(_wrap_LinkedSignatureListItem_rankedSignatureIndex_get) {
 }
 
 
-XS(_wrap_LinkedSignatureListItem_frequency_set) {
+XS(_wrap_fiftyoneDegreesLinkedSignatureListItem_frequency_set) {
   {
-    struct linked_signature_list_item_t *arg1 = (struct linked_signature_list_item_t *) 0 ;
+    struct fiftyoneDegrees_linked_signature_list_item_t *arg1 = (struct fiftyoneDegrees_linked_signature_list_item_t *) 0 ;
     int32_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -7513,20 +7513,20 @@ XS(_wrap_LinkedSignatureListItem_frequency_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: LinkedSignatureListItem_frequency_set(self,frequency);");
+      SWIG_croak("Usage: fiftyoneDegreesLinkedSignatureListItem_frequency_set(self,frequency);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_linked_signature_list_item_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "LinkedSignatureListItem_frequency_set" "', argument " "1"" of type '" "struct linked_signature_list_item_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesLinkedSignatureListItem_frequency_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_linked_signature_list_item_t *""'"); 
     }
-    arg1 = (struct linked_signature_list_item_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_linked_signature_list_item_t *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "LinkedSignatureListItem_frequency_set" "', argument " "2"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesLinkedSignatureListItem_frequency_set" "', argument " "2"" of type '" "int32_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "LinkedSignatureListItem_frequency_set" "', argument " "2"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesLinkedSignatureListItem_frequency_set" "', argument " "2"" of type '" "int32_t""'");
       } else {
         arg2 = *((int32_t *)(argp2));
       }
@@ -7542,9 +7542,9 @@ XS(_wrap_LinkedSignatureListItem_frequency_set) {
 }
 
 
-XS(_wrap_LinkedSignatureListItem_frequency_get) {
+XS(_wrap_fiftyoneDegreesLinkedSignatureListItem_frequency_get) {
   {
-    struct linked_signature_list_item_t *arg1 = (struct linked_signature_list_item_t *) 0 ;
+    struct fiftyoneDegrees_linked_signature_list_item_t *arg1 = (struct fiftyoneDegrees_linked_signature_list_item_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -7552,13 +7552,13 @@ XS(_wrap_LinkedSignatureListItem_frequency_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: LinkedSignatureListItem_frequency_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesLinkedSignatureListItem_frequency_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_linked_signature_list_item_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "LinkedSignatureListItem_frequency_get" "', argument " "1"" of type '" "struct linked_signature_list_item_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesLinkedSignatureListItem_frequency_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_linked_signature_list_item_t *""'"); 
     }
-    arg1 = (struct linked_signature_list_item_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_linked_signature_list_item_t *)(argp1);
     result =  ((arg1)->frequency);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -7570,17 +7570,17 @@ XS(_wrap_LinkedSignatureListItem_frequency_get) {
 }
 
 
-XS(_wrap_new_LinkedSignatureListItem) {
+XS(_wrap_new_fiftyoneDegreesLinkedSignatureListItem) {
   {
     int argvi = 0;
-    struct linked_signature_list_item_t *result = 0 ;
+    struct fiftyoneDegrees_linked_signature_list_item_t *result = 0 ;
     dXSARGS;
     
     if ((items < 0) || (items > 0)) {
-      SWIG_croak("Usage: new_LinkedSignatureListItem();");
+      SWIG_croak("Usage: new_fiftyoneDegreesLinkedSignatureListItem();");
     }
-    result = (struct linked_signature_list_item_t *)calloc(1, sizeof(struct linked_signature_list_item_t));
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_linked_signature_list_item_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    result = (struct fiftyoneDegrees_linked_signature_list_item_t *)calloc(1, sizeof(struct fiftyoneDegrees_linked_signature_list_item_t));
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
     XSRETURN(argvi);
   fail:
     SWIG_croak_null();
@@ -7588,22 +7588,22 @@ XS(_wrap_new_LinkedSignatureListItem) {
 }
 
 
-XS(_wrap_delete_LinkedSignatureListItem) {
+XS(_wrap_delete_fiftyoneDegreesLinkedSignatureListItem) {
   {
-    struct linked_signature_list_item_t *arg1 = (struct linked_signature_list_item_t *) 0 ;
+    struct fiftyoneDegrees_linked_signature_list_item_t *arg1 = (struct fiftyoneDegrees_linked_signature_list_item_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: delete_LinkedSignatureListItem(self);");
+      SWIG_croak("Usage: delete_fiftyoneDegreesLinkedSignatureListItem(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_linked_signature_list_item_t, SWIG_POINTER_DISOWN |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_LinkedSignatureListItem" "', argument " "1"" of type '" "struct linked_signature_list_item_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_fiftyoneDegreesLinkedSignatureListItem" "', argument " "1"" of type '" "struct fiftyoneDegrees_linked_signature_list_item_t *""'"); 
     }
-    arg1 = (struct linked_signature_list_item_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_linked_signature_list_item_t *)(argp1);
     free((char *) arg1);
     ST(argvi) = sv_newmortal();
     
@@ -7615,10 +7615,10 @@ XS(_wrap_delete_LinkedSignatureListItem) {
 }
 
 
-XS(_wrap_LinkedSignatureList_items_set) {
+XS(_wrap_fiftyoneDegreesLinkedSignatureList_items_set) {
   {
-    struct linked_signature_list_t *arg1 = (struct linked_signature_list_t *) 0 ;
-    LinkedSignatureListItem *arg2 = (LinkedSignatureListItem *) 0 ;
+    struct fiftyoneDegrees_linked_signature_list_t *arg1 = (struct fiftyoneDegrees_linked_signature_list_t *) 0 ;
+    fiftyoneDegreesLinkedSignatureListItem *arg2 = (fiftyoneDegreesLinkedSignatureListItem *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -7627,19 +7627,19 @@ XS(_wrap_LinkedSignatureList_items_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: LinkedSignatureList_items_set(self,items);");
+      SWIG_croak("Usage: fiftyoneDegreesLinkedSignatureList_items_set(self,items);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_linked_signature_list_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "LinkedSignatureList_items_set" "', argument " "1"" of type '" "struct linked_signature_list_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesLinkedSignatureList_items_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_linked_signature_list_t *""'"); 
     }
-    arg1 = (struct linked_signature_list_t *)(argp1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_linked_signature_list_item_t, SWIG_POINTER_DISOWN |  0 );
+    arg1 = (struct fiftyoneDegrees_linked_signature_list_t *)(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "LinkedSignatureList_items_set" "', argument " "2"" of type '" "LinkedSignatureListItem const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesLinkedSignatureList_items_set" "', argument " "2"" of type '" "fiftyoneDegreesLinkedSignatureListItem const *""'"); 
     }
-    arg2 = (LinkedSignatureListItem *)(argp2);
-    if (arg1) (arg1)->items = (LinkedSignatureListItem const *)arg2;
+    arg2 = (fiftyoneDegreesLinkedSignatureListItem *)(argp2);
+    if (arg1) (arg1)->items = (fiftyoneDegreesLinkedSignatureListItem const *)arg2;
     ST(argvi) = sv_newmortal();
     
     
@@ -7652,25 +7652,25 @@ XS(_wrap_LinkedSignatureList_items_set) {
 }
 
 
-XS(_wrap_LinkedSignatureList_items_get) {
+XS(_wrap_fiftyoneDegreesLinkedSignatureList_items_get) {
   {
-    struct linked_signature_list_t *arg1 = (struct linked_signature_list_t *) 0 ;
+    struct fiftyoneDegrees_linked_signature_list_t *arg1 = (struct fiftyoneDegrees_linked_signature_list_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    LinkedSignatureListItem *result = 0 ;
+    fiftyoneDegreesLinkedSignatureListItem *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: LinkedSignatureList_items_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesLinkedSignatureList_items_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_linked_signature_list_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "LinkedSignatureList_items_get" "', argument " "1"" of type '" "struct linked_signature_list_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesLinkedSignatureList_items_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_linked_signature_list_t *""'"); 
     }
-    arg1 = (struct linked_signature_list_t *)(argp1);
-    result = (LinkedSignatureListItem *) ((arg1)->items);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_linked_signature_list_item_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_linked_signature_list_t *)(argp1);
+    result = (fiftyoneDegreesLinkedSignatureListItem *) ((arg1)->items);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -7680,10 +7680,10 @@ XS(_wrap_LinkedSignatureList_items_get) {
 }
 
 
-XS(_wrap_LinkedSignatureList_first_set) {
+XS(_wrap_fiftyoneDegreesLinkedSignatureList_first_set) {
   {
-    struct linked_signature_list_t *arg1 = (struct linked_signature_list_t *) 0 ;
-    LinkedSignatureListItem *arg2 = (LinkedSignatureListItem *) 0 ;
+    struct fiftyoneDegrees_linked_signature_list_t *arg1 = (struct fiftyoneDegrees_linked_signature_list_t *) 0 ;
+    fiftyoneDegreesLinkedSignatureListItem *arg2 = (fiftyoneDegreesLinkedSignatureListItem *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -7692,18 +7692,18 @@ XS(_wrap_LinkedSignatureList_first_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: LinkedSignatureList_first_set(self,first);");
+      SWIG_croak("Usage: fiftyoneDegreesLinkedSignatureList_first_set(self,first);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_linked_signature_list_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "LinkedSignatureList_first_set" "', argument " "1"" of type '" "struct linked_signature_list_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesLinkedSignatureList_first_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_linked_signature_list_t *""'"); 
     }
-    arg1 = (struct linked_signature_list_t *)(argp1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_linked_signature_list_item_t, SWIG_POINTER_DISOWN |  0 );
+    arg1 = (struct fiftyoneDegrees_linked_signature_list_t *)(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "LinkedSignatureList_first_set" "', argument " "2"" of type '" "LinkedSignatureListItem *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesLinkedSignatureList_first_set" "', argument " "2"" of type '" "fiftyoneDegreesLinkedSignatureListItem *""'"); 
     }
-    arg2 = (LinkedSignatureListItem *)(argp2);
+    arg2 = (fiftyoneDegreesLinkedSignatureListItem *)(argp2);
     if (arg1) (arg1)->first = arg2;
     ST(argvi) = sv_newmortal();
     
@@ -7717,25 +7717,25 @@ XS(_wrap_LinkedSignatureList_first_set) {
 }
 
 
-XS(_wrap_LinkedSignatureList_first_get) {
+XS(_wrap_fiftyoneDegreesLinkedSignatureList_first_get) {
   {
-    struct linked_signature_list_t *arg1 = (struct linked_signature_list_t *) 0 ;
+    struct fiftyoneDegrees_linked_signature_list_t *arg1 = (struct fiftyoneDegrees_linked_signature_list_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    LinkedSignatureListItem *result = 0 ;
+    fiftyoneDegreesLinkedSignatureListItem *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: LinkedSignatureList_first_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesLinkedSignatureList_first_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_linked_signature_list_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "LinkedSignatureList_first_get" "', argument " "1"" of type '" "struct linked_signature_list_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesLinkedSignatureList_first_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_linked_signature_list_t *""'"); 
     }
-    arg1 = (struct linked_signature_list_t *)(argp1);
-    result = (LinkedSignatureListItem *) ((arg1)->first);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_linked_signature_list_item_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_linked_signature_list_t *)(argp1);
+    result = (fiftyoneDegreesLinkedSignatureListItem *) ((arg1)->first);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -7745,10 +7745,10 @@ XS(_wrap_LinkedSignatureList_first_get) {
 }
 
 
-XS(_wrap_LinkedSignatureList_last_set) {
+XS(_wrap_fiftyoneDegreesLinkedSignatureList_last_set) {
   {
-    struct linked_signature_list_t *arg1 = (struct linked_signature_list_t *) 0 ;
-    LinkedSignatureListItem *arg2 = (LinkedSignatureListItem *) 0 ;
+    struct fiftyoneDegrees_linked_signature_list_t *arg1 = (struct fiftyoneDegrees_linked_signature_list_t *) 0 ;
+    fiftyoneDegreesLinkedSignatureListItem *arg2 = (fiftyoneDegreesLinkedSignatureListItem *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -7757,18 +7757,18 @@ XS(_wrap_LinkedSignatureList_last_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: LinkedSignatureList_last_set(self,last);");
+      SWIG_croak("Usage: fiftyoneDegreesLinkedSignatureList_last_set(self,last);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_linked_signature_list_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "LinkedSignatureList_last_set" "', argument " "1"" of type '" "struct linked_signature_list_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesLinkedSignatureList_last_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_linked_signature_list_t *""'"); 
     }
-    arg1 = (struct linked_signature_list_t *)(argp1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_linked_signature_list_item_t, SWIG_POINTER_DISOWN |  0 );
+    arg1 = (struct fiftyoneDegrees_linked_signature_list_t *)(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "LinkedSignatureList_last_set" "', argument " "2"" of type '" "LinkedSignatureListItem *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesLinkedSignatureList_last_set" "', argument " "2"" of type '" "fiftyoneDegreesLinkedSignatureListItem *""'"); 
     }
-    arg2 = (LinkedSignatureListItem *)(argp2);
+    arg2 = (fiftyoneDegreesLinkedSignatureListItem *)(argp2);
     if (arg1) (arg1)->last = arg2;
     ST(argvi) = sv_newmortal();
     
@@ -7782,25 +7782,25 @@ XS(_wrap_LinkedSignatureList_last_set) {
 }
 
 
-XS(_wrap_LinkedSignatureList_last_get) {
+XS(_wrap_fiftyoneDegreesLinkedSignatureList_last_get) {
   {
-    struct linked_signature_list_t *arg1 = (struct linked_signature_list_t *) 0 ;
+    struct fiftyoneDegrees_linked_signature_list_t *arg1 = (struct fiftyoneDegrees_linked_signature_list_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    LinkedSignatureListItem *result = 0 ;
+    fiftyoneDegreesLinkedSignatureListItem *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: LinkedSignatureList_last_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesLinkedSignatureList_last_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_linked_signature_list_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "LinkedSignatureList_last_get" "', argument " "1"" of type '" "struct linked_signature_list_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesLinkedSignatureList_last_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_linked_signature_list_t *""'"); 
     }
-    arg1 = (struct linked_signature_list_t *)(argp1);
-    result = (LinkedSignatureListItem *) ((arg1)->last);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_linked_signature_list_item_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_linked_signature_list_t *)(argp1);
+    result = (fiftyoneDegreesLinkedSignatureListItem *) ((arg1)->last);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -7810,9 +7810,9 @@ XS(_wrap_LinkedSignatureList_last_get) {
 }
 
 
-XS(_wrap_LinkedSignatureList_count_set) {
+XS(_wrap_fiftyoneDegreesLinkedSignatureList_count_set) {
   {
-    struct linked_signature_list_t *arg1 = (struct linked_signature_list_t *) 0 ;
+    struct fiftyoneDegrees_linked_signature_list_t *arg1 = (struct fiftyoneDegrees_linked_signature_list_t *) 0 ;
     int32_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -7822,20 +7822,20 @@ XS(_wrap_LinkedSignatureList_count_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: LinkedSignatureList_count_set(self,count);");
+      SWIG_croak("Usage: fiftyoneDegreesLinkedSignatureList_count_set(self,count);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_linked_signature_list_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "LinkedSignatureList_count_set" "', argument " "1"" of type '" "struct linked_signature_list_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesLinkedSignatureList_count_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_linked_signature_list_t *""'"); 
     }
-    arg1 = (struct linked_signature_list_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_linked_signature_list_t *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "LinkedSignatureList_count_set" "', argument " "2"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesLinkedSignatureList_count_set" "', argument " "2"" of type '" "int32_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "LinkedSignatureList_count_set" "', argument " "2"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesLinkedSignatureList_count_set" "', argument " "2"" of type '" "int32_t""'");
       } else {
         arg2 = *((int32_t *)(argp2));
       }
@@ -7851,9 +7851,9 @@ XS(_wrap_LinkedSignatureList_count_set) {
 }
 
 
-XS(_wrap_LinkedSignatureList_count_get) {
+XS(_wrap_fiftyoneDegreesLinkedSignatureList_count_get) {
   {
-    struct linked_signature_list_t *arg1 = (struct linked_signature_list_t *) 0 ;
+    struct fiftyoneDegrees_linked_signature_list_t *arg1 = (struct fiftyoneDegrees_linked_signature_list_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -7861,13 +7861,13 @@ XS(_wrap_LinkedSignatureList_count_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: LinkedSignatureList_count_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesLinkedSignatureList_count_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_linked_signature_list_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "LinkedSignatureList_count_get" "', argument " "1"" of type '" "struct linked_signature_list_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesLinkedSignatureList_count_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_linked_signature_list_t *""'"); 
     }
-    arg1 = (struct linked_signature_list_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_linked_signature_list_t *)(argp1);
     result =  ((arg1)->count);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -7879,10 +7879,10 @@ XS(_wrap_LinkedSignatureList_count_get) {
 }
 
 
-XS(_wrap_LinkedSignatureList_current_set) {
+XS(_wrap_fiftyoneDegreesLinkedSignatureList_current_set) {
   {
-    struct linked_signature_list_t *arg1 = (struct linked_signature_list_t *) 0 ;
-    LinkedSignatureListItem *arg2 = (LinkedSignatureListItem *) 0 ;
+    struct fiftyoneDegrees_linked_signature_list_t *arg1 = (struct fiftyoneDegrees_linked_signature_list_t *) 0 ;
+    fiftyoneDegreesLinkedSignatureListItem *arg2 = (fiftyoneDegreesLinkedSignatureListItem *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -7891,18 +7891,18 @@ XS(_wrap_LinkedSignatureList_current_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: LinkedSignatureList_current_set(self,current);");
+      SWIG_croak("Usage: fiftyoneDegreesLinkedSignatureList_current_set(self,current);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_linked_signature_list_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "LinkedSignatureList_current_set" "', argument " "1"" of type '" "struct linked_signature_list_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesLinkedSignatureList_current_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_linked_signature_list_t *""'"); 
     }
-    arg1 = (struct linked_signature_list_t *)(argp1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_linked_signature_list_item_t, SWIG_POINTER_DISOWN |  0 );
+    arg1 = (struct fiftyoneDegrees_linked_signature_list_t *)(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "LinkedSignatureList_current_set" "', argument " "2"" of type '" "LinkedSignatureListItem *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesLinkedSignatureList_current_set" "', argument " "2"" of type '" "fiftyoneDegreesLinkedSignatureListItem *""'"); 
     }
-    arg2 = (LinkedSignatureListItem *)(argp2);
+    arg2 = (fiftyoneDegreesLinkedSignatureListItem *)(argp2);
     if (arg1) (arg1)->current = arg2;
     ST(argvi) = sv_newmortal();
     
@@ -7916,25 +7916,25 @@ XS(_wrap_LinkedSignatureList_current_set) {
 }
 
 
-XS(_wrap_LinkedSignatureList_current_get) {
+XS(_wrap_fiftyoneDegreesLinkedSignatureList_current_get) {
   {
-    struct linked_signature_list_t *arg1 = (struct linked_signature_list_t *) 0 ;
+    struct fiftyoneDegrees_linked_signature_list_t *arg1 = (struct fiftyoneDegrees_linked_signature_list_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    LinkedSignatureListItem *result = 0 ;
+    fiftyoneDegreesLinkedSignatureListItem *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: LinkedSignatureList_current_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesLinkedSignatureList_current_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_linked_signature_list_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "LinkedSignatureList_current_get" "', argument " "1"" of type '" "struct linked_signature_list_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesLinkedSignatureList_current_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_linked_signature_list_t *""'"); 
     }
-    arg1 = (struct linked_signature_list_t *)(argp1);
-    result = (LinkedSignatureListItem *) ((arg1)->current);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_linked_signature_list_item_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_linked_signature_list_t *)(argp1);
+    result = (fiftyoneDegreesLinkedSignatureListItem *) ((arg1)->current);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -7944,17 +7944,17 @@ XS(_wrap_LinkedSignatureList_current_get) {
 }
 
 
-XS(_wrap_new_LinkedSignatureList) {
+XS(_wrap_new_fiftyoneDegreesLinkedSignatureList) {
   {
     int argvi = 0;
-    struct linked_signature_list_t *result = 0 ;
+    struct fiftyoneDegrees_linked_signature_list_t *result = 0 ;
     dXSARGS;
     
     if ((items < 0) || (items > 0)) {
-      SWIG_croak("Usage: new_LinkedSignatureList();");
+      SWIG_croak("Usage: new_fiftyoneDegreesLinkedSignatureList();");
     }
-    result = (struct linked_signature_list_t *)calloc(1, sizeof(struct linked_signature_list_t));
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_linked_signature_list_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    result = (struct fiftyoneDegrees_linked_signature_list_t *)calloc(1, sizeof(struct fiftyoneDegrees_linked_signature_list_t));
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
     XSRETURN(argvi);
   fail:
     SWIG_croak_null();
@@ -7962,22 +7962,22 @@ XS(_wrap_new_LinkedSignatureList) {
 }
 
 
-XS(_wrap_delete_LinkedSignatureList) {
+XS(_wrap_delete_fiftyoneDegreesLinkedSignatureList) {
   {
-    struct linked_signature_list_t *arg1 = (struct linked_signature_list_t *) 0 ;
+    struct fiftyoneDegrees_linked_signature_list_t *arg1 = (struct fiftyoneDegrees_linked_signature_list_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: delete_LinkedSignatureList(self);");
+      SWIG_croak("Usage: delete_fiftyoneDegreesLinkedSignatureList(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_linked_signature_list_t, SWIG_POINTER_DISOWN |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_LinkedSignatureList" "', argument " "1"" of type '" "struct linked_signature_list_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_fiftyoneDegreesLinkedSignatureList" "', argument " "1"" of type '" "struct fiftyoneDegrees_linked_signature_list_t *""'"); 
     }
-    arg1 = (struct linked_signature_list_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_linked_signature_list_t *)(argp1);
     free((char *) arg1);
     ST(argvi) = sv_newmortal();
     
@@ -7989,10 +7989,10 @@ XS(_wrap_delete_LinkedSignatureList) {
 }
 
 
-XS(_wrap_Workset_dataSet_set) {
+XS(_wrap_fiftyoneDegreesWorkset_dataSet_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
-    DataSet *arg2 = (DataSet *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
+    fiftyoneDegreesDataSet *arg2 = (fiftyoneDegreesDataSet *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -8001,19 +8001,19 @@ XS(_wrap_Workset_dataSet_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_dataSet_set(self,dataSet);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_dataSet_set(self,dataSet);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_dataSet_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_dataSet_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_dataset_t, SWIG_POINTER_DISOWN |  0 );
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_fiftyoneDegrees_dataset_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_dataSet_set" "', argument " "2"" of type '" "DataSet const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_dataSet_set" "', argument " "2"" of type '" "fiftyoneDegreesDataSet const *""'"); 
     }
-    arg2 = (DataSet *)(argp2);
-    if (arg1) (arg1)->dataSet = (DataSet const *)arg2;
+    arg2 = (fiftyoneDegreesDataSet *)(argp2);
+    if (arg1) (arg1)->dataSet = (fiftyoneDegreesDataSet const *)arg2;
     ST(argvi) = sv_newmortal();
     
     
@@ -8026,25 +8026,25 @@ XS(_wrap_Workset_dataSet_set) {
 }
 
 
-XS(_wrap_Workset_dataSet_get) {
+XS(_wrap_fiftyoneDegreesWorkset_dataSet_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    DataSet *result = 0 ;
+    fiftyoneDegreesDataSet *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_dataSet_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_dataSet_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_dataSet_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_dataSet_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
-    result = (DataSet *) ((arg1)->dataSet);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_dataset_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
+    result = (fiftyoneDegreesDataSet *) ((arg1)->dataSet);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -8054,9 +8054,9 @@ XS(_wrap_Workset_dataSet_get) {
 }
 
 
-XS(_wrap_Workset_input_set) {
+XS(_wrap_fiftyoneDegreesWorkset_input_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     char *arg2 = (char *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -8067,16 +8067,16 @@ XS(_wrap_Workset_input_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_input_set(self,input);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_input_set(self,input);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_input_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_input_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     res2 = SWIG_AsCharPtrAndSize(ST(1), &buf2, NULL, &alloc2);
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_input_set" "', argument " "2"" of type '" "char *""'");
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_input_set" "', argument " "2"" of type '" "char *""'");
     }
     arg2 = (char *)(buf2);
     if (arg1->input) free((char*)arg1->input);
@@ -8098,9 +8098,9 @@ XS(_wrap_Workset_input_set) {
 }
 
 
-XS(_wrap_Workset_input_get) {
+XS(_wrap_fiftyoneDegreesWorkset_input_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -8108,13 +8108,13 @@ XS(_wrap_Workset_input_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_input_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_input_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_input_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_input_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     result = (char *) ((arg1)->input);
     ST(argvi) = SWIG_FromCharPtr((const char *)result); argvi++ ;
     
@@ -8126,9 +8126,9 @@ XS(_wrap_Workset_input_get) {
 }
 
 
-XS(_wrap_Workset_targetUserAgent_set) {
+XS(_wrap_fiftyoneDegreesWorkset_targetUserAgent_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     char *arg2 = (char *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -8139,16 +8139,16 @@ XS(_wrap_Workset_targetUserAgent_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_targetUserAgent_set(self,targetUserAgent);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_targetUserAgent_set(self,targetUserAgent);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_targetUserAgent_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_targetUserAgent_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     res2 = SWIG_AsCharPtrAndSize(ST(1), &buf2, NULL, &alloc2);
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_targetUserAgent_set" "', argument " "2"" of type '" "char *""'");
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_targetUserAgent_set" "', argument " "2"" of type '" "char *""'");
     }
     arg2 = (char *)(buf2);
     if (arg1->targetUserAgent) free((char*)arg1->targetUserAgent);
@@ -8170,9 +8170,9 @@ XS(_wrap_Workset_targetUserAgent_set) {
 }
 
 
-XS(_wrap_Workset_targetUserAgent_get) {
+XS(_wrap_fiftyoneDegreesWorkset_targetUserAgent_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -8180,13 +8180,13 @@ XS(_wrap_Workset_targetUserAgent_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_targetUserAgent_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_targetUserAgent_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_targetUserAgent_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_targetUserAgent_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     result = (char *) ((arg1)->targetUserAgent);
     ST(argvi) = SWIG_FromCharPtr((const char *)result); argvi++ ;
     
@@ -8198,9 +8198,9 @@ XS(_wrap_Workset_targetUserAgent_get) {
 }
 
 
-XS(_wrap_Workset_targetUserAgentArray_set) {
+XS(_wrap_fiftyoneDegreesWorkset_targetUserAgentArray_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     byte *arg2 = (byte *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -8210,16 +8210,16 @@ XS(_wrap_Workset_targetUserAgentArray_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_targetUserAgentArray_set(self,targetUserAgentArray);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_targetUserAgentArray_set(self,targetUserAgentArray);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_targetUserAgentArray_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_targetUserAgentArray_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_unsigned_char, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_targetUserAgentArray_set" "', argument " "2"" of type '" "byte *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_targetUserAgentArray_set" "', argument " "2"" of type '" "byte *""'"); 
     }
     arg2 = (byte *)(argp2);
     if (arg1) (arg1)->targetUserAgentArray = arg2;
@@ -8235,9 +8235,9 @@ XS(_wrap_Workset_targetUserAgentArray_set) {
 }
 
 
-XS(_wrap_Workset_targetUserAgentArray_get) {
+XS(_wrap_fiftyoneDegreesWorkset_targetUserAgentArray_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -8245,13 +8245,13 @@ XS(_wrap_Workset_targetUserAgentArray_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_targetUserAgentArray_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_targetUserAgentArray_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_targetUserAgentArray_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_targetUserAgentArray_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     result = (byte *) ((arg1)->targetUserAgentArray);
     ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_unsigned_char, 0 | 0); argvi++ ;
     
@@ -8263,9 +8263,9 @@ XS(_wrap_Workset_targetUserAgentArray_get) {
 }
 
 
-XS(_wrap_Workset_targetUserAgentArrayLength_set) {
+XS(_wrap_fiftyoneDegreesWorkset_targetUserAgentArrayLength_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     int32_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -8275,20 +8275,20 @@ XS(_wrap_Workset_targetUserAgentArrayLength_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_targetUserAgentArrayLength_set(self,targetUserAgentArrayLength);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_targetUserAgentArrayLength_set(self,targetUserAgentArrayLength);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_targetUserAgentArrayLength_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_targetUserAgentArrayLength_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_targetUserAgentArrayLength_set" "', argument " "2"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_targetUserAgentArrayLength_set" "', argument " "2"" of type '" "int32_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Workset_targetUserAgentArrayLength_set" "', argument " "2"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesWorkset_targetUserAgentArrayLength_set" "', argument " "2"" of type '" "int32_t""'");
       } else {
         arg2 = *((int32_t *)(argp2));
       }
@@ -8304,9 +8304,9 @@ XS(_wrap_Workset_targetUserAgentArrayLength_set) {
 }
 
 
-XS(_wrap_Workset_targetUserAgentArrayLength_get) {
+XS(_wrap_fiftyoneDegreesWorkset_targetUserAgentArrayLength_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -8314,13 +8314,13 @@ XS(_wrap_Workset_targetUserAgentArrayLength_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_targetUserAgentArrayLength_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_targetUserAgentArrayLength_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_targetUserAgentArrayLength_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_targetUserAgentArrayLength_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     result =  ((arg1)->targetUserAgentArrayLength);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -8332,9 +8332,9 @@ XS(_wrap_Workset_targetUserAgentArrayLength_get) {
 }
 
 
-XS(_wrap_Workset_relevantNodes_set) {
+XS(_wrap_fiftyoneDegreesWorkset_relevantNodes_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     char *arg2 = (char *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -8345,16 +8345,16 @@ XS(_wrap_Workset_relevantNodes_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_relevantNodes_set(self,relevantNodes);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_relevantNodes_set(self,relevantNodes);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_relevantNodes_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_relevantNodes_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     res2 = SWIG_AsCharPtrAndSize(ST(1), &buf2, NULL, &alloc2);
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_relevantNodes_set" "', argument " "2"" of type '" "char *""'");
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_relevantNodes_set" "', argument " "2"" of type '" "char *""'");
     }
     arg2 = (char *)(buf2);
     if (arg1->relevantNodes) free((char*)arg1->relevantNodes);
@@ -8376,9 +8376,9 @@ XS(_wrap_Workset_relevantNodes_set) {
 }
 
 
-XS(_wrap_Workset_relevantNodes_get) {
+XS(_wrap_fiftyoneDegreesWorkset_relevantNodes_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -8386,13 +8386,13 @@ XS(_wrap_Workset_relevantNodes_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_relevantNodes_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_relevantNodes_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_relevantNodes_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_relevantNodes_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     result = (char *) ((arg1)->relevantNodes);
     ST(argvi) = SWIG_FromCharPtr((const char *)result); argvi++ ;
     
@@ -8404,9 +8404,9 @@ XS(_wrap_Workset_relevantNodes_get) {
 }
 
 
-XS(_wrap_Workset_closestNodes_set) {
+XS(_wrap_fiftyoneDegreesWorkset_closestNodes_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     char *arg2 = (char *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -8417,16 +8417,16 @@ XS(_wrap_Workset_closestNodes_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_closestNodes_set(self,closestNodes);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_closestNodes_set(self,closestNodes);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_closestNodes_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_closestNodes_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     res2 = SWIG_AsCharPtrAndSize(ST(1), &buf2, NULL, &alloc2);
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_closestNodes_set" "', argument " "2"" of type '" "char *""'");
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_closestNodes_set" "', argument " "2"" of type '" "char *""'");
     }
     arg2 = (char *)(buf2);
     if (arg1->closestNodes) free((char*)arg1->closestNodes);
@@ -8448,9 +8448,9 @@ XS(_wrap_Workset_closestNodes_set) {
 }
 
 
-XS(_wrap_Workset_closestNodes_get) {
+XS(_wrap_fiftyoneDegreesWorkset_closestNodes_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -8458,13 +8458,13 @@ XS(_wrap_Workset_closestNodes_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_closestNodes_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_closestNodes_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_closestNodes_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_closestNodes_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     result = (char *) ((arg1)->closestNodes);
     ST(argvi) = SWIG_FromCharPtr((const char *)result); argvi++ ;
     
@@ -8476,10 +8476,10 @@ XS(_wrap_Workset_closestNodes_get) {
 }
 
 
-XS(_wrap_Workset_profiles_set) {
+XS(_wrap_fiftyoneDegreesWorkset_profiles_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
-    Profile **arg2 = (Profile **) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
+    fiftyoneDegreesProfile **arg2 = (fiftyoneDegreesProfile **) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -8488,19 +8488,19 @@ XS(_wrap_Workset_profiles_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_profiles_set(self,profiles);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_profiles_set(self,profiles);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_profiles_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_profiles_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_p_profile_t, 0 |  0 );
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_p_fiftyoneDegrees_profile_t, 0 |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_profiles_set" "', argument " "2"" of type '" "Profile const **""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_profiles_set" "', argument " "2"" of type '" "fiftyoneDegreesProfile const **""'"); 
     }
-    arg2 = (Profile **)(argp2);
-    if (arg1) (arg1)->profiles = (Profile const **)arg2;
+    arg2 = (fiftyoneDegreesProfile **)(argp2);
+    if (arg1) (arg1)->profiles = (fiftyoneDegreesProfile const **)arg2;
     ST(argvi) = sv_newmortal();
     
     
@@ -8513,25 +8513,25 @@ XS(_wrap_Workset_profiles_set) {
 }
 
 
-XS(_wrap_Workset_profiles_get) {
+XS(_wrap_fiftyoneDegreesWorkset_profiles_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    Profile **result = 0 ;
+    fiftyoneDegreesProfile **result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_profiles_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_profiles_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_profiles_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_profiles_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
-    result = (Profile **) ((arg1)->profiles);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_p_profile_t, 0 | 0); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
+    result = (fiftyoneDegreesProfile **) ((arg1)->profiles);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_p_fiftyoneDegrees_profile_t, 0 | 0); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -8541,9 +8541,9 @@ XS(_wrap_Workset_profiles_get) {
 }
 
 
-XS(_wrap_Workset_profileCount_set) {
+XS(_wrap_fiftyoneDegreesWorkset_profileCount_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     int32_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -8553,20 +8553,20 @@ XS(_wrap_Workset_profileCount_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_profileCount_set(self,profileCount);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_profileCount_set(self,profileCount);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_profileCount_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_profileCount_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_profileCount_set" "', argument " "2"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_profileCount_set" "', argument " "2"" of type '" "int32_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Workset_profileCount_set" "', argument " "2"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesWorkset_profileCount_set" "', argument " "2"" of type '" "int32_t""'");
       } else {
         arg2 = *((int32_t *)(argp2));
       }
@@ -8582,9 +8582,9 @@ XS(_wrap_Workset_profileCount_set) {
 }
 
 
-XS(_wrap_Workset_profileCount_get) {
+XS(_wrap_fiftyoneDegreesWorkset_profileCount_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -8592,13 +8592,13 @@ XS(_wrap_Workset_profileCount_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_profileCount_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_profileCount_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_profileCount_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_profileCount_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     result =  ((arg1)->profileCount);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -8610,10 +8610,10 @@ XS(_wrap_Workset_profileCount_get) {
 }
 
 
-XS(_wrap_Workset_nodes_set) {
+XS(_wrap_fiftyoneDegreesWorkset_nodes_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
-    Node **arg2 = (Node **) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
+    fiftyoneDegreesNode **arg2 = (fiftyoneDegreesNode **) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -8622,19 +8622,19 @@ XS(_wrap_Workset_nodes_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_nodes_set(self,nodes);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_nodes_set(self,nodes);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_nodes_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_nodes_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_p_node_t, 0 |  0 );
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_p_fiftyoneDegrees_node_t, 0 |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_nodes_set" "', argument " "2"" of type '" "Node const **""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_nodes_set" "', argument " "2"" of type '" "fiftyoneDegreesNode const **""'"); 
     }
-    arg2 = (Node **)(argp2);
-    if (arg1) (arg1)->nodes = (Node const **)arg2;
+    arg2 = (fiftyoneDegreesNode **)(argp2);
+    if (arg1) (arg1)->nodes = (fiftyoneDegreesNode const **)arg2;
     ST(argvi) = sv_newmortal();
     
     
@@ -8647,25 +8647,25 @@ XS(_wrap_Workset_nodes_set) {
 }
 
 
-XS(_wrap_Workset_nodes_get) {
+XS(_wrap_fiftyoneDegreesWorkset_nodes_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    Node **result = 0 ;
+    fiftyoneDegreesNode **result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_nodes_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_nodes_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_nodes_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_nodes_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
-    result = (Node **) ((arg1)->nodes);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_p_node_t, 0 | 0); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
+    result = (fiftyoneDegreesNode **) ((arg1)->nodes);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_p_fiftyoneDegrees_node_t, 0 | 0); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -8675,10 +8675,10 @@ XS(_wrap_Workset_nodes_get) {
 }
 
 
-XS(_wrap_Workset_orderedNodes_set) {
+XS(_wrap_fiftyoneDegreesWorkset_orderedNodes_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
-    Node **arg2 = (Node **) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
+    fiftyoneDegreesNode **arg2 = (fiftyoneDegreesNode **) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -8687,19 +8687,19 @@ XS(_wrap_Workset_orderedNodes_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_orderedNodes_set(self,orderedNodes);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_orderedNodes_set(self,orderedNodes);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_orderedNodes_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_orderedNodes_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_p_node_t, 0 |  0 );
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_p_fiftyoneDegrees_node_t, 0 |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_orderedNodes_set" "', argument " "2"" of type '" "Node const **""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_orderedNodes_set" "', argument " "2"" of type '" "fiftyoneDegreesNode const **""'"); 
     }
-    arg2 = (Node **)(argp2);
-    if (arg1) (arg1)->orderedNodes = (Node const **)arg2;
+    arg2 = (fiftyoneDegreesNode **)(argp2);
+    if (arg1) (arg1)->orderedNodes = (fiftyoneDegreesNode const **)arg2;
     ST(argvi) = sv_newmortal();
     
     
@@ -8712,25 +8712,25 @@ XS(_wrap_Workset_orderedNodes_set) {
 }
 
 
-XS(_wrap_Workset_orderedNodes_get) {
+XS(_wrap_fiftyoneDegreesWorkset_orderedNodes_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    Node **result = 0 ;
+    fiftyoneDegreesNode **result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_orderedNodes_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_orderedNodes_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_orderedNodes_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_orderedNodes_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
-    result = (Node **) ((arg1)->orderedNodes);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_p_node_t, 0 | 0); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
+    result = (fiftyoneDegreesNode **) ((arg1)->orderedNodes);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_p_fiftyoneDegrees_node_t, 0 | 0); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -8740,9 +8740,9 @@ XS(_wrap_Workset_orderedNodes_get) {
 }
 
 
-XS(_wrap_Workset_nodeCount_set) {
+XS(_wrap_fiftyoneDegreesWorkset_nodeCount_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     int32_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -8752,20 +8752,20 @@ XS(_wrap_Workset_nodeCount_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_nodeCount_set(self,nodeCount);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_nodeCount_set(self,nodeCount);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_nodeCount_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_nodeCount_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_nodeCount_set" "', argument " "2"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_nodeCount_set" "', argument " "2"" of type '" "int32_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Workset_nodeCount_set" "', argument " "2"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesWorkset_nodeCount_set" "', argument " "2"" of type '" "int32_t""'");
       } else {
         arg2 = *((int32_t *)(argp2));
       }
@@ -8781,9 +8781,9 @@ XS(_wrap_Workset_nodeCount_set) {
 }
 
 
-XS(_wrap_Workset_nodeCount_get) {
+XS(_wrap_fiftyoneDegreesWorkset_nodeCount_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -8791,13 +8791,13 @@ XS(_wrap_Workset_nodeCount_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_nodeCount_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_nodeCount_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_nodeCount_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_nodeCount_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     result =  ((arg1)->nodeCount);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -8809,9 +8809,9 @@ XS(_wrap_Workset_nodeCount_get) {
 }
 
 
-XS(_wrap_Workset_closestNodeRankedSignatureIndex_set) {
+XS(_wrap_fiftyoneDegreesWorkset_closestNodeRankedSignatureIndex_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     int32_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -8821,20 +8821,20 @@ XS(_wrap_Workset_closestNodeRankedSignatureIndex_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_closestNodeRankedSignatureIndex_set(self,closestNodeRankedSignatureIndex);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_closestNodeRankedSignatureIndex_set(self,closestNodeRankedSignatureIndex);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_closestNodeRankedSignatureIndex_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_closestNodeRankedSignatureIndex_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_closestNodeRankedSignatureIndex_set" "', argument " "2"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_closestNodeRankedSignatureIndex_set" "', argument " "2"" of type '" "int32_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Workset_closestNodeRankedSignatureIndex_set" "', argument " "2"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesWorkset_closestNodeRankedSignatureIndex_set" "', argument " "2"" of type '" "int32_t""'");
       } else {
         arg2 = *((int32_t *)(argp2));
       }
@@ -8850,9 +8850,9 @@ XS(_wrap_Workset_closestNodeRankedSignatureIndex_set) {
 }
 
 
-XS(_wrap_Workset_closestNodeRankedSignatureIndex_get) {
+XS(_wrap_fiftyoneDegreesWorkset_closestNodeRankedSignatureIndex_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -8860,13 +8860,13 @@ XS(_wrap_Workset_closestNodeRankedSignatureIndex_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_closestNodeRankedSignatureIndex_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_closestNodeRankedSignatureIndex_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_closestNodeRankedSignatureIndex_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_closestNodeRankedSignatureIndex_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     result =  ((arg1)->closestNodeRankedSignatureIndex);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -8878,10 +8878,10 @@ XS(_wrap_Workset_closestNodeRankedSignatureIndex_get) {
 }
 
 
-XS(_wrap_Workset_linkedSignatureList_set) {
+XS(_wrap_fiftyoneDegreesWorkset_linkedSignatureList_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
-    LinkedSignatureList *arg2 = (LinkedSignatureList *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
+    fiftyoneDegreesLinkedSignatureList *arg2 = (fiftyoneDegreesLinkedSignatureList *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -8890,18 +8890,18 @@ XS(_wrap_Workset_linkedSignatureList_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_linkedSignatureList_set(self,linkedSignatureList);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_linkedSignatureList_set(self,linkedSignatureList);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_linkedSignatureList_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_linkedSignatureList_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_linked_signature_list_t, 0 |  0 );
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_t, 0 |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_linkedSignatureList_set" "', argument " "2"" of type '" "LinkedSignatureList *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_linkedSignatureList_set" "', argument " "2"" of type '" "fiftyoneDegreesLinkedSignatureList *""'"); 
     }
-    arg2 = (LinkedSignatureList *)(argp2);
+    arg2 = (fiftyoneDegreesLinkedSignatureList *)(argp2);
     if (arg1) (arg1)->linkedSignatureList = *arg2;
     ST(argvi) = sv_newmortal();
     
@@ -8915,25 +8915,25 @@ XS(_wrap_Workset_linkedSignatureList_set) {
 }
 
 
-XS(_wrap_Workset_linkedSignatureList_get) {
+XS(_wrap_fiftyoneDegreesWorkset_linkedSignatureList_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    LinkedSignatureList *result = 0 ;
+    fiftyoneDegreesLinkedSignatureList *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_linkedSignatureList_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_linkedSignatureList_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_linkedSignatureList_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_linkedSignatureList_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
-    result = (LinkedSignatureList *)& ((arg1)->linkedSignatureList);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_linked_signature_list_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
+    result = (fiftyoneDegreesLinkedSignatureList *)& ((arg1)->linkedSignatureList);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -8943,9 +8943,9 @@ XS(_wrap_Workset_linkedSignatureList_get) {
 }
 
 
-XS(_wrap_Workset_signature_set) {
+XS(_wrap_fiftyoneDegreesWorkset_signature_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     byte *arg2 = (byte *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -8955,16 +8955,16 @@ XS(_wrap_Workset_signature_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_signature_set(self,signature);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_signature_set(self,signature);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_signature_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_signature_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_unsigned_char, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_signature_set" "', argument " "2"" of type '" "byte *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_signature_set" "', argument " "2"" of type '" "byte *""'"); 
     }
     arg2 = (byte *)(argp2);
     if (arg1) (arg1)->signature = arg2;
@@ -8980,9 +8980,9 @@ XS(_wrap_Workset_signature_set) {
 }
 
 
-XS(_wrap_Workset_signature_get) {
+XS(_wrap_fiftyoneDegreesWorkset_signature_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -8990,13 +8990,13 @@ XS(_wrap_Workset_signature_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_signature_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_signature_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_signature_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_signature_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     result = (byte *) ((arg1)->signature);
     ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_unsigned_char, 0 | 0); argvi++ ;
     
@@ -9008,9 +9008,9 @@ XS(_wrap_Workset_signature_get) {
 }
 
 
-XS(_wrap_Workset_signatureAsString_set) {
+XS(_wrap_fiftyoneDegreesWorkset_signatureAsString_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     char *arg2 = (char *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -9021,16 +9021,16 @@ XS(_wrap_Workset_signatureAsString_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_signatureAsString_set(self,signatureAsString);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_signatureAsString_set(self,signatureAsString);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_signatureAsString_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_signatureAsString_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     res2 = SWIG_AsCharPtrAndSize(ST(1), &buf2, NULL, &alloc2);
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_signatureAsString_set" "', argument " "2"" of type '" "char *""'");
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_signatureAsString_set" "', argument " "2"" of type '" "char *""'");
     }
     arg2 = (char *)(buf2);
     if (arg1->signatureAsString) free((char*)arg1->signatureAsString);
@@ -9052,9 +9052,9 @@ XS(_wrap_Workset_signatureAsString_set) {
 }
 
 
-XS(_wrap_Workset_signatureAsString_get) {
+XS(_wrap_fiftyoneDegreesWorkset_signatureAsString_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -9062,13 +9062,13 @@ XS(_wrap_Workset_signatureAsString_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_signatureAsString_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_signatureAsString_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_signatureAsString_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_signatureAsString_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     result = (char *) ((arg1)->signatureAsString);
     ST(argvi) = SWIG_FromCharPtr((const char *)result); argvi++ ;
     
@@ -9080,9 +9080,9 @@ XS(_wrap_Workset_signatureAsString_get) {
 }
 
 
-XS(_wrap_Workset_nextCharacterPositionIndex_set) {
+XS(_wrap_fiftyoneDegreesWorkset_nextCharacterPositionIndex_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     int16_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -9092,20 +9092,20 @@ XS(_wrap_Workset_nextCharacterPositionIndex_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_nextCharacterPositionIndex_set(self,nextCharacterPositionIndex);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_nextCharacterPositionIndex_set(self,nextCharacterPositionIndex);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_nextCharacterPositionIndex_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_nextCharacterPositionIndex_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int16_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_nextCharacterPositionIndex_set" "', argument " "2"" of type '" "int16_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_nextCharacterPositionIndex_set" "', argument " "2"" of type '" "int16_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Workset_nextCharacterPositionIndex_set" "', argument " "2"" of type '" "int16_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesWorkset_nextCharacterPositionIndex_set" "', argument " "2"" of type '" "int16_t""'");
       } else {
         arg2 = *((int16_t *)(argp2));
       }
@@ -9121,9 +9121,9 @@ XS(_wrap_Workset_nextCharacterPositionIndex_set) {
 }
 
 
-XS(_wrap_Workset_nextCharacterPositionIndex_get) {
+XS(_wrap_fiftyoneDegreesWorkset_nextCharacterPositionIndex_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -9131,13 +9131,13 @@ XS(_wrap_Workset_nextCharacterPositionIndex_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_nextCharacterPositionIndex_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_nextCharacterPositionIndex_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_nextCharacterPositionIndex_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_nextCharacterPositionIndex_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     result =  ((arg1)->nextCharacterPositionIndex);
     ST(argvi) = SWIG_NewPointerObj((int16_t *)memcpy((int16_t *)malloc(sizeof(int16_t)),&result,sizeof(int16_t)), SWIGTYPE_p_int16_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -9149,10 +9149,10 @@ XS(_wrap_Workset_nextCharacterPositionIndex_get) {
 }
 
 
-XS(_wrap_Workset_method_set) {
+XS(_wrap_fiftyoneDegreesWorkset_method_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
-    matchMethod arg2 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
+    fiftyoneDegreesMatchMethod arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int val2 ;
@@ -9161,18 +9161,18 @@ XS(_wrap_Workset_method_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_method_set(self,method);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_method_set(self,method);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_method_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_method_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     ecode2 = SWIG_AsVal_int SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
     if (!SWIG_IsOK(ecode2)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Workset_method_set" "', argument " "2"" of type '" "matchMethod""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "fiftyoneDegreesWorkset_method_set" "', argument " "2"" of type '" "fiftyoneDegreesMatchMethod""'");
     } 
-    arg2 = (matchMethod)(val2);
+    arg2 = (fiftyoneDegreesMatchMethod)(val2);
     if (arg1) (arg1)->method = arg2;
     ST(argvi) = sv_newmortal();
     
@@ -9186,24 +9186,24 @@ XS(_wrap_Workset_method_set) {
 }
 
 
-XS(_wrap_Workset_method_get) {
+XS(_wrap_fiftyoneDegreesWorkset_method_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    matchMethod result;
+    fiftyoneDegreesMatchMethod result;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_method_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_method_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_method_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_method_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
-    result = (matchMethod) ((arg1)->method);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
+    result = (fiftyoneDegreesMatchMethod) ((arg1)->method);
     ST(argvi) = SWIG_From_int  SWIG_PERL_CALL_ARGS_1((int)(result)); argvi++ ;
     
     XSRETURN(argvi);
@@ -9214,9 +9214,9 @@ XS(_wrap_Workset_method_get) {
 }
 
 
-XS(_wrap_Workset_difference_set) {
+XS(_wrap_fiftyoneDegreesWorkset_difference_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     int32_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -9226,20 +9226,20 @@ XS(_wrap_Workset_difference_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_difference_set(self,difference);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_difference_set(self,difference);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_difference_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_difference_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_difference_set" "', argument " "2"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_difference_set" "', argument " "2"" of type '" "int32_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Workset_difference_set" "', argument " "2"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesWorkset_difference_set" "', argument " "2"" of type '" "int32_t""'");
       } else {
         arg2 = *((int32_t *)(argp2));
       }
@@ -9255,9 +9255,9 @@ XS(_wrap_Workset_difference_set) {
 }
 
 
-XS(_wrap_Workset_difference_get) {
+XS(_wrap_fiftyoneDegreesWorkset_difference_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -9265,13 +9265,13 @@ XS(_wrap_Workset_difference_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_difference_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_difference_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_difference_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_difference_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     result =  ((arg1)->difference);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -9283,9 +9283,9 @@ XS(_wrap_Workset_difference_get) {
 }
 
 
-XS(_wrap_Workset_rootNodesEvaluated_set) {
+XS(_wrap_fiftyoneDegreesWorkset_rootNodesEvaluated_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     int32_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -9295,20 +9295,20 @@ XS(_wrap_Workset_rootNodesEvaluated_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_rootNodesEvaluated_set(self,rootNodesEvaluated);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_rootNodesEvaluated_set(self,rootNodesEvaluated);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_rootNodesEvaluated_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_rootNodesEvaluated_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_rootNodesEvaluated_set" "', argument " "2"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_rootNodesEvaluated_set" "', argument " "2"" of type '" "int32_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Workset_rootNodesEvaluated_set" "', argument " "2"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesWorkset_rootNodesEvaluated_set" "', argument " "2"" of type '" "int32_t""'");
       } else {
         arg2 = *((int32_t *)(argp2));
       }
@@ -9324,9 +9324,9 @@ XS(_wrap_Workset_rootNodesEvaluated_set) {
 }
 
 
-XS(_wrap_Workset_rootNodesEvaluated_get) {
+XS(_wrap_fiftyoneDegreesWorkset_rootNodesEvaluated_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -9334,13 +9334,13 @@ XS(_wrap_Workset_rootNodesEvaluated_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_rootNodesEvaluated_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_rootNodesEvaluated_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_rootNodesEvaluated_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_rootNodesEvaluated_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     result =  ((arg1)->rootNodesEvaluated);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -9352,9 +9352,9 @@ XS(_wrap_Workset_rootNodesEvaluated_get) {
 }
 
 
-XS(_wrap_Workset_stringsRead_set) {
+XS(_wrap_fiftyoneDegreesWorkset_stringsRead_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     int32_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -9364,20 +9364,20 @@ XS(_wrap_Workset_stringsRead_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_stringsRead_set(self,stringsRead);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_stringsRead_set(self,stringsRead);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_stringsRead_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_stringsRead_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_stringsRead_set" "', argument " "2"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_stringsRead_set" "', argument " "2"" of type '" "int32_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Workset_stringsRead_set" "', argument " "2"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesWorkset_stringsRead_set" "', argument " "2"" of type '" "int32_t""'");
       } else {
         arg2 = *((int32_t *)(argp2));
       }
@@ -9393,9 +9393,9 @@ XS(_wrap_Workset_stringsRead_set) {
 }
 
 
-XS(_wrap_Workset_stringsRead_get) {
+XS(_wrap_fiftyoneDegreesWorkset_stringsRead_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -9403,13 +9403,13 @@ XS(_wrap_Workset_stringsRead_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_stringsRead_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_stringsRead_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_stringsRead_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_stringsRead_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     result =  ((arg1)->stringsRead);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -9421,9 +9421,9 @@ XS(_wrap_Workset_stringsRead_get) {
 }
 
 
-XS(_wrap_Workset_nodesEvaluated_set) {
+XS(_wrap_fiftyoneDegreesWorkset_nodesEvaluated_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     int32_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -9433,20 +9433,20 @@ XS(_wrap_Workset_nodesEvaluated_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_nodesEvaluated_set(self,nodesEvaluated);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_nodesEvaluated_set(self,nodesEvaluated);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_nodesEvaluated_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_nodesEvaluated_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_nodesEvaluated_set" "', argument " "2"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_nodesEvaluated_set" "', argument " "2"" of type '" "int32_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Workset_nodesEvaluated_set" "', argument " "2"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesWorkset_nodesEvaluated_set" "', argument " "2"" of type '" "int32_t""'");
       } else {
         arg2 = *((int32_t *)(argp2));
       }
@@ -9462,9 +9462,9 @@ XS(_wrap_Workset_nodesEvaluated_set) {
 }
 
 
-XS(_wrap_Workset_nodesEvaluated_get) {
+XS(_wrap_fiftyoneDegreesWorkset_nodesEvaluated_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -9472,13 +9472,13 @@ XS(_wrap_Workset_nodesEvaluated_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_nodesEvaluated_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_nodesEvaluated_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_nodesEvaluated_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_nodesEvaluated_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     result =  ((arg1)->nodesEvaluated);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -9490,9 +9490,9 @@ XS(_wrap_Workset_nodesEvaluated_get) {
 }
 
 
-XS(_wrap_Workset_signaturesCompared_set) {
+XS(_wrap_fiftyoneDegreesWorkset_signaturesCompared_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     int32_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -9502,20 +9502,20 @@ XS(_wrap_Workset_signaturesCompared_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_signaturesCompared_set(self,signaturesCompared);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_signaturesCompared_set(self,signaturesCompared);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_signaturesCompared_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_signaturesCompared_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_signaturesCompared_set" "', argument " "2"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_signaturesCompared_set" "', argument " "2"" of type '" "int32_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Workset_signaturesCompared_set" "', argument " "2"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesWorkset_signaturesCompared_set" "', argument " "2"" of type '" "int32_t""'");
       } else {
         arg2 = *((int32_t *)(argp2));
       }
@@ -9531,9 +9531,9 @@ XS(_wrap_Workset_signaturesCompared_set) {
 }
 
 
-XS(_wrap_Workset_signaturesCompared_get) {
+XS(_wrap_fiftyoneDegreesWorkset_signaturesCompared_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -9541,13 +9541,13 @@ XS(_wrap_Workset_signaturesCompared_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_signaturesCompared_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_signaturesCompared_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_signaturesCompared_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_signaturesCompared_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     result =  ((arg1)->signaturesCompared);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -9559,9 +9559,9 @@ XS(_wrap_Workset_signaturesCompared_get) {
 }
 
 
-XS(_wrap_Workset_signaturesRead_set) {
+XS(_wrap_fiftyoneDegreesWorkset_signaturesRead_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     int32_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -9571,20 +9571,20 @@ XS(_wrap_Workset_signaturesRead_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_signaturesRead_set(self,signaturesRead);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_signaturesRead_set(self,signaturesRead);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_signaturesRead_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_signaturesRead_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_signaturesRead_set" "', argument " "2"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_signaturesRead_set" "', argument " "2"" of type '" "int32_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Workset_signaturesRead_set" "', argument " "2"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesWorkset_signaturesRead_set" "', argument " "2"" of type '" "int32_t""'");
       } else {
         arg2 = *((int32_t *)(argp2));
       }
@@ -9600,9 +9600,9 @@ XS(_wrap_Workset_signaturesRead_set) {
 }
 
 
-XS(_wrap_Workset_signaturesRead_get) {
+XS(_wrap_fiftyoneDegreesWorkset_signaturesRead_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -9610,13 +9610,13 @@ XS(_wrap_Workset_signaturesRead_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_signaturesRead_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_signaturesRead_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_signaturesRead_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_signaturesRead_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     result =  ((arg1)->signaturesRead);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -9628,9 +9628,9 @@ XS(_wrap_Workset_signaturesRead_get) {
 }
 
 
-XS(_wrap_Workset_closestSignatures_set) {
+XS(_wrap_fiftyoneDegreesWorkset_closestSignatures_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     int32_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -9640,20 +9640,20 @@ XS(_wrap_Workset_closestSignatures_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_closestSignatures_set(self,closestSignatures);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_closestSignatures_set(self,closestSignatures);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_closestSignatures_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_closestSignatures_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_closestSignatures_set" "', argument " "2"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_closestSignatures_set" "', argument " "2"" of type '" "int32_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Workset_closestSignatures_set" "', argument " "2"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesWorkset_closestSignatures_set" "', argument " "2"" of type '" "int32_t""'");
       } else {
         arg2 = *((int32_t *)(argp2));
       }
@@ -9669,9 +9669,9 @@ XS(_wrap_Workset_closestSignatures_set) {
 }
 
 
-XS(_wrap_Workset_closestSignatures_get) {
+XS(_wrap_fiftyoneDegreesWorkset_closestSignatures_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -9679,13 +9679,13 @@ XS(_wrap_Workset_closestSignatures_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_closestSignatures_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_closestSignatures_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_closestSignatures_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_closestSignatures_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     result =  ((arg1)->closestSignatures);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -9697,10 +9697,10 @@ XS(_wrap_Workset_closestSignatures_get) {
 }
 
 
-XS(_wrap_Workset_values_set) {
+XS(_wrap_fiftyoneDegreesWorkset_values_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
-    Value **arg2 = (Value **) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
+    fiftyoneDegreesValue **arg2 = (fiftyoneDegreesValue **) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -9709,19 +9709,19 @@ XS(_wrap_Workset_values_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_values_set(self,values);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_values_set(self,values);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_values_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_values_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_p_value_t, 0 |  0 );
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_p_fiftyoneDegrees_value_t, 0 |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_values_set" "', argument " "2"" of type '" "Value const **""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_values_set" "', argument " "2"" of type '" "fiftyoneDegreesValue const **""'"); 
     }
-    arg2 = (Value **)(argp2);
-    if (arg1) (arg1)->values = (Value const **)arg2;
+    arg2 = (fiftyoneDegreesValue **)(argp2);
+    if (arg1) (arg1)->values = (fiftyoneDegreesValue const **)arg2;
     ST(argvi) = sv_newmortal();
     
     
@@ -9734,25 +9734,25 @@ XS(_wrap_Workset_values_set) {
 }
 
 
-XS(_wrap_Workset_values_get) {
+XS(_wrap_fiftyoneDegreesWorkset_values_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    Value **result = 0 ;
+    fiftyoneDegreesValue **result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_values_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_values_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_values_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_values_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
-    result = (Value **) ((arg1)->values);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_p_value_t, 0 | 0); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
+    result = (fiftyoneDegreesValue **) ((arg1)->values);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_p_fiftyoneDegrees_value_t, 0 | 0); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -9762,9 +9762,9 @@ XS(_wrap_Workset_values_get) {
 }
 
 
-XS(_wrap_Workset_valuesCount_set) {
+XS(_wrap_fiftyoneDegreesWorkset_valuesCount_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     int32_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -9774,20 +9774,20 @@ XS(_wrap_Workset_valuesCount_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_valuesCount_set(self,valuesCount);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_valuesCount_set(self,valuesCount);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_valuesCount_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_valuesCount_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Workset_valuesCount_set" "', argument " "2"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesWorkset_valuesCount_set" "', argument " "2"" of type '" "int32_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Workset_valuesCount_set" "', argument " "2"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesWorkset_valuesCount_set" "', argument " "2"" of type '" "int32_t""'");
       } else {
         arg2 = *((int32_t *)(argp2));
       }
@@ -9803,9 +9803,9 @@ XS(_wrap_Workset_valuesCount_set) {
 }
 
 
-XS(_wrap_Workset_valuesCount_get) {
+XS(_wrap_fiftyoneDegreesWorkset_valuesCount_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -9813,13 +9813,13 @@ XS(_wrap_Workset_valuesCount_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_valuesCount_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_valuesCount_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_valuesCount_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_valuesCount_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     result =  ((arg1)->valuesCount);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
@@ -9831,9 +9831,9 @@ XS(_wrap_Workset_valuesCount_get) {
 }
 
 
-XS(_wrap_Workset_startWithInitialScore_set) {
+XS(_wrap_fiftyoneDegreesWorkset_startWithInitialScore_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     fod_bool arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -9843,16 +9843,16 @@ XS(_wrap_Workset_startWithInitialScore_set) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_startWithInitialScore_set(self,startWithInitialScore);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_startWithInitialScore_set(self,startWithInitialScore);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_startWithInitialScore_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_startWithInitialScore_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     ecode2 = SWIG_AsVal_unsigned_SS_char SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
     if (!SWIG_IsOK(ecode2)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Workset_startWithInitialScore_set" "', argument " "2"" of type '" "fod_bool""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "fiftyoneDegreesWorkset_startWithInitialScore_set" "', argument " "2"" of type '" "fod_bool""'");
     } 
     arg2 = (fod_bool)(val2);
     if (arg1) (arg1)->startWithInitialScore = arg2;
@@ -9868,9 +9868,9 @@ XS(_wrap_Workset_startWithInitialScore_set) {
 }
 
 
-XS(_wrap_Workset_startWithInitialScore_get) {
+XS(_wrap_fiftyoneDegreesWorkset_startWithInitialScore_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
@@ -9878,13 +9878,13 @@ XS(_wrap_Workset_startWithInitialScore_get) {
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_startWithInitialScore_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_startWithInitialScore_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_startWithInitialScore_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_startWithInitialScore_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     result = (fod_bool) ((arg1)->startWithInitialScore);
     ST(argvi) = SWIG_From_unsigned_SS_char  SWIG_PERL_CALL_ARGS_1((unsigned char)(result)); argvi++ ;
     
@@ -9896,27 +9896,27 @@ XS(_wrap_Workset_startWithInitialScore_get) {
 }
 
 
-XS(_wrap_Workset_functionPtrGetScore_set) {
+XS(_wrap_fiftyoneDegreesWorkset_functionPtrGetScore_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
-    int (*arg2)(struct workset_t *,Node const *) = (int (*)(struct workset_t *,Node const *)) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
+    int (*arg2)(struct fiftyoneDegrees_workset_t *,fiftyoneDegreesNode const *) = (int (*)(struct fiftyoneDegrees_workset_t *,fiftyoneDegreesNode const *)) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_functionPtrGetScore_set(self,functionPtrGetScore);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_functionPtrGetScore_set(self,functionPtrGetScore);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_functionPtrGetScore_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_functionPtrGetScore_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     {
-      int res = SWIG_ConvertFunctionPtr(ST(1), (void**)(&arg2), SWIGTYPE_p_f_p_struct_workset_t_p_q_const__struct_node_t__int);
+      int res = SWIG_ConvertFunctionPtr(ST(1), (void**)(&arg2), SWIGTYPE_p_f_p_struct_fiftyoneDegrees_workset_t_p_q_const__struct_fiftyoneDegrees_node_t__int);
       if (!SWIG_IsOK(res)) {
-        SWIG_exception_fail(SWIG_ArgError(res), "in method '" "Workset_functionPtrGetScore_set" "', argument " "2"" of type '" "int (*)(struct workset_t *,Node const *)""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res), "in method '" "fiftyoneDegreesWorkset_functionPtrGetScore_set" "', argument " "2"" of type '" "int (*)(struct fiftyoneDegrees_workset_t *,fiftyoneDegreesNode const *)""'"); 
       }
     }
     if (arg1) (arg1)->functionPtrGetScore = arg2;
@@ -9932,25 +9932,25 @@ XS(_wrap_Workset_functionPtrGetScore_set) {
 }
 
 
-XS(_wrap_Workset_functionPtrGetScore_get) {
+XS(_wrap_fiftyoneDegreesWorkset_functionPtrGetScore_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    int (*result)(struct workset_t *,Node const *) = 0 ;
+    int (*result)(struct fiftyoneDegrees_workset_t *,fiftyoneDegreesNode const *) = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_functionPtrGetScore_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_functionPtrGetScore_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_functionPtrGetScore_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_functionPtrGetScore_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
-    result = (int (*)(struct workset_t *,Node const *)) ((arg1)->functionPtrGetScore);
-    ST(argvi) = SWIG_NewFunctionPtrObj((void *)(result), SWIGTYPE_p_f_p_struct_workset_t_p_q_const__struct_node_t__int); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
+    result = (int (*)(struct fiftyoneDegrees_workset_t *,fiftyoneDegreesNode const *)) ((arg1)->functionPtrGetScore);
+    ST(argvi) = SWIG_NewFunctionPtrObj((void *)(result), SWIGTYPE_p_f_p_struct_fiftyoneDegrees_workset_t_p_q_const__struct_fiftyoneDegrees_node_t__int); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -9960,30 +9960,30 @@ XS(_wrap_Workset_functionPtrGetScore_get) {
 }
 
 
-XS(_wrap_Workset_functionPtrNextClosestSignature_set) {
+XS(_wrap_fiftyoneDegreesWorkset_functionPtrNextClosestSignature_set) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
-    byte *(*arg2)(struct workset_t *) = (byte *(*)(struct workset_t *)) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
+    byte *(*arg2)(struct fiftyoneDegrees_workset_t *) = (byte *(*)(struct fiftyoneDegrees_workset_t *)) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: Workset_functionPtrNextClosestSignature_set(self,functionPtrNextClosestSignature);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_functionPtrNextClosestSignature_set(self,functionPtrNextClosestSignature);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_functionPtrNextClosestSignature_set" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_functionPtrNextClosestSignature_set" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     {
-      int res = SWIG_ConvertFunctionPtr(ST(1), (void**)(&arg2), SWIGTYPE_p_f_p_struct_workset_t__p_unsigned_char);
+      int res = SWIG_ConvertFunctionPtr(ST(1), (void**)(&arg2), SWIGTYPE_p_f_p_struct_fiftyoneDegrees_workset_t__p_unsigned_char);
       if (!SWIG_IsOK(res)) {
-        SWIG_exception_fail(SWIG_ArgError(res), "in method '" "Workset_functionPtrNextClosestSignature_set" "', argument " "2"" of type '" "byte const *(*)(struct workset_t *)""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res), "in method '" "fiftyoneDegreesWorkset_functionPtrNextClosestSignature_set" "', argument " "2"" of type '" "byte const *(*)(struct fiftyoneDegrees_workset_t *)""'"); 
       }
     }
-    if (arg1) (arg1)->functionPtrNextClosestSignature = (byte const *(*)(struct workset_t *))arg2;
+    if (arg1) (arg1)->functionPtrNextClosestSignature = (byte const *(*)(struct fiftyoneDegrees_workset_t *))arg2;
     ST(argvi) = sv_newmortal();
     
     
@@ -9996,25 +9996,25 @@ XS(_wrap_Workset_functionPtrNextClosestSignature_set) {
 }
 
 
-XS(_wrap_Workset_functionPtrNextClosestSignature_get) {
+XS(_wrap_fiftyoneDegreesWorkset_functionPtrNextClosestSignature_get) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    byte *(*result)(struct workset_t *) = 0 ;
+    byte *(*result)(struct fiftyoneDegrees_workset_t *) = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: Workset_functionPtrNextClosestSignature_get(self);");
+      SWIG_croak("Usage: fiftyoneDegreesWorkset_functionPtrNextClosestSignature_get(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Workset_functionPtrNextClosestSignature_get" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesWorkset_functionPtrNextClosestSignature_get" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
-    result = (byte *(*)(struct workset_t *)) ((arg1)->functionPtrNextClosestSignature);
-    ST(argvi) = SWIG_NewFunctionPtrObj((void *)(result), SWIGTYPE_p_f_p_struct_workset_t__p_unsigned_char); argvi++ ;
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
+    result = (byte *(*)(struct fiftyoneDegrees_workset_t *)) ((arg1)->functionPtrNextClosestSignature);
+    ST(argvi) = SWIG_NewFunctionPtrObj((void *)(result), SWIGTYPE_p_f_p_struct_fiftyoneDegrees_workset_t__p_unsigned_char); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -10024,17 +10024,17 @@ XS(_wrap_Workset_functionPtrNextClosestSignature_get) {
 }
 
 
-XS(_wrap_new_Workset) {
+XS(_wrap_new_fiftyoneDegreesWorkset) {
   {
     int argvi = 0;
-    struct workset_t *result = 0 ;
+    struct fiftyoneDegrees_workset_t *result = 0 ;
     dXSARGS;
     
     if ((items < 0) || (items > 0)) {
-      SWIG_croak("Usage: new_Workset();");
+      SWIG_croak("Usage: new_fiftyoneDegreesWorkset();");
     }
-    result = (struct workset_t *)calloc(1, sizeof(struct workset_t));
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_workset_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    result = (struct fiftyoneDegrees_workset_t *)calloc(1, sizeof(struct fiftyoneDegrees_workset_t));
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_workset_t, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
     XSRETURN(argvi);
   fail:
     SWIG_croak_null();
@@ -10042,22 +10042,22 @@ XS(_wrap_new_Workset) {
 }
 
 
-XS(_wrap_delete_Workset) {
+XS(_wrap_delete_fiftyoneDegreesWorkset) {
   {
-    struct workset_t *arg1 = (struct workset_t *) 0 ;
+    struct fiftyoneDegrees_workset_t *arg1 = (struct fiftyoneDegrees_workset_t *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: delete_Workset(self);");
+      SWIG_croak("Usage: delete_fiftyoneDegreesWorkset(self);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, SWIG_POINTER_DISOWN |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, SWIG_POINTER_DISOWN |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Workset" "', argument " "1"" of type '" "struct workset_t *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_fiftyoneDegreesWorkset" "', argument " "1"" of type '" "struct fiftyoneDegrees_workset_t *""'"); 
     }
-    arg1 = (struct workset_t *)(argp1);
+    arg1 = (struct fiftyoneDegrees_workset_t *)(argp1);
     free((char *) arg1);
     ST(argvi) = sv_newmortal();
     
@@ -10069,10 +10069,10 @@ XS(_wrap_delete_Workset) {
 }
 
 
-XS(_wrap_initWithPropertyArray) {
+XS(_wrap_fiftyoneDegreesInitWithPropertyArray) {
   {
     char *arg1 = (char *) 0 ;
-    DataSet *arg2 = (DataSet *) 0 ;
+    fiftyoneDegreesDataSet *arg2 = (fiftyoneDegreesDataSet *) 0 ;
     char **arg3 = (char **) 0 ;
     int32_t arg4 ;
     int res1 ;
@@ -10085,39 +10085,39 @@ XS(_wrap_initWithPropertyArray) {
     void *argp4 ;
     int res4 = 0 ;
     int argvi = 0;
-    DataSetInitStatus result;
+    fiftyoneDegreesDataSetInitStatus result;
     dXSARGS;
     
     if ((items < 4) || (items > 4)) {
-      SWIG_croak("Usage: initWithPropertyArray(fileName,dataSet,properties,count);");
+      SWIG_croak("Usage: fiftyoneDegreesInitWithPropertyArray(fileName,dataSet,properties,count);");
     }
     res1 = SWIG_AsCharPtrAndSize(ST(0), &buf1, NULL, &alloc1);
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "initWithPropertyArray" "', argument " "1"" of type '" "char const *""'");
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesInitWithPropertyArray" "', argument " "1"" of type '" "char const *""'");
     }
     arg1 = (char *)(buf1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "initWithPropertyArray" "', argument " "2"" of type '" "DataSet *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesInitWithPropertyArray" "', argument " "2"" of type '" "fiftyoneDegreesDataSet *""'"); 
     }
-    arg2 = (DataSet *)(argp2);
+    arg2 = (fiftyoneDegreesDataSet *)(argp2);
     res3 = SWIG_ConvertPtr(ST(2), &argp3,SWIGTYPE_p_p_char, 0 |  0 );
     if (!SWIG_IsOK(res3)) {
-      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "initWithPropertyArray" "', argument " "3"" of type '" "char **""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "fiftyoneDegreesInitWithPropertyArray" "', argument " "3"" of type '" "char **""'"); 
     }
     arg3 = (char **)(argp3);
     {
       res4 = SWIG_ConvertPtr(ST(3), &argp4, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res4)) {
-        SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "initWithPropertyArray" "', argument " "4"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "fiftyoneDegreesInitWithPropertyArray" "', argument " "4"" of type '" "int32_t""'"); 
       }  
       if (!argp4) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "initWithPropertyArray" "', argument " "4"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesInitWithPropertyArray" "', argument " "4"" of type '" "int32_t""'");
       } else {
         arg4 = *((int32_t *)(argp4));
       }
     }
-    result = (DataSetInitStatus)initWithPropertyArray((char const *)arg1,arg2,arg3,arg4);
+    result = (fiftyoneDegreesDataSetInitStatus)fiftyoneDegreesInitWithPropertyArray((char const *)arg1,arg2,arg3,arg4);
     ST(argvi) = SWIG_From_int  SWIG_PERL_CALL_ARGS_1((int)(result)); argvi++ ;
     if (alloc1 == SWIG_NEWOBJ) free((char*)buf1);
     
@@ -10132,10 +10132,10 @@ XS(_wrap_initWithPropertyArray) {
 }
 
 
-XS(_wrap_initWithPropertyString) {
+XS(_wrap_fiftyoneDegreesInitWithPropertyString) {
   {
     char *arg1 = (char *) 0 ;
-    DataSet *arg2 = (DataSet *) 0 ;
+    fiftyoneDegreesDataSet *arg2 = (fiftyoneDegreesDataSet *) 0 ;
     char *arg3 = (char *) 0 ;
     int res1 ;
     char *buf1 = 0 ;
@@ -10146,28 +10146,28 @@ XS(_wrap_initWithPropertyString) {
     char *buf3 = 0 ;
     int alloc3 = 0 ;
     int argvi = 0;
-    DataSetInitStatus result;
+    fiftyoneDegreesDataSetInitStatus result;
     dXSARGS;
     
     if ((items < 3) || (items > 3)) {
-      SWIG_croak("Usage: initWithPropertyString(fileName,dataSet,properties);");
+      SWIG_croak("Usage: fiftyoneDegreesInitWithPropertyString(fileName,dataSet,properties);");
     }
     res1 = SWIG_AsCharPtrAndSize(ST(0), &buf1, NULL, &alloc1);
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "initWithPropertyString" "', argument " "1"" of type '" "char const *""'");
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesInitWithPropertyString" "', argument " "1"" of type '" "char const *""'");
     }
     arg1 = (char *)(buf1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "initWithPropertyString" "', argument " "2"" of type '" "DataSet *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesInitWithPropertyString" "', argument " "2"" of type '" "fiftyoneDegreesDataSet *""'"); 
     }
-    arg2 = (DataSet *)(argp2);
+    arg2 = (fiftyoneDegreesDataSet *)(argp2);
     res3 = SWIG_AsCharPtrAndSize(ST(2), &buf3, NULL, &alloc3);
     if (!SWIG_IsOK(res3)) {
-      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "initWithPropertyString" "', argument " "3"" of type '" "char *""'");
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "fiftyoneDegreesInitWithPropertyString" "', argument " "3"" of type '" "char *""'");
     }
     arg3 = (char *)(buf3);
-    result = (DataSetInitStatus)initWithPropertyString((char const *)arg1,arg2,arg3);
+    result = (fiftyoneDegreesDataSetInitStatus)fiftyoneDegreesInitWithPropertyString((char const *)arg1,arg2,arg3);
     ST(argvi) = SWIG_From_int  SWIG_PERL_CALL_ARGS_1((int)(result)); argvi++ ;
     if (alloc1 == SWIG_NEWOBJ) free((char*)buf1);
     
@@ -10182,23 +10182,23 @@ XS(_wrap_initWithPropertyString) {
 }
 
 
-XS(_wrap_destroy) {
+XS(_wrap_fiftyoneDegreesDestroy) {
   {
-    DataSet *arg1 = (DataSet *) 0 ;
+    fiftyoneDegreesDataSet *arg1 = (fiftyoneDegreesDataSet *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: destroy(dataSet);");
+      SWIG_croak("Usage: fiftyoneDegreesDestroy(dataSet);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "destroy" "', argument " "1"" of type '" "DataSet const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesDestroy" "', argument " "1"" of type '" "fiftyoneDegreesDataSet const *""'"); 
     }
-    arg1 = (DataSet *)(argp1);
-    destroy((struct dataset_t const *)arg1);
+    arg1 = (fiftyoneDegreesDataSet *)(argp1);
+    fiftyoneDegreesDestroy((struct fiftyoneDegrees_dataset_t const *)arg1);
     ST(argvi) = sv_newmortal();
     
     XSRETURN(argvi);
@@ -10209,25 +10209,25 @@ XS(_wrap_destroy) {
 }
 
 
-XS(_wrap_createWorkset) {
+XS(_wrap_fiftyoneDegreesCreateWorkset) {
   {
-    DataSet *arg1 = (DataSet *) 0 ;
+    fiftyoneDegreesDataSet *arg1 = (fiftyoneDegreesDataSet *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
-    Workset *result = 0 ;
+    fiftyoneDegreesWorkset *result = 0 ;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: createWorkset(dataSet);");
+      SWIG_croak("Usage: fiftyoneDegreesCreateWorkset(dataSet);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "createWorkset" "', argument " "1"" of type '" "DataSet const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesCreateWorkset" "', argument " "1"" of type '" "fiftyoneDegreesDataSet const *""'"); 
     }
-    arg1 = (DataSet *)(argp1);
-    result = (Workset *)createWorkset((struct dataset_t const *)arg1);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_workset_t, 0 | SWIG_SHADOW); argvi++ ;
+    arg1 = (fiftyoneDegreesDataSet *)(argp1);
+    result = (fiftyoneDegreesWorkset *)fiftyoneDegreesCreateWorkset((struct fiftyoneDegrees_dataset_t const *)arg1);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -10237,23 +10237,23 @@ XS(_wrap_createWorkset) {
 }
 
 
-XS(_wrap_freeWorkset) {
+XS(_wrap_fiftyoneDegreesFreeWorkset) {
   {
-    Workset *arg1 = (Workset *) 0 ;
+    fiftyoneDegreesWorkset *arg1 = (fiftyoneDegreesWorkset *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     int argvi = 0;
     dXSARGS;
     
     if ((items < 1) || (items > 1)) {
-      SWIG_croak("Usage: freeWorkset(ws);");
+      SWIG_croak("Usage: fiftyoneDegreesFreeWorkset(ws);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "freeWorkset" "', argument " "1"" of type '" "Workset const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesFreeWorkset" "', argument " "1"" of type '" "fiftyoneDegreesWorkset const *""'"); 
     }
-    arg1 = (Workset *)(argp1);
-    freeWorkset((struct workset_t const *)arg1);
+    arg1 = (fiftyoneDegreesWorkset *)(argp1);
+    fiftyoneDegreesFreeWorkset((struct fiftyoneDegrees_workset_t const *)arg1);
     ST(argvi) = sv_newmortal();
     
     XSRETURN(argvi);
@@ -10264,9 +10264,9 @@ XS(_wrap_freeWorkset) {
 }
 
 
-XS(_wrap_match) {
+XS(_wrap_fiftyoneDegreesMatch) {
   {
-    Workset *arg1 = (Workset *) 0 ;
+    fiftyoneDegreesWorkset *arg1 = (fiftyoneDegreesWorkset *) 0 ;
     char *arg2 = (char *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -10277,19 +10277,19 @@ XS(_wrap_match) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: match(ws,userAgent);");
+      SWIG_croak("Usage: fiftyoneDegreesMatch(ws,userAgent);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "match" "', argument " "1"" of type '" "Workset *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesMatch" "', argument " "1"" of type '" "fiftyoneDegreesWorkset *""'"); 
     }
-    arg1 = (Workset *)(argp1);
+    arg1 = (fiftyoneDegreesWorkset *)(argp1);
     res2 = SWIG_AsCharPtrAndSize(ST(1), &buf2, NULL, &alloc2);
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "match" "', argument " "2"" of type '" "char *""'");
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesMatch" "', argument " "2"" of type '" "char *""'");
     }
     arg2 = (char *)(buf2);
-    match(arg1,arg2);
+    fiftyoneDegreesMatch(arg1,arg2);
     ST(argvi) = sv_newmortal();
     
     if (alloc2 == SWIG_NEWOBJ) free((char*)buf2);
@@ -10302,9 +10302,9 @@ XS(_wrap_match) {
 }
 
 
-XS(_wrap_setValues) {
+XS(_wrap_fiftyoneDegreesSetValues) {
   {
-    Workset *arg1 = (Workset *) 0 ;
+    fiftyoneDegreesWorkset *arg1 = (fiftyoneDegreesWorkset *) 0 ;
     int32_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
@@ -10315,25 +10315,25 @@ XS(_wrap_setValues) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: setValues(ws,requiredPropertyIndex);");
+      SWIG_croak("Usage: fiftyoneDegreesSetValues(ws,requiredPropertyIndex);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "setValues" "', argument " "1"" of type '" "Workset *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesSetValues" "', argument " "1"" of type '" "fiftyoneDegreesWorkset *""'"); 
     }
-    arg1 = (Workset *)(argp1);
+    arg1 = (fiftyoneDegreesWorkset *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "setValues" "', argument " "2"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesSetValues" "', argument " "2"" of type '" "int32_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "setValues" "', argument " "2"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesSetValues" "', argument " "2"" of type '" "int32_t""'");
       } else {
         arg2 = *((int32_t *)(argp2));
       }
     }
-    result = setValues(arg1,arg2);
+    result = fiftyoneDegreesSetValues(arg1,arg2);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
     XSRETURN(argvi);
@@ -10344,39 +10344,39 @@ XS(_wrap_setValues) {
 }
 
 
-XS(_wrap_getString) {
+XS(_wrap_fiftyoneDegreesGetString) {
   {
-    DataSet *arg1 = (DataSet *) 0 ;
+    fiftyoneDegreesDataSet *arg1 = (fiftyoneDegreesDataSet *) 0 ;
     int32_t arg2 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 ;
     int res2 = 0 ;
     int argvi = 0;
-    AsciiString *result = 0 ;
+    fiftyoneDegreesAsciiString *result = 0 ;
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: getString(dataSet,offset);");
+      SWIG_croak("Usage: fiftyoneDegreesGetString(dataSet,offset);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "getString" "', argument " "1"" of type '" "DataSet const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesGetString" "', argument " "1"" of type '" "fiftyoneDegreesDataSet const *""'"); 
     }
-    arg1 = (DataSet *)(argp1);
+    arg1 = (fiftyoneDegreesDataSet *)(argp1);
     {
       res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res2)) {
-        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "getString" "', argument " "2"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesGetString" "', argument " "2"" of type '" "int32_t""'"); 
       }  
       if (!argp2) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "getString" "', argument " "2"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesGetString" "', argument " "2"" of type '" "int32_t""'");
       } else {
         arg2 = *((int32_t *)(argp2));
       }
     }
-    result = (AsciiString *)getString((struct dataset_t const *)arg1,arg2);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ascii_string_t, 0 | SWIG_SHADOW); argvi++ ;
+    result = (fiftyoneDegreesAsciiString *)fiftyoneDegreesGetString((struct fiftyoneDegrees_dataset_t const *)arg1,arg2);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fiftyoneDegrees_ascii_string_t, 0 | SWIG_SHADOW); argvi++ ;
     
     XSRETURN(argvi);
   fail:
@@ -10386,10 +10386,10 @@ XS(_wrap_getString) {
 }
 
 
-XS(_wrap_getValueName) {
+XS(_wrap_fiftyoneDegreesGetValueName) {
   {
-    DataSet *arg1 = (DataSet *) 0 ;
-    Value *arg2 = (Value *) 0 ;
+    fiftyoneDegreesDataSet *arg1 = (fiftyoneDegreesDataSet *) 0 ;
+    fiftyoneDegreesValue *arg2 = (fiftyoneDegreesValue *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -10399,19 +10399,19 @@ XS(_wrap_getValueName) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: getValueName(dataSet,value);");
+      SWIG_croak("Usage: fiftyoneDegreesGetValueName(dataSet,value);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "getValueName" "', argument " "1"" of type '" "DataSet const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesGetValueName" "', argument " "1"" of type '" "fiftyoneDegreesDataSet const *""'"); 
     }
-    arg1 = (DataSet *)(argp1);
-    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_value_t, 0 |  0 );
+    arg1 = (fiftyoneDegreesDataSet *)(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_fiftyoneDegrees_value_t, 0 |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "getValueName" "', argument " "2"" of type '" "Value const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesGetValueName" "', argument " "2"" of type '" "fiftyoneDegreesValue const *""'"); 
     }
-    arg2 = (Value *)(argp2);
-    result = (char *)getValueName((struct dataset_t const *)arg1,(struct value_t const *)arg2);
+    arg2 = (fiftyoneDegreesValue *)(argp2);
+    result = (char *)fiftyoneDegreesGetValueName((struct fiftyoneDegrees_dataset_t const *)arg1,(struct fiftyoneDegrees_value_t const *)arg2);
     ST(argvi) = SWIG_FromCharPtr((const char *)result); argvi++ ;
     
     
@@ -10424,10 +10424,10 @@ XS(_wrap_getValueName) {
 }
 
 
-XS(_wrap_getPropertyName) {
+XS(_wrap_fiftyoneDegreesGetPropertyName) {
   {
-    DataSet *arg1 = (DataSet *) 0 ;
-    Property *arg2 = (Property *) 0 ;
+    fiftyoneDegreesDataSet *arg1 = (fiftyoneDegreesDataSet *) 0 ;
+    fiftyoneDegreesProperty *arg2 = (fiftyoneDegreesProperty *) 0 ;
     void *argp1 = 0 ;
     int res1 = 0 ;
     void *argp2 = 0 ;
@@ -10437,19 +10437,19 @@ XS(_wrap_getPropertyName) {
     dXSARGS;
     
     if ((items < 2) || (items > 2)) {
-      SWIG_croak("Usage: getPropertyName(dataSet,property);");
+      SWIG_croak("Usage: fiftyoneDegreesGetPropertyName(dataSet,property);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_dataset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_dataset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "getPropertyName" "', argument " "1"" of type '" "DataSet const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesGetPropertyName" "', argument " "1"" of type '" "fiftyoneDegreesDataSet const *""'"); 
     }
-    arg1 = (DataSet *)(argp1);
+    arg1 = (fiftyoneDegreesDataSet *)(argp1);
     res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_property_t, 0 |  0 );
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "getPropertyName" "', argument " "2"" of type '" "Property const *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesGetPropertyName" "', argument " "2"" of type '" "fiftyoneDegreesProperty const *""'"); 
     }
-    arg2 = (Property *)(argp2);
-    result = (char *)getPropertyName((struct dataset_t const *)arg1,(struct property_t const *)arg2);
+    arg2 = (fiftyoneDegreesProperty *)(argp2);
+    result = (char *)fiftyoneDegreesGetPropertyName((struct fiftyoneDegrees_dataset_t const *)arg1,(struct property_t const *)arg2);
     ST(argvi) = SWIG_FromCharPtr((const char *)result); argvi++ ;
     
     
@@ -10462,9 +10462,9 @@ XS(_wrap_getPropertyName) {
 }
 
 
-XS(_wrap_processDeviceCSV) {
+XS(_wrap_fiftyoneDegreesProcessDeviceCSV) {
   {
-    Workset *arg1 = (Workset *) 0 ;
+    fiftyoneDegreesWorkset *arg1 = (fiftyoneDegreesWorkset *) 0 ;
     char *arg2 = (char *) 0 ;
     int32_t arg3 ;
     void *argp1 = 0 ;
@@ -10479,30 +10479,30 @@ XS(_wrap_processDeviceCSV) {
     dXSARGS;
     
     if ((items < 3) || (items > 3)) {
-      SWIG_croak("Usage: processDeviceCSV(ws,result,resultLength);");
+      SWIG_croak("Usage: fiftyoneDegreesProcessDeviceCSV(ws,result,resultLength);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "processDeviceCSV" "', argument " "1"" of type '" "Workset *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProcessDeviceCSV" "', argument " "1"" of type '" "fiftyoneDegreesWorkset *""'"); 
     }
-    arg1 = (Workset *)(argp1);
+    arg1 = (fiftyoneDegreesWorkset *)(argp1);
     res2 = SWIG_AsCharPtrAndSize(ST(1), &buf2, NULL, &alloc2);
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "processDeviceCSV" "', argument " "2"" of type '" "char *""'");
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesProcessDeviceCSV" "', argument " "2"" of type '" "char *""'");
     }
     arg2 = (char *)(buf2);
     {
       res3 = SWIG_ConvertPtr(ST(2), &argp3, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res3)) {
-        SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "processDeviceCSV" "', argument " "3"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "fiftyoneDegreesProcessDeviceCSV" "', argument " "3"" of type '" "int32_t""'"); 
       }  
       if (!argp3) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "processDeviceCSV" "', argument " "3"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesProcessDeviceCSV" "', argument " "3"" of type '" "int32_t""'");
       } else {
         arg3 = *((int32_t *)(argp3));
       }
     }
-    result = processDeviceCSV(arg1,arg2,arg3);
+    result = fiftyoneDegreesProcessDeviceCSV(arg1,arg2,arg3);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) free((char*)buf2);
@@ -10515,9 +10515,9 @@ XS(_wrap_processDeviceCSV) {
 }
 
 
-XS(_wrap_processDeviceJSON) {
+XS(_wrap_fiftyoneDegreesProcessDeviceJSON) {
   {
-    Workset *arg1 = (Workset *) 0 ;
+    fiftyoneDegreesWorkset *arg1 = (fiftyoneDegreesWorkset *) 0 ;
     char *arg2 = (char *) 0 ;
     int32_t arg3 ;
     void *argp1 = 0 ;
@@ -10532,30 +10532,30 @@ XS(_wrap_processDeviceJSON) {
     dXSARGS;
     
     if ((items < 3) || (items > 3)) {
-      SWIG_croak("Usage: processDeviceJSON(ws,result,resultLength);");
+      SWIG_croak("Usage: fiftyoneDegreesProcessDeviceJSON(ws,result,resultLength);");
     }
-    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_workset_t, 0 |  0 );
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_fiftyoneDegrees_workset_t, 0 |  0 );
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "processDeviceJSON" "', argument " "1"" of type '" "Workset *""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "fiftyoneDegreesProcessDeviceJSON" "', argument " "1"" of type '" "fiftyoneDegreesWorkset *""'"); 
     }
-    arg1 = (Workset *)(argp1);
+    arg1 = (fiftyoneDegreesWorkset *)(argp1);
     res2 = SWIG_AsCharPtrAndSize(ST(1), &buf2, NULL, &alloc2);
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "processDeviceJSON" "', argument " "2"" of type '" "char *""'");
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "fiftyoneDegreesProcessDeviceJSON" "', argument " "2"" of type '" "char *""'");
     }
     arg2 = (char *)(buf2);
     {
       res3 = SWIG_ConvertPtr(ST(2), &argp3, SWIGTYPE_p_int32_t,  0 );
       if (!SWIG_IsOK(res3)) {
-        SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "processDeviceJSON" "', argument " "3"" of type '" "int32_t""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "fiftyoneDegreesProcessDeviceJSON" "', argument " "3"" of type '" "int32_t""'"); 
       }  
       if (!argp3) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "processDeviceJSON" "', argument " "3"" of type '" "int32_t""'");
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "fiftyoneDegreesProcessDeviceJSON" "', argument " "3"" of type '" "int32_t""'");
       } else {
         arg3 = *((int32_t *)(argp3));
       }
     }
-    result = processDeviceJSON(arg1,arg2,arg3);
+    result = fiftyoneDegreesProcessDeviceJSON(arg1,arg2,arg3);
     ST(argvi) = SWIG_NewPointerObj((int32_t *)memcpy((int32_t *)malloc(sizeof(int32_t)),&result,sizeof(int32_t)), SWIGTYPE_p_int32_t, SWIG_POINTER_OWN | 0); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) free((char*)buf2);
@@ -10624,7 +10624,7 @@ XS(_wrap_dataSetInitWithPropertyString) {
     arg2 = (char *)(buf2);
     {
       result = (long)dataSetInitWithPropertyString(arg1,arg2);; 
-      DataSetInitStatus initStatus = getInitStatus();
+      fiftyoneDegreesDataSetInitStatus initStatus = getInitStatus();
       switch (initStatus) {
         case DATA_SET_INIT_STATUS_SUCCESS: // nothing to do
         break;
@@ -10701,156 +10701,156 @@ XS(_wrap_getMatch) {
 
 /* -------- TYPE CONVERSION AND EQUIVALENCE RULES (BEGIN) -------- */
 
-static swig_type_info _swigt__p_NodeIndex_value = {"_p_NodeIndex_value", "NodeIndex_value *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::NodeIndex_value", 0};
-static swig_type_info _swigt__p_ascii_string_t = {"_p_ascii_string_t", "AsciiString *|struct ascii_string_t *|ascii_string_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::AsciiString", 0};
 static swig_type_info _swigt__p_char = {"_p_char", "char *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_component_t = {"_p_component_t", "struct component_t *|component_t *|Component *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::Component", 0};
-static swig_type_info _swigt__p_dataset_header_t = {"_p_dataset_header_t", "struct dataset_header_t *|dataset_header_t *|DataSetHeader *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::DataSetHeader", 0};
-static swig_type_info _swigt__p_dataset_t = {"_p_dataset_t", "struct dataset_t *|dataset_t *|DataSet *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::DataSet", 0};
-static swig_type_info _swigt__p_date_t = {"_p_date_t", "Date *|struct date_t *|date_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::Date", 0};
-static swig_type_info _swigt__p_e_DataSetInitStatus = {"_p_e_DataSetInitStatus", "enum e_DataSetInitStatus *|DataSetInitStatus *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_entity_header_t = {"_p_entity_header_t", "struct entity_header_t *|entity_header_t *|EntityHeader *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::EntityHeader", 0};
-static swig_type_info _swigt__p_f_p_struct_workset_t__p_unsigned_char = {"_p_f_p_struct_workset_t__p_unsigned_char", "unsigned char *(*)(struct workset_t *)|byte *(*)(struct workset_t *)", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_f_p_struct_workset_t_p_q_const__struct_node_t__int = {"_p_f_p_struct_workset_t_p_q_const__struct_node_t__int", "int (*)(struct workset_t *,struct node_t const *)|int (*)(struct workset_t *,Node const *)", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_e_fiftyoneDegrees_DataSetInitStatus = {"_p_e_fiftyoneDegrees_DataSetInitStatus", "enum e_fiftyoneDegrees_DataSetInitStatus *|fiftyoneDegreesDataSetInitStatus *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_f_p_struct_fiftyoneDegrees_workset_t__p_unsigned_char = {"_p_f_p_struct_fiftyoneDegrees_workset_t__p_unsigned_char", "unsigned char *(*)(struct fiftyoneDegrees_workset_t *)|byte *(*)(struct fiftyoneDegrees_workset_t *)", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_f_p_struct_fiftyoneDegrees_workset_t_p_q_const__struct_fiftyoneDegrees_node_t__int = {"_p_f_p_struct_fiftyoneDegrees_workset_t_p_q_const__struct_fiftyoneDegrees_node_t__int", "int (*)(struct fiftyoneDegrees_workset_t *,fiftyoneDegreesNode const *)|int (*)(struct fiftyoneDegrees_workset_t *,struct fiftyoneDegrees_node_t const *)", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_fiftyoneDegreesMatchMethod = {"_p_fiftyoneDegreesMatchMethod", "enum fiftyoneDegreesMatchMethod *|fiftyoneDegreesMatchMethod *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_fiftyoneDegreesNodeIndex_value = {"_p_fiftyoneDegreesNodeIndex_value", "fiftyoneDegreesNodeIndex_value *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::fiftyoneDegreesNodeIndex_value", 0};
+static swig_type_info _swigt__p_fiftyoneDegreesRange_t = {"_p_fiftyoneDegreesRange_t", "fiftyoneDegreesRANGE *|struct fiftyoneDegreesRange_t *|fiftyoneDegreesRange_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::fiftyoneDegreesRANGE", 0};
+static swig_type_info _swigt__p_fiftyoneDegrees_ascii_string_t = {"_p_fiftyoneDegrees_ascii_string_t", "fiftyoneDegreesAsciiString *|struct fiftyoneDegrees_ascii_string_t *|fiftyoneDegrees_ascii_string_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::fiftyoneDegreesAsciiString", 0};
+static swig_type_info _swigt__p_fiftyoneDegrees_component_t = {"_p_fiftyoneDegrees_component_t", "struct fiftyoneDegrees_component_t *|fiftyoneDegrees_component_t *|fiftyoneDegreesComponent *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::fiftyoneDegreesComponent", 0};
+static swig_type_info _swigt__p_fiftyoneDegrees_dataset_header_t = {"_p_fiftyoneDegrees_dataset_header_t", "struct fiftyoneDegrees_dataset_header_t *|fiftyoneDegrees_dataset_header_t *|fiftyoneDegreesDataSetHeader *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::fiftyoneDegreesDataSetHeader", 0};
+static swig_type_info _swigt__p_fiftyoneDegrees_dataset_t = {"_p_fiftyoneDegrees_dataset_t", "struct fiftyoneDegrees_dataset_t *|fiftyoneDegrees_dataset_t *|fiftyoneDegreesDataSet *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::fiftyoneDegreesDataSet", 0};
+static swig_type_info _swigt__p_fiftyoneDegrees_date_t = {"_p_fiftyoneDegrees_date_t", "struct fiftyoneDegrees_date_t *|fiftyoneDegreesDate *|fiftyoneDegrees_date_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::fiftyoneDegreesDate", 0};
+static swig_type_info _swigt__p_fiftyoneDegrees_entity_header_t = {"_p_fiftyoneDegrees_entity_header_t", "struct fiftyoneDegrees_entity_header_t *|fiftyoneDegrees_entity_header_t *|fiftyoneDegreesEntityHeader *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::fiftyoneDegreesEntityHeader", 0};
+static swig_type_info _swigt__p_fiftyoneDegrees_linked_signature_list_item_t = {"_p_fiftyoneDegrees_linked_signature_list_item_t", "struct fiftyoneDegrees_linked_signature_list_item_t *|fiftyoneDegreesLinkedSignatureListItem *|fiftyoneDegrees_linked_signature_list_item_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::fiftyoneDegreesLinkedSignatureListItem", 0};
+static swig_type_info _swigt__p_fiftyoneDegrees_linked_signature_list_t = {"_p_fiftyoneDegrees_linked_signature_list_t", "fiftyoneDegreesLinkedSignatureList *|struct fiftyoneDegrees_linked_signature_list_t *|fiftyoneDegrees_linked_signature_list_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::fiftyoneDegreesLinkedSignatureList", 0};
+static swig_type_info _swigt__p_fiftyoneDegrees_map_t = {"_p_fiftyoneDegrees_map_t", "struct fiftyoneDegrees_map_t *|fiftyoneDegrees_map_t *|fiftyoneDegreesMap *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::fiftyoneDegreesMap", 0};
+static swig_type_info _swigt__p_fiftyoneDegrees_node_index_t = {"_p_fiftyoneDegrees_node_index_t", "struct fiftyoneDegrees_node_index_t *|fiftyoneDegreesNodeIndex *|fiftyoneDegrees_node_index_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::fiftyoneDegreesNodeIndex", 0};
+static swig_type_info _swigt__p_fiftyoneDegrees_node_index_value_t = {"_p_fiftyoneDegrees_node_index_value_t", "fiftyoneDegreesNodeIndexValue *|union fiftyoneDegrees_node_index_value_t *|fiftyoneDegrees_node_index_value_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::fiftyoneDegreesNodeIndexValue", 0};
+static swig_type_info _swigt__p_fiftyoneDegrees_node_numeric_index_t = {"_p_fiftyoneDegrees_node_numeric_index_t", "struct fiftyoneDegrees_node_numeric_index_t *|fiftyoneDegrees_node_numeric_index_t *|fiftyoneDegreesNodeNumericIndex *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::fiftyoneDegreesNodeNumericIndex", 0};
+static swig_type_info _swigt__p_fiftyoneDegrees_node_t = {"_p_fiftyoneDegrees_node_t", "fiftyoneDegreesNode *|struct fiftyoneDegrees_node_t *|fiftyoneDegrees_node_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::fiftyoneDegreesNode", 0};
+static swig_type_info _swigt__p_fiftyoneDegrees_numeric_node_state = {"_p_fiftyoneDegrees_numeric_node_state", "struct fiftyoneDegrees_numeric_node_state *|fiftyoneDegreesNumericNodeState *|fiftyoneDegrees_numeric_node_state *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::fiftyoneDegreesNumericNodeState", 0};
+static swig_type_info _swigt__p_fiftyoneDegrees_profile_offset_t = {"_p_fiftyoneDegrees_profile_offset_t", "fiftyoneDegreesProfileOffset *|struct fiftyoneDegrees_profile_offset_t *|fiftyoneDegrees_profile_offset_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::fiftyoneDegreesProfileOffset", 0};
+static swig_type_info _swigt__p_fiftyoneDegrees_profile_t = {"_p_fiftyoneDegrees_profile_t", "struct fiftyoneDegrees_profile_t *|fiftyoneDegrees_profile_t *|fiftyoneDegreesProfile *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::fiftyoneDegreesProfile", 0};
+static swig_type_info _swigt__p_fiftyoneDegrees_string_t = {"_p_fiftyoneDegrees_string_t", "fiftyoneDegreesString *|struct fiftyoneDegrees_string_t *|fiftyoneDegrees_string_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::fiftyoneDegreesString", 0};
+static swig_type_info _swigt__p_fiftyoneDegrees_strings_t = {"_p_fiftyoneDegrees_strings_t", "fiftyoneDegreesStrings *|struct fiftyoneDegrees_strings_t *|fiftyoneDegrees_strings_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::fiftyoneDegreesStrings", 0};
+static swig_type_info _swigt__p_fiftyoneDegrees_value_t = {"_p_fiftyoneDegrees_value_t", "fiftyoneDegreesValue *|struct fiftyoneDegrees_value_t *|fiftyoneDegrees_value_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::fiftyoneDegreesValue", 0};
+static swig_type_info _swigt__p_fiftyoneDegrees_workset_t = {"_p_fiftyoneDegrees_workset_t", "struct fiftyoneDegrees_workset_t *|fiftyoneDegrees_workset_t *|fiftyoneDegreesWorkset *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::fiftyoneDegreesWorkset", 0};
 static swig_type_info _swigt__p_int16_t = {"_p_int16_t", "int16_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_int32_t = {"_p_int32_t", "int32_t *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_linked_signature_list_item_t = {"_p_linked_signature_list_item_t", "LinkedSignatureListItem *|struct linked_signature_list_item_t *|linked_signature_list_item_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::LinkedSignatureListItem", 0};
-static swig_type_info _swigt__p_linked_signature_list_t = {"_p_linked_signature_list_t", "LinkedSignatureList *|struct linked_signature_list_t *|linked_signature_list_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::LinkedSignatureList", 0};
-static swig_type_info _swigt__p_map_t = {"_p_map_t", "Map *|struct map_t *|map_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::Map", 0};
-static swig_type_info _swigt__p_matchMethod = {"_p_matchMethod", "enum matchMethod *|matchMethod *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_node_index_t = {"_p_node_index_t", "struct node_index_t *|NodeIndex *|node_index_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::NodeIndex", 0};
-static swig_type_info _swigt__p_node_index_value_t = {"_p_node_index_value_t", "NodeIndexValue *|union node_index_value_t *|node_index_value_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::NodeIndexValue", 0};
-static swig_type_info _swigt__p_node_numeric_index_t = {"_p_node_numeric_index_t", "struct node_numeric_index_t *|node_numeric_index_t *|NodeNumericIndex *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::NodeNumericIndex", 0};
-static swig_type_info _swigt__p_node_t = {"_p_node_t", "struct node_t *|Node *|node_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::Node", 0};
-static swig_type_info _swigt__p_numeric_node_state = {"_p_numeric_node_state", "struct numeric_node_state *|NumericNodeState *|numeric_node_state *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::NumericNodeState", 0};
 static swig_type_info _swigt__p_p_char = {"_p_p_char", "char **", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_p_node_t = {"_p_p_node_t", "Node **|struct node_t **", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_p_profile_t = {"_p_p_profile_t", "Profile **|struct profile_t **", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_p_property_t = {"_p_p_property_t", "struct property_t **|Property **", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_p_value_t = {"_p_p_value_t", "struct value_t **|Value **", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_profile_offset_t = {"_p_profile_offset_t", "ProfileOffset *|struct profile_offset_t *|profile_offset_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::ProfileOffset", 0};
-static swig_type_info _swigt__p_profile_t = {"_p_profile_t", "struct profile_t *|profile_t *|Profile *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::Profile", 0};
-static swig_type_info _swigt__p_property_t = {"_p_property_t", "struct property_t *|property_t *|Property *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::Property", 0};
-static swig_type_info _swigt__p_range_t = {"_p_range_t", "RANGE *|struct range_t *|range_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::RANGE", 0};
-static swig_type_info _swigt__p_string_t = {"_p_string_t", "String *|struct string_t *|string_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::String", 0};
-static swig_type_info _swigt__p_strings_t = {"_p_strings_t", "Strings *|struct strings_t *|strings_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::Strings", 0};
+static swig_type_info _swigt__p_p_fiftyoneDegrees_node_t = {"_p_p_fiftyoneDegrees_node_t", "fiftyoneDegreesNode **|struct fiftyoneDegrees_node_t **", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_p_fiftyoneDegrees_profile_t = {"_p_p_fiftyoneDegrees_profile_t", "fiftyoneDegreesProfile **|struct fiftyoneDegrees_profile_t **", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_p_fiftyoneDegrees_value_t = {"_p_p_fiftyoneDegrees_value_t", "struct fiftyoneDegrees_value_t **|fiftyoneDegreesValue **", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_p_property_t = {"_p_p_property_t", "struct property_t **|fiftyoneDegreesProperty **", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_property_t = {"_p_property_t", "struct property_t *|property_t *|fiftyoneDegreesProperty *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::fiftyoneDegreesProperty", 0};
 static swig_type_info _swigt__p_unsigned_char = {"_p_unsigned_char", "fod_bool *|unsigned char *|byte *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_value_t = {"_p_value_t", "Value *|struct value_t *|value_t *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::Value", 0};
-static swig_type_info _swigt__p_workset_t = {"_p_workset_t", "struct workset_t *|workset_t *|Workset *", 0, 0, (void*)"FiftyOneDegrees::PatternV3::Workset", 0};
 
 static swig_type_info *swig_type_initial[] = {
-  &_swigt__p_NodeIndex_value,
-  &_swigt__p_ascii_string_t,
   &_swigt__p_char,
-  &_swigt__p_component_t,
-  &_swigt__p_dataset_header_t,
-  &_swigt__p_dataset_t,
-  &_swigt__p_date_t,
-  &_swigt__p_e_DataSetInitStatus,
-  &_swigt__p_entity_header_t,
-  &_swigt__p_f_p_struct_workset_t__p_unsigned_char,
-  &_swigt__p_f_p_struct_workset_t_p_q_const__struct_node_t__int,
+  &_swigt__p_e_fiftyoneDegrees_DataSetInitStatus,
+  &_swigt__p_f_p_struct_fiftyoneDegrees_workset_t__p_unsigned_char,
+  &_swigt__p_f_p_struct_fiftyoneDegrees_workset_t_p_q_const__struct_fiftyoneDegrees_node_t__int,
+  &_swigt__p_fiftyoneDegreesMatchMethod,
+  &_swigt__p_fiftyoneDegreesNodeIndex_value,
+  &_swigt__p_fiftyoneDegreesRange_t,
+  &_swigt__p_fiftyoneDegrees_ascii_string_t,
+  &_swigt__p_fiftyoneDegrees_component_t,
+  &_swigt__p_fiftyoneDegrees_dataset_header_t,
+  &_swigt__p_fiftyoneDegrees_dataset_t,
+  &_swigt__p_fiftyoneDegrees_date_t,
+  &_swigt__p_fiftyoneDegrees_entity_header_t,
+  &_swigt__p_fiftyoneDegrees_linked_signature_list_item_t,
+  &_swigt__p_fiftyoneDegrees_linked_signature_list_t,
+  &_swigt__p_fiftyoneDegrees_map_t,
+  &_swigt__p_fiftyoneDegrees_node_index_t,
+  &_swigt__p_fiftyoneDegrees_node_index_value_t,
+  &_swigt__p_fiftyoneDegrees_node_numeric_index_t,
+  &_swigt__p_fiftyoneDegrees_node_t,
+  &_swigt__p_fiftyoneDegrees_numeric_node_state,
+  &_swigt__p_fiftyoneDegrees_profile_offset_t,
+  &_swigt__p_fiftyoneDegrees_profile_t,
+  &_swigt__p_fiftyoneDegrees_string_t,
+  &_swigt__p_fiftyoneDegrees_strings_t,
+  &_swigt__p_fiftyoneDegrees_value_t,
+  &_swigt__p_fiftyoneDegrees_workset_t,
   &_swigt__p_int16_t,
   &_swigt__p_int32_t,
-  &_swigt__p_linked_signature_list_item_t,
-  &_swigt__p_linked_signature_list_t,
-  &_swigt__p_map_t,
-  &_swigt__p_matchMethod,
-  &_swigt__p_node_index_t,
-  &_swigt__p_node_index_value_t,
-  &_swigt__p_node_numeric_index_t,
-  &_swigt__p_node_t,
-  &_swigt__p_numeric_node_state,
   &_swigt__p_p_char,
-  &_swigt__p_p_node_t,
-  &_swigt__p_p_profile_t,
+  &_swigt__p_p_fiftyoneDegrees_node_t,
+  &_swigt__p_p_fiftyoneDegrees_profile_t,
+  &_swigt__p_p_fiftyoneDegrees_value_t,
   &_swigt__p_p_property_t,
-  &_swigt__p_p_value_t,
-  &_swigt__p_profile_offset_t,
-  &_swigt__p_profile_t,
   &_swigt__p_property_t,
-  &_swigt__p_range_t,
-  &_swigt__p_string_t,
-  &_swigt__p_strings_t,
   &_swigt__p_unsigned_char,
-  &_swigt__p_value_t,
-  &_swigt__p_workset_t,
 };
 
-static swig_cast_info _swigc__p_NodeIndex_value[] = {  {&_swigt__p_NodeIndex_value, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_ascii_string_t[] = {  {&_swigt__p_ascii_string_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_char[] = {  {&_swigt__p_char, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_component_t[] = {  {&_swigt__p_component_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_dataset_header_t[] = {  {&_swigt__p_dataset_header_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_dataset_t[] = {  {&_swigt__p_dataset_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_date_t[] = {  {&_swigt__p_date_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_e_DataSetInitStatus[] = {  {&_swigt__p_e_DataSetInitStatus, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_entity_header_t[] = {  {&_swigt__p_entity_header_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_f_p_struct_workset_t__p_unsigned_char[] = {  {&_swigt__p_f_p_struct_workset_t__p_unsigned_char, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_f_p_struct_workset_t_p_q_const__struct_node_t__int[] = {  {&_swigt__p_f_p_struct_workset_t_p_q_const__struct_node_t__int, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_e_fiftyoneDegrees_DataSetInitStatus[] = {  {&_swigt__p_e_fiftyoneDegrees_DataSetInitStatus, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_f_p_struct_fiftyoneDegrees_workset_t__p_unsigned_char[] = {  {&_swigt__p_f_p_struct_fiftyoneDegrees_workset_t__p_unsigned_char, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_f_p_struct_fiftyoneDegrees_workset_t_p_q_const__struct_fiftyoneDegrees_node_t__int[] = {  {&_swigt__p_f_p_struct_fiftyoneDegrees_workset_t_p_q_const__struct_fiftyoneDegrees_node_t__int, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fiftyoneDegreesMatchMethod[] = {  {&_swigt__p_fiftyoneDegreesMatchMethod, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fiftyoneDegreesNodeIndex_value[] = {  {&_swigt__p_fiftyoneDegreesNodeIndex_value, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fiftyoneDegreesRange_t[] = {  {&_swigt__p_fiftyoneDegreesRange_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fiftyoneDegrees_ascii_string_t[] = {  {&_swigt__p_fiftyoneDegrees_ascii_string_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fiftyoneDegrees_component_t[] = {  {&_swigt__p_fiftyoneDegrees_component_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fiftyoneDegrees_dataset_header_t[] = {  {&_swigt__p_fiftyoneDegrees_dataset_header_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fiftyoneDegrees_dataset_t[] = {  {&_swigt__p_fiftyoneDegrees_dataset_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fiftyoneDegrees_date_t[] = {  {&_swigt__p_fiftyoneDegrees_date_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fiftyoneDegrees_entity_header_t[] = {  {&_swigt__p_fiftyoneDegrees_entity_header_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fiftyoneDegrees_linked_signature_list_item_t[] = {  {&_swigt__p_fiftyoneDegrees_linked_signature_list_item_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fiftyoneDegrees_linked_signature_list_t[] = {  {&_swigt__p_fiftyoneDegrees_linked_signature_list_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fiftyoneDegrees_map_t[] = {  {&_swigt__p_fiftyoneDegrees_map_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fiftyoneDegrees_node_index_t[] = {  {&_swigt__p_fiftyoneDegrees_node_index_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fiftyoneDegrees_node_index_value_t[] = {  {&_swigt__p_fiftyoneDegrees_node_index_value_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fiftyoneDegrees_node_numeric_index_t[] = {  {&_swigt__p_fiftyoneDegrees_node_numeric_index_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fiftyoneDegrees_node_t[] = {  {&_swigt__p_fiftyoneDegrees_node_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fiftyoneDegrees_numeric_node_state[] = {  {&_swigt__p_fiftyoneDegrees_numeric_node_state, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fiftyoneDegrees_profile_offset_t[] = {  {&_swigt__p_fiftyoneDegrees_profile_offset_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fiftyoneDegrees_profile_t[] = {  {&_swigt__p_fiftyoneDegrees_profile_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fiftyoneDegrees_string_t[] = {  {&_swigt__p_fiftyoneDegrees_string_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fiftyoneDegrees_strings_t[] = {  {&_swigt__p_fiftyoneDegrees_strings_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fiftyoneDegrees_value_t[] = {  {&_swigt__p_fiftyoneDegrees_value_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fiftyoneDegrees_workset_t[] = {  {&_swigt__p_fiftyoneDegrees_workset_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_int16_t[] = {  {&_swigt__p_int16_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_int32_t[] = {  {&_swigt__p_int32_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_linked_signature_list_item_t[] = {  {&_swigt__p_linked_signature_list_item_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_linked_signature_list_t[] = {  {&_swigt__p_linked_signature_list_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_map_t[] = {  {&_swigt__p_map_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_matchMethod[] = {  {&_swigt__p_matchMethod, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_node_index_t[] = {  {&_swigt__p_node_index_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_node_index_value_t[] = {  {&_swigt__p_node_index_value_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_node_numeric_index_t[] = {  {&_swigt__p_node_numeric_index_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_node_t[] = {  {&_swigt__p_node_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_numeric_node_state[] = {  {&_swigt__p_numeric_node_state, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_char[] = {  {&_swigt__p_p_char, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_p_node_t[] = {  {&_swigt__p_p_node_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_p_profile_t[] = {  {&_swigt__p_p_profile_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_p_fiftyoneDegrees_node_t[] = {  {&_swigt__p_p_fiftyoneDegrees_node_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_p_fiftyoneDegrees_profile_t[] = {  {&_swigt__p_p_fiftyoneDegrees_profile_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_p_fiftyoneDegrees_value_t[] = {  {&_swigt__p_p_fiftyoneDegrees_value_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_property_t[] = {  {&_swigt__p_p_property_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_p_value_t[] = {  {&_swigt__p_p_value_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_profile_offset_t[] = {  {&_swigt__p_profile_offset_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_profile_t[] = {  {&_swigt__p_profile_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_property_t[] = {  {&_swigt__p_property_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_range_t[] = {  {&_swigt__p_range_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_string_t[] = {  {&_swigt__p_string_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_strings_t[] = {  {&_swigt__p_strings_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_unsigned_char[] = {  {&_swigt__p_unsigned_char, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_value_t[] = {  {&_swigt__p_value_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_workset_t[] = {  {&_swigt__p_workset_t, 0, 0, 0},{0, 0, 0, 0}};
 
 static swig_cast_info *swig_cast_initial[] = {
-  _swigc__p_NodeIndex_value,
-  _swigc__p_ascii_string_t,
   _swigc__p_char,
-  _swigc__p_component_t,
-  _swigc__p_dataset_header_t,
-  _swigc__p_dataset_t,
-  _swigc__p_date_t,
-  _swigc__p_e_DataSetInitStatus,
-  _swigc__p_entity_header_t,
-  _swigc__p_f_p_struct_workset_t__p_unsigned_char,
-  _swigc__p_f_p_struct_workset_t_p_q_const__struct_node_t__int,
+  _swigc__p_e_fiftyoneDegrees_DataSetInitStatus,
+  _swigc__p_f_p_struct_fiftyoneDegrees_workset_t__p_unsigned_char,
+  _swigc__p_f_p_struct_fiftyoneDegrees_workset_t_p_q_const__struct_fiftyoneDegrees_node_t__int,
+  _swigc__p_fiftyoneDegreesMatchMethod,
+  _swigc__p_fiftyoneDegreesNodeIndex_value,
+  _swigc__p_fiftyoneDegreesRange_t,
+  _swigc__p_fiftyoneDegrees_ascii_string_t,
+  _swigc__p_fiftyoneDegrees_component_t,
+  _swigc__p_fiftyoneDegrees_dataset_header_t,
+  _swigc__p_fiftyoneDegrees_dataset_t,
+  _swigc__p_fiftyoneDegrees_date_t,
+  _swigc__p_fiftyoneDegrees_entity_header_t,
+  _swigc__p_fiftyoneDegrees_linked_signature_list_item_t,
+  _swigc__p_fiftyoneDegrees_linked_signature_list_t,
+  _swigc__p_fiftyoneDegrees_map_t,
+  _swigc__p_fiftyoneDegrees_node_index_t,
+  _swigc__p_fiftyoneDegrees_node_index_value_t,
+  _swigc__p_fiftyoneDegrees_node_numeric_index_t,
+  _swigc__p_fiftyoneDegrees_node_t,
+  _swigc__p_fiftyoneDegrees_numeric_node_state,
+  _swigc__p_fiftyoneDegrees_profile_offset_t,
+  _swigc__p_fiftyoneDegrees_profile_t,
+  _swigc__p_fiftyoneDegrees_string_t,
+  _swigc__p_fiftyoneDegrees_strings_t,
+  _swigc__p_fiftyoneDegrees_value_t,
+  _swigc__p_fiftyoneDegrees_workset_t,
   _swigc__p_int16_t,
   _swigc__p_int32_t,
-  _swigc__p_linked_signature_list_item_t,
-  _swigc__p_linked_signature_list_t,
-  _swigc__p_map_t,
-  _swigc__p_matchMethod,
-  _swigc__p_node_index_t,
-  _swigc__p_node_index_value_t,
-  _swigc__p_node_numeric_index_t,
-  _swigc__p_node_t,
-  _swigc__p_numeric_node_state,
   _swigc__p_p_char,
-  _swigc__p_p_node_t,
-  _swigc__p_p_profile_t,
+  _swigc__p_p_fiftyoneDegrees_node_t,
+  _swigc__p_p_fiftyoneDegrees_profile_t,
+  _swigc__p_p_fiftyoneDegrees_value_t,
   _swigc__p_p_property_t,
-  _swigc__p_p_value_t,
-  _swigc__p_profile_offset_t,
-  _swigc__p_profile_t,
   _swigc__p_property_t,
-  _swigc__p_range_t,
-  _swigc__p_string_t,
-  _swigc__p_strings_t,
   _swigc__p_unsigned_char,
-  _swigc__p_value_t,
-  _swigc__p_workset_t,
 };
 
 
@@ -10866,291 +10866,291 @@ static swig_variable_info swig_variables[] = {
 {0,0,0,0}
 };
 static swig_command_info swig_commands[] = {
-{"FiftyOneDegrees::PatternV3c::RANGE_lower_get", _wrap_RANGE_lower_get},
-{"FiftyOneDegrees::PatternV3c::RANGE_upper_get", _wrap_RANGE_upper_get},
-{"FiftyOneDegrees::PatternV3c::new_RANGE", _wrap_new_RANGE},
-{"FiftyOneDegrees::PatternV3c::delete_RANGE", _wrap_delete_RANGE},
-{"FiftyOneDegrees::PatternV3c::AsciiString_length_get", _wrap_AsciiString_length_get},
-{"FiftyOneDegrees::PatternV3c::AsciiString_firstByte_get", _wrap_AsciiString_firstByte_get},
-{"FiftyOneDegrees::PatternV3c::new_AsciiString", _wrap_new_AsciiString},
-{"FiftyOneDegrees::PatternV3c::delete_AsciiString", _wrap_delete_AsciiString},
-{"FiftyOneDegrees::PatternV3c::Component_componentId_get", _wrap_Component_componentId_get},
-{"FiftyOneDegrees::PatternV3c::Component_nameOffset_get", _wrap_Component_nameOffset_get},
-{"FiftyOneDegrees::PatternV3c::Component_defaultProfileOffset_get", _wrap_Component_defaultProfileOffset_get},
-{"FiftyOneDegrees::PatternV3c::new_Component", _wrap_new_Component},
-{"FiftyOneDegrees::PatternV3c::delete_Component", _wrap_delete_Component},
-{"FiftyOneDegrees::PatternV3c::Map_nameOffset_get", _wrap_Map_nameOffset_get},
-{"FiftyOneDegrees::PatternV3c::new_Map", _wrap_new_Map},
-{"FiftyOneDegrees::PatternV3c::delete_Map", _wrap_delete_Map},
-{"FiftyOneDegrees::PatternV3c::NodeNumericIndex_value_get", _wrap_NodeNumericIndex_value_get},
-{"FiftyOneDegrees::PatternV3c::NodeNumericIndex_relatedNodeOffset_get", _wrap_NodeNumericIndex_relatedNodeOffset_get},
-{"FiftyOneDegrees::PatternV3c::new_NodeNumericIndex", _wrap_new_NodeNumericIndex},
-{"FiftyOneDegrees::PatternV3c::delete_NodeNumericIndex", _wrap_delete_NodeNumericIndex},
-{"FiftyOneDegrees::PatternV3c::NodeIndexValue_characters_get", _wrap_NodeIndexValue_characters_get},
-{"FiftyOneDegrees::PatternV3c::NodeIndexValue_integer_get", _wrap_NodeIndexValue_integer_get},
-{"FiftyOneDegrees::PatternV3c::new_NodeIndexValue", _wrap_new_NodeIndexValue},
-{"FiftyOneDegrees::PatternV3c::delete_NodeIndexValue", _wrap_delete_NodeIndexValue},
-{"FiftyOneDegrees::PatternV3c::NodeIndex_isString_get", _wrap_NodeIndex_isString_get},
-{"FiftyOneDegrees::PatternV3c::NodeIndex_relatedNodeOffset_get", _wrap_NodeIndex_relatedNodeOffset_get},
-{"FiftyOneDegrees::PatternV3c::NodeIndex_value_get", _wrap_NodeIndex_value_get},
-{"FiftyOneDegrees::PatternV3c::new_NodeIndex", _wrap_new_NodeIndex},
-{"FiftyOneDegrees::PatternV3c::delete_NodeIndex", _wrap_delete_NodeIndex},
-{"FiftyOneDegrees::PatternV3c::NodeIndex_value_characters_get", _wrap_NodeIndex_value_characters_get},
-{"FiftyOneDegrees::PatternV3c::NodeIndex_value_integer_get", _wrap_NodeIndex_value_integer_get},
-{"FiftyOneDegrees::PatternV3c::new_NodeIndex_value", _wrap_new_NodeIndex_value},
-{"FiftyOneDegrees::PatternV3c::delete_NodeIndex_value", _wrap_delete_NodeIndex_value},
-{"FiftyOneDegrees::PatternV3c::String_value_set", _wrap_String_value_set},
-{"FiftyOneDegrees::PatternV3c::String_value_get", _wrap_String_value_get},
-{"FiftyOneDegrees::PatternV3c::String_length_set", _wrap_String_length_set},
-{"FiftyOneDegrees::PatternV3c::String_length_get", _wrap_String_length_get},
-{"FiftyOneDegrees::PatternV3c::new_String", _wrap_new_String},
-{"FiftyOneDegrees::PatternV3c::delete_String", _wrap_delete_String},
-{"FiftyOneDegrees::PatternV3c::Strings_firstString_set", _wrap_Strings_firstString_set},
-{"FiftyOneDegrees::PatternV3c::Strings_firstString_get", _wrap_Strings_firstString_get},
-{"FiftyOneDegrees::PatternV3c::Strings_count_get", _wrap_Strings_count_get},
-{"FiftyOneDegrees::PatternV3c::new_Strings", _wrap_new_Strings},
-{"FiftyOneDegrees::PatternV3c::delete_Strings", _wrap_delete_Strings},
-{"FiftyOneDegrees::PatternV3c::Node_position_get", _wrap_Node_position_get},
-{"FiftyOneDegrees::PatternV3c::Node_nextCharacterPosition_get", _wrap_Node_nextCharacterPosition_get},
-{"FiftyOneDegrees::PatternV3c::Node_parentOffset_get", _wrap_Node_parentOffset_get},
-{"FiftyOneDegrees::PatternV3c::Node_characterStringOffset_get", _wrap_Node_characterStringOffset_get},
-{"FiftyOneDegrees::PatternV3c::Node_childrenCount_get", _wrap_Node_childrenCount_get},
-{"FiftyOneDegrees::PatternV3c::Node_numericChildrenCount_get", _wrap_Node_numericChildrenCount_get},
-{"FiftyOneDegrees::PatternV3c::Node_signatureCount_get", _wrap_Node_signatureCount_get},
-{"FiftyOneDegrees::PatternV3c::new_Node", _wrap_new_Node},
-{"FiftyOneDegrees::PatternV3c::delete_Node", _wrap_delete_Node},
-{"FiftyOneDegrees::PatternV3c::ProfileOffset_profileId_get", _wrap_ProfileOffset_profileId_get},
-{"FiftyOneDegrees::PatternV3c::ProfileOffset_offset_get", _wrap_ProfileOffset_offset_get},
-{"FiftyOneDegrees::PatternV3c::new_ProfileOffset", _wrap_new_ProfileOffset},
-{"FiftyOneDegrees::PatternV3c::delete_ProfileOffset", _wrap_delete_ProfileOffset},
-{"FiftyOneDegrees::PatternV3c::Property_componentIndex_get", _wrap_Property_componentIndex_get},
-{"FiftyOneDegrees::PatternV3c::Property_displayOrder_get", _wrap_Property_displayOrder_get},
-{"FiftyOneDegrees::PatternV3c::Property_isMandatory_get", _wrap_Property_isMandatory_get},
-{"FiftyOneDegrees::PatternV3c::Property_isList_get", _wrap_Property_isList_get},
-{"FiftyOneDegrees::PatternV3c::Property_showValues_get", _wrap_Property_showValues_get},
-{"FiftyOneDegrees::PatternV3c::Property_isObsolete_get", _wrap_Property_isObsolete_get},
-{"FiftyOneDegrees::PatternV3c::Property_show_get", _wrap_Property_show_get},
-{"FiftyOneDegrees::PatternV3c::Property_valueType_get", _wrap_Property_valueType_get},
-{"FiftyOneDegrees::PatternV3c::Property_defaultValueIndex_get", _wrap_Property_defaultValueIndex_get},
-{"FiftyOneDegrees::PatternV3c::Property_nameOffset_get", _wrap_Property_nameOffset_get},
-{"FiftyOneDegrees::PatternV3c::Property_descriptionOffset_get", _wrap_Property_descriptionOffset_get},
-{"FiftyOneDegrees::PatternV3c::Property_categoryOffset_get", _wrap_Property_categoryOffset_get},
-{"FiftyOneDegrees::PatternV3c::Property_urlOffset_get", _wrap_Property_urlOffset_get},
-{"FiftyOneDegrees::PatternV3c::Property_firstValueIndex_get", _wrap_Property_firstValueIndex_get},
-{"FiftyOneDegrees::PatternV3c::Property_lastValueIndex_get", _wrap_Property_lastValueIndex_get},
-{"FiftyOneDegrees::PatternV3c::Property_mapCount_get", _wrap_Property_mapCount_get},
-{"FiftyOneDegrees::PatternV3c::Property_firstMapIndex_get", _wrap_Property_firstMapIndex_get},
-{"FiftyOneDegrees::PatternV3c::new_Property", _wrap_new_Property},
-{"FiftyOneDegrees::PatternV3c::delete_Property", _wrap_delete_Property},
-{"FiftyOneDegrees::PatternV3c::Value_propertyIndex_get", _wrap_Value_propertyIndex_get},
-{"FiftyOneDegrees::PatternV3c::Value_nameOffset_get", _wrap_Value_nameOffset_get},
-{"FiftyOneDegrees::PatternV3c::Value_descriptionOffset_get", _wrap_Value_descriptionOffset_get},
-{"FiftyOneDegrees::PatternV3c::Value_urlOffset_get", _wrap_Value_urlOffset_get},
-{"FiftyOneDegrees::PatternV3c::new_Value", _wrap_new_Value},
-{"FiftyOneDegrees::PatternV3c::delete_Value", _wrap_delete_Value},
-{"FiftyOneDegrees::PatternV3c::Profile_componentIndex_get", _wrap_Profile_componentIndex_get},
-{"FiftyOneDegrees::PatternV3c::Profile_profileId_get", _wrap_Profile_profileId_get},
-{"FiftyOneDegrees::PatternV3c::Profile_valueCount_get", _wrap_Profile_valueCount_get},
-{"FiftyOneDegrees::PatternV3c::Profile_signatureCount_get", _wrap_Profile_signatureCount_get},
-{"FiftyOneDegrees::PatternV3c::new_Profile", _wrap_new_Profile},
-{"FiftyOneDegrees::PatternV3c::delete_Profile", _wrap_delete_Profile},
-{"FiftyOneDegrees::PatternV3c::Date_year_get", _wrap_Date_year_get},
-{"FiftyOneDegrees::PatternV3c::Date_month_get", _wrap_Date_month_get},
-{"FiftyOneDegrees::PatternV3c::Date_day_get", _wrap_Date_day_get},
-{"FiftyOneDegrees::PatternV3c::new_Date", _wrap_new_Date},
-{"FiftyOneDegrees::PatternV3c::delete_Date", _wrap_delete_Date},
-{"FiftyOneDegrees::PatternV3c::EntityHeader_startPosition_get", _wrap_EntityHeader_startPosition_get},
-{"FiftyOneDegrees::PatternV3c::EntityHeader_length_get", _wrap_EntityHeader_length_get},
-{"FiftyOneDegrees::PatternV3c::EntityHeader_count_get", _wrap_EntityHeader_count_get},
-{"FiftyOneDegrees::PatternV3c::new_EntityHeader", _wrap_new_EntityHeader},
-{"FiftyOneDegrees::PatternV3c::delete_EntityHeader", _wrap_delete_EntityHeader},
-{"FiftyOneDegrees::PatternV3c::NumericNodeState_target_set", _wrap_NumericNodeState_target_set},
-{"FiftyOneDegrees::PatternV3c::NumericNodeState_target_get", _wrap_NumericNodeState_target_get},
-{"FiftyOneDegrees::PatternV3c::NumericNodeState_node_set", _wrap_NumericNodeState_node_set},
-{"FiftyOneDegrees::PatternV3c::NumericNodeState_node_get", _wrap_NumericNodeState_node_get},
-{"FiftyOneDegrees::PatternV3c::NumericNodeState_firstNodeNumericIndex_set", _wrap_NumericNodeState_firstNodeNumericIndex_set},
-{"FiftyOneDegrees::PatternV3c::NumericNodeState_firstNodeNumericIndex_get", _wrap_NumericNodeState_firstNodeNumericIndex_get},
-{"FiftyOneDegrees::PatternV3c::NumericNodeState_range_set", _wrap_NumericNodeState_range_set},
-{"FiftyOneDegrees::PatternV3c::NumericNodeState_range_get", _wrap_NumericNodeState_range_get},
-{"FiftyOneDegrees::PatternV3c::NumericNodeState_startIndex_set", _wrap_NumericNodeState_startIndex_set},
-{"FiftyOneDegrees::PatternV3c::NumericNodeState_startIndex_get", _wrap_NumericNodeState_startIndex_get},
-{"FiftyOneDegrees::PatternV3c::NumericNodeState_lowIndex_set", _wrap_NumericNodeState_lowIndex_set},
-{"FiftyOneDegrees::PatternV3c::NumericNodeState_lowIndex_get", _wrap_NumericNodeState_lowIndex_get},
-{"FiftyOneDegrees::PatternV3c::NumericNodeState_highIndex_set", _wrap_NumericNodeState_highIndex_set},
-{"FiftyOneDegrees::PatternV3c::NumericNodeState_highIndex_get", _wrap_NumericNodeState_highIndex_get},
-{"FiftyOneDegrees::PatternV3c::NumericNodeState_lowInRange_set", _wrap_NumericNodeState_lowInRange_set},
-{"FiftyOneDegrees::PatternV3c::NumericNodeState_lowInRange_get", _wrap_NumericNodeState_lowInRange_get},
-{"FiftyOneDegrees::PatternV3c::NumericNodeState_highInRange_set", _wrap_NumericNodeState_highInRange_set},
-{"FiftyOneDegrees::PatternV3c::NumericNodeState_highInRange_get", _wrap_NumericNodeState_highInRange_get},
-{"FiftyOneDegrees::PatternV3c::new_NumericNodeState", _wrap_new_NumericNodeState},
-{"FiftyOneDegrees::PatternV3c::delete_NumericNodeState", _wrap_delete_NumericNodeState},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_versionMajor_get", _wrap_DataSetHeader_versionMajor_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_versionMinor_get", _wrap_DataSetHeader_versionMinor_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_versionBuild_get", _wrap_DataSetHeader_versionBuild_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_versionRevision_get", _wrap_DataSetHeader_versionRevision_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_tag_get", _wrap_DataSetHeader_tag_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_copyrightOffset_get", _wrap_DataSetHeader_copyrightOffset_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_age_get", _wrap_DataSetHeader_age_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_minUserAgentCount_get", _wrap_DataSetHeader_minUserAgentCount_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_nameOffset_get", _wrap_DataSetHeader_nameOffset_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_formatOffset_get", _wrap_DataSetHeader_formatOffset_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_published_get", _wrap_DataSetHeader_published_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_nextUpdate_get", _wrap_DataSetHeader_nextUpdate_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_deviceCombinations_get", _wrap_DataSetHeader_deviceCombinations_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_maxUserAgentLength_get", _wrap_DataSetHeader_maxUserAgentLength_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_minUserAgentLength_get", _wrap_DataSetHeader_minUserAgentLength_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_lowestCharacter_get", _wrap_DataSetHeader_lowestCharacter_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_highestCharacter_get", _wrap_DataSetHeader_highestCharacter_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_maxSignatures_get", _wrap_DataSetHeader_maxSignatures_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_signatureProfilesCount_get", _wrap_DataSetHeader_signatureProfilesCount_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_signatureNodesCount_get", _wrap_DataSetHeader_signatureNodesCount_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_maxValues_get", _wrap_DataSetHeader_maxValues_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_csvBufferLength_get", _wrap_DataSetHeader_csvBufferLength_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_jsonBufferLength_get", _wrap_DataSetHeader_jsonBufferLength_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_xmlBufferLength_get", _wrap_DataSetHeader_xmlBufferLength_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_maxSignaturesClosest_get", _wrap_DataSetHeader_maxSignaturesClosest_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_strings_get", _wrap_DataSetHeader_strings_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_components_get", _wrap_DataSetHeader_components_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_maps_get", _wrap_DataSetHeader_maps_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_properties_get", _wrap_DataSetHeader_properties_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_values_get", _wrap_DataSetHeader_values_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_profiles_get", _wrap_DataSetHeader_profiles_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_signatures_get", _wrap_DataSetHeader_signatures_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_rankedSignatureIndexes_get", _wrap_DataSetHeader_rankedSignatureIndexes_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_nodes_get", _wrap_DataSetHeader_nodes_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_rootNodes_get", _wrap_DataSetHeader_rootNodes_get},
-{"FiftyOneDegrees::PatternV3c::DataSetHeader_profileOffsets_get", _wrap_DataSetHeader_profileOffsets_get},
-{"FiftyOneDegrees::PatternV3c::new_DataSetHeader", _wrap_new_DataSetHeader},
-{"FiftyOneDegrees::PatternV3c::delete_DataSetHeader", _wrap_delete_DataSetHeader},
-{"FiftyOneDegrees::PatternV3c::DataSet_header_get", _wrap_DataSet_header_get},
-{"FiftyOneDegrees::PatternV3c::DataSet_sizeOfSignature_set", _wrap_DataSet_sizeOfSignature_set},
-{"FiftyOneDegrees::PatternV3c::DataSet_sizeOfSignature_get", _wrap_DataSet_sizeOfSignature_get},
-{"FiftyOneDegrees::PatternV3c::DataSet_signatureStartOfNodes_set", _wrap_DataSet_signatureStartOfNodes_set},
-{"FiftyOneDegrees::PatternV3c::DataSet_signatureStartOfNodes_get", _wrap_DataSet_signatureStartOfNodes_get},
-{"FiftyOneDegrees::PatternV3c::DataSet_requiredProperties_set", _wrap_DataSet_requiredProperties_set},
-{"FiftyOneDegrees::PatternV3c::DataSet_requiredProperties_get", _wrap_DataSet_requiredProperties_get},
-{"FiftyOneDegrees::PatternV3c::DataSet_requiredPropertyCount_set", _wrap_DataSet_requiredPropertyCount_set},
-{"FiftyOneDegrees::PatternV3c::DataSet_requiredPropertyCount_get", _wrap_DataSet_requiredPropertyCount_get},
-{"FiftyOneDegrees::PatternV3c::DataSet_strings_set", _wrap_DataSet_strings_set},
-{"FiftyOneDegrees::PatternV3c::DataSet_strings_get", _wrap_DataSet_strings_get},
-{"FiftyOneDegrees::PatternV3c::DataSet_components_set", _wrap_DataSet_components_set},
-{"FiftyOneDegrees::PatternV3c::DataSet_components_get", _wrap_DataSet_components_get},
-{"FiftyOneDegrees::PatternV3c::DataSet_maps_set", _wrap_DataSet_maps_set},
-{"FiftyOneDegrees::PatternV3c::DataSet_maps_get", _wrap_DataSet_maps_get},
-{"FiftyOneDegrees::PatternV3c::DataSet_properties_set", _wrap_DataSet_properties_set},
-{"FiftyOneDegrees::PatternV3c::DataSet_properties_get", _wrap_DataSet_properties_get},
-{"FiftyOneDegrees::PatternV3c::DataSet_values_set", _wrap_DataSet_values_set},
-{"FiftyOneDegrees::PatternV3c::DataSet_values_get", _wrap_DataSet_values_get},
-{"FiftyOneDegrees::PatternV3c::DataSet_profiles_set", _wrap_DataSet_profiles_set},
-{"FiftyOneDegrees::PatternV3c::DataSet_profiles_get", _wrap_DataSet_profiles_get},
-{"FiftyOneDegrees::PatternV3c::DataSet_signatures_set", _wrap_DataSet_signatures_set},
-{"FiftyOneDegrees::PatternV3c::DataSet_signatures_get", _wrap_DataSet_signatures_get},
-{"FiftyOneDegrees::PatternV3c::DataSet_rankedSignatureIndexes_set", _wrap_DataSet_rankedSignatureIndexes_set},
-{"FiftyOneDegrees::PatternV3c::DataSet_rankedSignatureIndexes_get", _wrap_DataSet_rankedSignatureIndexes_get},
-{"FiftyOneDegrees::PatternV3c::DataSet_nodes_set", _wrap_DataSet_nodes_set},
-{"FiftyOneDegrees::PatternV3c::DataSet_nodes_get", _wrap_DataSet_nodes_get},
-{"FiftyOneDegrees::PatternV3c::DataSet_rootNodes_set", _wrap_DataSet_rootNodes_set},
-{"FiftyOneDegrees::PatternV3c::DataSet_rootNodes_get", _wrap_DataSet_rootNodes_get},
-{"FiftyOneDegrees::PatternV3c::DataSet_profileOffsets_set", _wrap_DataSet_profileOffsets_set},
-{"FiftyOneDegrees::PatternV3c::DataSet_profileOffsets_get", _wrap_DataSet_profileOffsets_get},
-{"FiftyOneDegrees::PatternV3c::new_DataSet", _wrap_new_DataSet},
-{"FiftyOneDegrees::PatternV3c::delete_DataSet", _wrap_delete_DataSet},
-{"FiftyOneDegrees::PatternV3c::LinkedSignatureListItem_next_set", _wrap_LinkedSignatureListItem_next_set},
-{"FiftyOneDegrees::PatternV3c::LinkedSignatureListItem_next_get", _wrap_LinkedSignatureListItem_next_get},
-{"FiftyOneDegrees::PatternV3c::LinkedSignatureListItem_previous_set", _wrap_LinkedSignatureListItem_previous_set},
-{"FiftyOneDegrees::PatternV3c::LinkedSignatureListItem_previous_get", _wrap_LinkedSignatureListItem_previous_get},
-{"FiftyOneDegrees::PatternV3c::LinkedSignatureListItem_rankedSignatureIndex_set", _wrap_LinkedSignatureListItem_rankedSignatureIndex_set},
-{"FiftyOneDegrees::PatternV3c::LinkedSignatureListItem_rankedSignatureIndex_get", _wrap_LinkedSignatureListItem_rankedSignatureIndex_get},
-{"FiftyOneDegrees::PatternV3c::LinkedSignatureListItem_frequency_set", _wrap_LinkedSignatureListItem_frequency_set},
-{"FiftyOneDegrees::PatternV3c::LinkedSignatureListItem_frequency_get", _wrap_LinkedSignatureListItem_frequency_get},
-{"FiftyOneDegrees::PatternV3c::new_LinkedSignatureListItem", _wrap_new_LinkedSignatureListItem},
-{"FiftyOneDegrees::PatternV3c::delete_LinkedSignatureListItem", _wrap_delete_LinkedSignatureListItem},
-{"FiftyOneDegrees::PatternV3c::LinkedSignatureList_items_set", _wrap_LinkedSignatureList_items_set},
-{"FiftyOneDegrees::PatternV3c::LinkedSignatureList_items_get", _wrap_LinkedSignatureList_items_get},
-{"FiftyOneDegrees::PatternV3c::LinkedSignatureList_first_set", _wrap_LinkedSignatureList_first_set},
-{"FiftyOneDegrees::PatternV3c::LinkedSignatureList_first_get", _wrap_LinkedSignatureList_first_get},
-{"FiftyOneDegrees::PatternV3c::LinkedSignatureList_last_set", _wrap_LinkedSignatureList_last_set},
-{"FiftyOneDegrees::PatternV3c::LinkedSignatureList_last_get", _wrap_LinkedSignatureList_last_get},
-{"FiftyOneDegrees::PatternV3c::LinkedSignatureList_count_set", _wrap_LinkedSignatureList_count_set},
-{"FiftyOneDegrees::PatternV3c::LinkedSignatureList_count_get", _wrap_LinkedSignatureList_count_get},
-{"FiftyOneDegrees::PatternV3c::LinkedSignatureList_current_set", _wrap_LinkedSignatureList_current_set},
-{"FiftyOneDegrees::PatternV3c::LinkedSignatureList_current_get", _wrap_LinkedSignatureList_current_get},
-{"FiftyOneDegrees::PatternV3c::new_LinkedSignatureList", _wrap_new_LinkedSignatureList},
-{"FiftyOneDegrees::PatternV3c::delete_LinkedSignatureList", _wrap_delete_LinkedSignatureList},
-{"FiftyOneDegrees::PatternV3c::Workset_dataSet_set", _wrap_Workset_dataSet_set},
-{"FiftyOneDegrees::PatternV3c::Workset_dataSet_get", _wrap_Workset_dataSet_get},
-{"FiftyOneDegrees::PatternV3c::Workset_input_set", _wrap_Workset_input_set},
-{"FiftyOneDegrees::PatternV3c::Workset_input_get", _wrap_Workset_input_get},
-{"FiftyOneDegrees::PatternV3c::Workset_targetUserAgent_set", _wrap_Workset_targetUserAgent_set},
-{"FiftyOneDegrees::PatternV3c::Workset_targetUserAgent_get", _wrap_Workset_targetUserAgent_get},
-{"FiftyOneDegrees::PatternV3c::Workset_targetUserAgentArray_set", _wrap_Workset_targetUserAgentArray_set},
-{"FiftyOneDegrees::PatternV3c::Workset_targetUserAgentArray_get", _wrap_Workset_targetUserAgentArray_get},
-{"FiftyOneDegrees::PatternV3c::Workset_targetUserAgentArrayLength_set", _wrap_Workset_targetUserAgentArrayLength_set},
-{"FiftyOneDegrees::PatternV3c::Workset_targetUserAgentArrayLength_get", _wrap_Workset_targetUserAgentArrayLength_get},
-{"FiftyOneDegrees::PatternV3c::Workset_relevantNodes_set", _wrap_Workset_relevantNodes_set},
-{"FiftyOneDegrees::PatternV3c::Workset_relevantNodes_get", _wrap_Workset_relevantNodes_get},
-{"FiftyOneDegrees::PatternV3c::Workset_closestNodes_set", _wrap_Workset_closestNodes_set},
-{"FiftyOneDegrees::PatternV3c::Workset_closestNodes_get", _wrap_Workset_closestNodes_get},
-{"FiftyOneDegrees::PatternV3c::Workset_profiles_set", _wrap_Workset_profiles_set},
-{"FiftyOneDegrees::PatternV3c::Workset_profiles_get", _wrap_Workset_profiles_get},
-{"FiftyOneDegrees::PatternV3c::Workset_profileCount_set", _wrap_Workset_profileCount_set},
-{"FiftyOneDegrees::PatternV3c::Workset_profileCount_get", _wrap_Workset_profileCount_get},
-{"FiftyOneDegrees::PatternV3c::Workset_nodes_set", _wrap_Workset_nodes_set},
-{"FiftyOneDegrees::PatternV3c::Workset_nodes_get", _wrap_Workset_nodes_get},
-{"FiftyOneDegrees::PatternV3c::Workset_orderedNodes_set", _wrap_Workset_orderedNodes_set},
-{"FiftyOneDegrees::PatternV3c::Workset_orderedNodes_get", _wrap_Workset_orderedNodes_get},
-{"FiftyOneDegrees::PatternV3c::Workset_nodeCount_set", _wrap_Workset_nodeCount_set},
-{"FiftyOneDegrees::PatternV3c::Workset_nodeCount_get", _wrap_Workset_nodeCount_get},
-{"FiftyOneDegrees::PatternV3c::Workset_closestNodeRankedSignatureIndex_set", _wrap_Workset_closestNodeRankedSignatureIndex_set},
-{"FiftyOneDegrees::PatternV3c::Workset_closestNodeRankedSignatureIndex_get", _wrap_Workset_closestNodeRankedSignatureIndex_get},
-{"FiftyOneDegrees::PatternV3c::Workset_linkedSignatureList_set", _wrap_Workset_linkedSignatureList_set},
-{"FiftyOneDegrees::PatternV3c::Workset_linkedSignatureList_get", _wrap_Workset_linkedSignatureList_get},
-{"FiftyOneDegrees::PatternV3c::Workset_signature_set", _wrap_Workset_signature_set},
-{"FiftyOneDegrees::PatternV3c::Workset_signature_get", _wrap_Workset_signature_get},
-{"FiftyOneDegrees::PatternV3c::Workset_signatureAsString_set", _wrap_Workset_signatureAsString_set},
-{"FiftyOneDegrees::PatternV3c::Workset_signatureAsString_get", _wrap_Workset_signatureAsString_get},
-{"FiftyOneDegrees::PatternV3c::Workset_nextCharacterPositionIndex_set", _wrap_Workset_nextCharacterPositionIndex_set},
-{"FiftyOneDegrees::PatternV3c::Workset_nextCharacterPositionIndex_get", _wrap_Workset_nextCharacterPositionIndex_get},
-{"FiftyOneDegrees::PatternV3c::Workset_method_set", _wrap_Workset_method_set},
-{"FiftyOneDegrees::PatternV3c::Workset_method_get", _wrap_Workset_method_get},
-{"FiftyOneDegrees::PatternV3c::Workset_difference_set", _wrap_Workset_difference_set},
-{"FiftyOneDegrees::PatternV3c::Workset_difference_get", _wrap_Workset_difference_get},
-{"FiftyOneDegrees::PatternV3c::Workset_rootNodesEvaluated_set", _wrap_Workset_rootNodesEvaluated_set},
-{"FiftyOneDegrees::PatternV3c::Workset_rootNodesEvaluated_get", _wrap_Workset_rootNodesEvaluated_get},
-{"FiftyOneDegrees::PatternV3c::Workset_stringsRead_set", _wrap_Workset_stringsRead_set},
-{"FiftyOneDegrees::PatternV3c::Workset_stringsRead_get", _wrap_Workset_stringsRead_get},
-{"FiftyOneDegrees::PatternV3c::Workset_nodesEvaluated_set", _wrap_Workset_nodesEvaluated_set},
-{"FiftyOneDegrees::PatternV3c::Workset_nodesEvaluated_get", _wrap_Workset_nodesEvaluated_get},
-{"FiftyOneDegrees::PatternV3c::Workset_signaturesCompared_set", _wrap_Workset_signaturesCompared_set},
-{"FiftyOneDegrees::PatternV3c::Workset_signaturesCompared_get", _wrap_Workset_signaturesCompared_get},
-{"FiftyOneDegrees::PatternV3c::Workset_signaturesRead_set", _wrap_Workset_signaturesRead_set},
-{"FiftyOneDegrees::PatternV3c::Workset_signaturesRead_get", _wrap_Workset_signaturesRead_get},
-{"FiftyOneDegrees::PatternV3c::Workset_closestSignatures_set", _wrap_Workset_closestSignatures_set},
-{"FiftyOneDegrees::PatternV3c::Workset_closestSignatures_get", _wrap_Workset_closestSignatures_get},
-{"FiftyOneDegrees::PatternV3c::Workset_values_set", _wrap_Workset_values_set},
-{"FiftyOneDegrees::PatternV3c::Workset_values_get", _wrap_Workset_values_get},
-{"FiftyOneDegrees::PatternV3c::Workset_valuesCount_set", _wrap_Workset_valuesCount_set},
-{"FiftyOneDegrees::PatternV3c::Workset_valuesCount_get", _wrap_Workset_valuesCount_get},
-{"FiftyOneDegrees::PatternV3c::Workset_startWithInitialScore_set", _wrap_Workset_startWithInitialScore_set},
-{"FiftyOneDegrees::PatternV3c::Workset_startWithInitialScore_get", _wrap_Workset_startWithInitialScore_get},
-{"FiftyOneDegrees::PatternV3c::Workset_functionPtrGetScore_set", _wrap_Workset_functionPtrGetScore_set},
-{"FiftyOneDegrees::PatternV3c::Workset_functionPtrGetScore_get", _wrap_Workset_functionPtrGetScore_get},
-{"FiftyOneDegrees::PatternV3c::Workset_functionPtrNextClosestSignature_set", _wrap_Workset_functionPtrNextClosestSignature_set},
-{"FiftyOneDegrees::PatternV3c::Workset_functionPtrNextClosestSignature_get", _wrap_Workset_functionPtrNextClosestSignature_get},
-{"FiftyOneDegrees::PatternV3c::new_Workset", _wrap_new_Workset},
-{"FiftyOneDegrees::PatternV3c::delete_Workset", _wrap_delete_Workset},
-{"FiftyOneDegrees::PatternV3c::initWithPropertyArray", _wrap_initWithPropertyArray},
-{"FiftyOneDegrees::PatternV3c::initWithPropertyString", _wrap_initWithPropertyString},
-{"FiftyOneDegrees::PatternV3c::destroy", _wrap_destroy},
-{"FiftyOneDegrees::PatternV3c::createWorkset", _wrap_createWorkset},
-{"FiftyOneDegrees::PatternV3c::freeWorkset", _wrap_freeWorkset},
-{"FiftyOneDegrees::PatternV3c::match", _wrap_match},
-{"FiftyOneDegrees::PatternV3c::setValues", _wrap_setValues},
-{"FiftyOneDegrees::PatternV3c::getString", _wrap_getString},
-{"FiftyOneDegrees::PatternV3c::getValueName", _wrap_getValueName},
-{"FiftyOneDegrees::PatternV3c::getPropertyName", _wrap_getPropertyName},
-{"FiftyOneDegrees::PatternV3c::processDeviceCSV", _wrap_processDeviceCSV},
-{"FiftyOneDegrees::PatternV3c::processDeviceJSON", _wrap_processDeviceJSON},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesRANGE_lower_get", _wrap_fiftyoneDegreesRANGE_lower_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesRANGE_upper_get", _wrap_fiftyoneDegreesRANGE_upper_get},
+{"FiftyOneDegrees::PatternV3c::new_fiftyoneDegreesRANGE", _wrap_new_fiftyoneDegreesRANGE},
+{"FiftyOneDegrees::PatternV3c::delete_fiftyoneDegreesRANGE", _wrap_delete_fiftyoneDegreesRANGE},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesAsciiString_length_get", _wrap_fiftyoneDegreesAsciiString_length_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesAsciiString_firstByte_get", _wrap_fiftyoneDegreesAsciiString_firstByte_get},
+{"FiftyOneDegrees::PatternV3c::new_fiftyoneDegreesAsciiString", _wrap_new_fiftyoneDegreesAsciiString},
+{"FiftyOneDegrees::PatternV3c::delete_fiftyoneDegreesAsciiString", _wrap_delete_fiftyoneDegreesAsciiString},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesComponent_componentId_get", _wrap_fiftyoneDegreesComponent_componentId_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesComponent_nameOffset_get", _wrap_fiftyoneDegreesComponent_nameOffset_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesComponent_defaultProfileOffset_get", _wrap_fiftyoneDegreesComponent_defaultProfileOffset_get},
+{"FiftyOneDegrees::PatternV3c::new_fiftyoneDegreesComponent", _wrap_new_fiftyoneDegreesComponent},
+{"FiftyOneDegrees::PatternV3c::delete_fiftyoneDegreesComponent", _wrap_delete_fiftyoneDegreesComponent},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesMap_nameOffset_get", _wrap_fiftyoneDegreesMap_nameOffset_get},
+{"FiftyOneDegrees::PatternV3c::new_fiftyoneDegreesMap", _wrap_new_fiftyoneDegreesMap},
+{"FiftyOneDegrees::PatternV3c::delete_fiftyoneDegreesMap", _wrap_delete_fiftyoneDegreesMap},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNodeNumericIndex_value_get", _wrap_fiftyoneDegreesNodeNumericIndex_value_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNodeNumericIndex_relatedNodeOffset_get", _wrap_fiftyoneDegreesNodeNumericIndex_relatedNodeOffset_get},
+{"FiftyOneDegrees::PatternV3c::new_fiftyoneDegreesNodeNumericIndex", _wrap_new_fiftyoneDegreesNodeNumericIndex},
+{"FiftyOneDegrees::PatternV3c::delete_fiftyoneDegreesNodeNumericIndex", _wrap_delete_fiftyoneDegreesNodeNumericIndex},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNodeIndexValue_characters_get", _wrap_fiftyoneDegreesNodeIndexValue_characters_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNodeIndexValue_integer_get", _wrap_fiftyoneDegreesNodeIndexValue_integer_get},
+{"FiftyOneDegrees::PatternV3c::new_fiftyoneDegreesNodeIndexValue", _wrap_new_fiftyoneDegreesNodeIndexValue},
+{"FiftyOneDegrees::PatternV3c::delete_fiftyoneDegreesNodeIndexValue", _wrap_delete_fiftyoneDegreesNodeIndexValue},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNodeIndex_isString_get", _wrap_fiftyoneDegreesNodeIndex_isString_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNodeIndex_relatedNodeOffset_get", _wrap_fiftyoneDegreesNodeIndex_relatedNodeOffset_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNodeIndex_value_get", _wrap_fiftyoneDegreesNodeIndex_value_get},
+{"FiftyOneDegrees::PatternV3c::new_fiftyoneDegreesNodeIndex", _wrap_new_fiftyoneDegreesNodeIndex},
+{"FiftyOneDegrees::PatternV3c::delete_fiftyoneDegreesNodeIndex", _wrap_delete_fiftyoneDegreesNodeIndex},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNodeIndex_value_characters_get", _wrap_fiftyoneDegreesNodeIndex_value_characters_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNodeIndex_value_integer_get", _wrap_fiftyoneDegreesNodeIndex_value_integer_get},
+{"FiftyOneDegrees::PatternV3c::new_fiftyoneDegreesNodeIndex_value", _wrap_new_fiftyoneDegreesNodeIndex_value},
+{"FiftyOneDegrees::PatternV3c::delete_fiftyoneDegreesNodeIndex_value", _wrap_delete_fiftyoneDegreesNodeIndex_value},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesString_value_set", _wrap_fiftyoneDegreesString_value_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesString_value_get", _wrap_fiftyoneDegreesString_value_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesString_length_set", _wrap_fiftyoneDegreesString_length_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesString_length_get", _wrap_fiftyoneDegreesString_length_get},
+{"FiftyOneDegrees::PatternV3c::new_fiftyoneDegreesString", _wrap_new_fiftyoneDegreesString},
+{"FiftyOneDegrees::PatternV3c::delete_fiftyoneDegreesString", _wrap_delete_fiftyoneDegreesString},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesStrings_firstString_set", _wrap_fiftyoneDegreesStrings_firstString_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesStrings_firstString_get", _wrap_fiftyoneDegreesStrings_firstString_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesStrings_count_get", _wrap_fiftyoneDegreesStrings_count_get},
+{"FiftyOneDegrees::PatternV3c::new_fiftyoneDegreesStrings", _wrap_new_fiftyoneDegreesStrings},
+{"FiftyOneDegrees::PatternV3c::delete_fiftyoneDegreesStrings", _wrap_delete_fiftyoneDegreesStrings},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNode_position_get", _wrap_fiftyoneDegreesNode_position_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNode_nextCharacterPosition_get", _wrap_fiftyoneDegreesNode_nextCharacterPosition_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNode_parentOffset_get", _wrap_fiftyoneDegreesNode_parentOffset_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNode_characterStringOffset_get", _wrap_fiftyoneDegreesNode_characterStringOffset_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNode_childrenCount_get", _wrap_fiftyoneDegreesNode_childrenCount_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNode_numericChildrenCount_get", _wrap_fiftyoneDegreesNode_numericChildrenCount_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNode_signatureCount_get", _wrap_fiftyoneDegreesNode_signatureCount_get},
+{"FiftyOneDegrees::PatternV3c::new_fiftyoneDegreesNode", _wrap_new_fiftyoneDegreesNode},
+{"FiftyOneDegrees::PatternV3c::delete_fiftyoneDegreesNode", _wrap_delete_fiftyoneDegreesNode},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProfileOffset_profileId_get", _wrap_fiftyoneDegreesProfileOffset_profileId_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProfileOffset_offset_get", _wrap_fiftyoneDegreesProfileOffset_offset_get},
+{"FiftyOneDegrees::PatternV3c::new_fiftyoneDegreesProfileOffset", _wrap_new_fiftyoneDegreesProfileOffset},
+{"FiftyOneDegrees::PatternV3c::delete_fiftyoneDegreesProfileOffset", _wrap_delete_fiftyoneDegreesProfileOffset},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProperty_componentIndex_get", _wrap_fiftyoneDegreesProperty_componentIndex_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProperty_displayOrder_get", _wrap_fiftyoneDegreesProperty_displayOrder_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProperty_isMandatory_get", _wrap_fiftyoneDegreesProperty_isMandatory_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProperty_isList_get", _wrap_fiftyoneDegreesProperty_isList_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProperty_showValues_get", _wrap_fiftyoneDegreesProperty_showValues_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProperty_isObsolete_get", _wrap_fiftyoneDegreesProperty_isObsolete_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProperty_show_get", _wrap_fiftyoneDegreesProperty_show_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProperty_valueType_get", _wrap_fiftyoneDegreesProperty_valueType_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProperty_defaultValueIndex_get", _wrap_fiftyoneDegreesProperty_defaultValueIndex_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProperty_nameOffset_get", _wrap_fiftyoneDegreesProperty_nameOffset_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProperty_descriptionOffset_get", _wrap_fiftyoneDegreesProperty_descriptionOffset_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProperty_categoryOffset_get", _wrap_fiftyoneDegreesProperty_categoryOffset_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProperty_urlOffset_get", _wrap_fiftyoneDegreesProperty_urlOffset_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProperty_firstValueIndex_get", _wrap_fiftyoneDegreesProperty_firstValueIndex_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProperty_lastValueIndex_get", _wrap_fiftyoneDegreesProperty_lastValueIndex_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProperty_mapCount_get", _wrap_fiftyoneDegreesProperty_mapCount_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProperty_firstMapIndex_get", _wrap_fiftyoneDegreesProperty_firstMapIndex_get},
+{"FiftyOneDegrees::PatternV3c::new_fiftyoneDegreesProperty", _wrap_new_fiftyoneDegreesProperty},
+{"FiftyOneDegrees::PatternV3c::delete_fiftyoneDegreesProperty", _wrap_delete_fiftyoneDegreesProperty},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesValue_propertyIndex_get", _wrap_fiftyoneDegreesValue_propertyIndex_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesValue_nameOffset_get", _wrap_fiftyoneDegreesValue_nameOffset_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesValue_descriptionOffset_get", _wrap_fiftyoneDegreesValue_descriptionOffset_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesValue_urlOffset_get", _wrap_fiftyoneDegreesValue_urlOffset_get},
+{"FiftyOneDegrees::PatternV3c::new_fiftyoneDegreesValue", _wrap_new_fiftyoneDegreesValue},
+{"FiftyOneDegrees::PatternV3c::delete_fiftyoneDegreesValue", _wrap_delete_fiftyoneDegreesValue},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProfile_componentIndex_get", _wrap_fiftyoneDegreesProfile_componentIndex_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProfile_profileId_get", _wrap_fiftyoneDegreesProfile_profileId_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProfile_valueCount_get", _wrap_fiftyoneDegreesProfile_valueCount_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProfile_signatureCount_get", _wrap_fiftyoneDegreesProfile_signatureCount_get},
+{"FiftyOneDegrees::PatternV3c::new_fiftyoneDegreesProfile", _wrap_new_fiftyoneDegreesProfile},
+{"FiftyOneDegrees::PatternV3c::delete_fiftyoneDegreesProfile", _wrap_delete_fiftyoneDegreesProfile},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDate_year_get", _wrap_fiftyoneDegreesDate_year_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDate_month_get", _wrap_fiftyoneDegreesDate_month_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDate_day_get", _wrap_fiftyoneDegreesDate_day_get},
+{"FiftyOneDegrees::PatternV3c::new_fiftyoneDegreesDate", _wrap_new_fiftyoneDegreesDate},
+{"FiftyOneDegrees::PatternV3c::delete_fiftyoneDegreesDate", _wrap_delete_fiftyoneDegreesDate},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesEntityHeader_startPosition_get", _wrap_fiftyoneDegreesEntityHeader_startPosition_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesEntityHeader_length_get", _wrap_fiftyoneDegreesEntityHeader_length_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesEntityHeader_count_get", _wrap_fiftyoneDegreesEntityHeader_count_get},
+{"FiftyOneDegrees::PatternV3c::new_fiftyoneDegreesEntityHeader", _wrap_new_fiftyoneDegreesEntityHeader},
+{"FiftyOneDegrees::PatternV3c::delete_fiftyoneDegreesEntityHeader", _wrap_delete_fiftyoneDegreesEntityHeader},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNumericNodeState_target_set", _wrap_fiftyoneDegreesNumericNodeState_target_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNumericNodeState_target_get", _wrap_fiftyoneDegreesNumericNodeState_target_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNumericNodeState_node_set", _wrap_fiftyoneDegreesNumericNodeState_node_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNumericNodeState_node_get", _wrap_fiftyoneDegreesNumericNodeState_node_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNumericNodeState_firstNodeNumericIndex_set", _wrap_fiftyoneDegreesNumericNodeState_firstNodeNumericIndex_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNumericNodeState_firstNodeNumericIndex_get", _wrap_fiftyoneDegreesNumericNodeState_firstNodeNumericIndex_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNumericNodeState_range_set", _wrap_fiftyoneDegreesNumericNodeState_range_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNumericNodeState_range_get", _wrap_fiftyoneDegreesNumericNodeState_range_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNumericNodeState_startIndex_set", _wrap_fiftyoneDegreesNumericNodeState_startIndex_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNumericNodeState_startIndex_get", _wrap_fiftyoneDegreesNumericNodeState_startIndex_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNumericNodeState_lowIndex_set", _wrap_fiftyoneDegreesNumericNodeState_lowIndex_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNumericNodeState_lowIndex_get", _wrap_fiftyoneDegreesNumericNodeState_lowIndex_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNumericNodeState_highIndex_set", _wrap_fiftyoneDegreesNumericNodeState_highIndex_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNumericNodeState_highIndex_get", _wrap_fiftyoneDegreesNumericNodeState_highIndex_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNumericNodeState_lowInRange_set", _wrap_fiftyoneDegreesNumericNodeState_lowInRange_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNumericNodeState_lowInRange_get", _wrap_fiftyoneDegreesNumericNodeState_lowInRange_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNumericNodeState_highInRange_set", _wrap_fiftyoneDegreesNumericNodeState_highInRange_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesNumericNodeState_highInRange_get", _wrap_fiftyoneDegreesNumericNodeState_highInRange_get},
+{"FiftyOneDegrees::PatternV3c::new_fiftyoneDegreesNumericNodeState", _wrap_new_fiftyoneDegreesNumericNodeState},
+{"FiftyOneDegrees::PatternV3c::delete_fiftyoneDegreesNumericNodeState", _wrap_delete_fiftyoneDegreesNumericNodeState},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_versionMajor_get", _wrap_fiftyoneDegreesDataSetHeader_versionMajor_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_versionMinor_get", _wrap_fiftyoneDegreesDataSetHeader_versionMinor_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_versionBuild_get", _wrap_fiftyoneDegreesDataSetHeader_versionBuild_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_versionRevision_get", _wrap_fiftyoneDegreesDataSetHeader_versionRevision_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_tag_get", _wrap_fiftyoneDegreesDataSetHeader_tag_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_copyrightOffset_get", _wrap_fiftyoneDegreesDataSetHeader_copyrightOffset_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_age_get", _wrap_fiftyoneDegreesDataSetHeader_age_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_minUserAgentCount_get", _wrap_fiftyoneDegreesDataSetHeader_minUserAgentCount_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_nameOffset_get", _wrap_fiftyoneDegreesDataSetHeader_nameOffset_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_formatOffset_get", _wrap_fiftyoneDegreesDataSetHeader_formatOffset_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_published_get", _wrap_fiftyoneDegreesDataSetHeader_published_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_nextUpdate_get", _wrap_fiftyoneDegreesDataSetHeader_nextUpdate_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_deviceCombinations_get", _wrap_fiftyoneDegreesDataSetHeader_deviceCombinations_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_maxUserAgentLength_get", _wrap_fiftyoneDegreesDataSetHeader_maxUserAgentLength_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_minUserAgentLength_get", _wrap_fiftyoneDegreesDataSetHeader_minUserAgentLength_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_lowestCharacter_get", _wrap_fiftyoneDegreesDataSetHeader_lowestCharacter_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_highestCharacter_get", _wrap_fiftyoneDegreesDataSetHeader_highestCharacter_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_maxSignatures_get", _wrap_fiftyoneDegreesDataSetHeader_maxSignatures_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_signatureProfilesCount_get", _wrap_fiftyoneDegreesDataSetHeader_signatureProfilesCount_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_signatureNodesCount_get", _wrap_fiftyoneDegreesDataSetHeader_signatureNodesCount_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_maxValues_get", _wrap_fiftyoneDegreesDataSetHeader_maxValues_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_csvBufferLength_get", _wrap_fiftyoneDegreesDataSetHeader_csvBufferLength_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_jsonBufferLength_get", _wrap_fiftyoneDegreesDataSetHeader_jsonBufferLength_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_xmlBufferLength_get", _wrap_fiftyoneDegreesDataSetHeader_xmlBufferLength_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_maxSignaturesClosest_get", _wrap_fiftyoneDegreesDataSetHeader_maxSignaturesClosest_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_strings_get", _wrap_fiftyoneDegreesDataSetHeader_strings_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_components_get", _wrap_fiftyoneDegreesDataSetHeader_components_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_maps_get", _wrap_fiftyoneDegreesDataSetHeader_maps_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_properties_get", _wrap_fiftyoneDegreesDataSetHeader_properties_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_values_get", _wrap_fiftyoneDegreesDataSetHeader_values_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_profiles_get", _wrap_fiftyoneDegreesDataSetHeader_profiles_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_signatures_get", _wrap_fiftyoneDegreesDataSetHeader_signatures_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_rankedSignatureIndexes_get", _wrap_fiftyoneDegreesDataSetHeader_rankedSignatureIndexes_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_nodes_get", _wrap_fiftyoneDegreesDataSetHeader_nodes_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_rootNodes_get", _wrap_fiftyoneDegreesDataSetHeader_rootNodes_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSetHeader_profileOffsets_get", _wrap_fiftyoneDegreesDataSetHeader_profileOffsets_get},
+{"FiftyOneDegrees::PatternV3c::new_fiftyoneDegreesDataSetHeader", _wrap_new_fiftyoneDegreesDataSetHeader},
+{"FiftyOneDegrees::PatternV3c::delete_fiftyoneDegreesDataSetHeader", _wrap_delete_fiftyoneDegreesDataSetHeader},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_header_get", _wrap_fiftyoneDegreesDataSet_header_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_sizeOfSignature_set", _wrap_fiftyoneDegreesDataSet_sizeOfSignature_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_sizeOfSignature_get", _wrap_fiftyoneDegreesDataSet_sizeOfSignature_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_signatureStartOfNodes_set", _wrap_fiftyoneDegreesDataSet_signatureStartOfNodes_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_signatureStartOfNodes_get", _wrap_fiftyoneDegreesDataSet_signatureStartOfNodes_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_requiredProperties_set", _wrap_fiftyoneDegreesDataSet_requiredProperties_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_requiredProperties_get", _wrap_fiftyoneDegreesDataSet_requiredProperties_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_requiredPropertyCount_set", _wrap_fiftyoneDegreesDataSet_requiredPropertyCount_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_requiredPropertyCount_get", _wrap_fiftyoneDegreesDataSet_requiredPropertyCount_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_strings_set", _wrap_fiftyoneDegreesDataSet_strings_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_strings_get", _wrap_fiftyoneDegreesDataSet_strings_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_components_set", _wrap_fiftyoneDegreesDataSet_components_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_components_get", _wrap_fiftyoneDegreesDataSet_components_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_maps_set", _wrap_fiftyoneDegreesDataSet_maps_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_maps_get", _wrap_fiftyoneDegreesDataSet_maps_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_properties_set", _wrap_fiftyoneDegreesDataSet_properties_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_properties_get", _wrap_fiftyoneDegreesDataSet_properties_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_values_set", _wrap_fiftyoneDegreesDataSet_values_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_values_get", _wrap_fiftyoneDegreesDataSet_values_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_profiles_set", _wrap_fiftyoneDegreesDataSet_profiles_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_profiles_get", _wrap_fiftyoneDegreesDataSet_profiles_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_signatures_set", _wrap_fiftyoneDegreesDataSet_signatures_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_signatures_get", _wrap_fiftyoneDegreesDataSet_signatures_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_rankedSignatureIndexes_set", _wrap_fiftyoneDegreesDataSet_rankedSignatureIndexes_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_rankedSignatureIndexes_get", _wrap_fiftyoneDegreesDataSet_rankedSignatureIndexes_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_nodes_set", _wrap_fiftyoneDegreesDataSet_nodes_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_nodes_get", _wrap_fiftyoneDegreesDataSet_nodes_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_rootNodes_set", _wrap_fiftyoneDegreesDataSet_rootNodes_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_rootNodes_get", _wrap_fiftyoneDegreesDataSet_rootNodes_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_profileOffsets_set", _wrap_fiftyoneDegreesDataSet_profileOffsets_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDataSet_profileOffsets_get", _wrap_fiftyoneDegreesDataSet_profileOffsets_get},
+{"FiftyOneDegrees::PatternV3c::new_fiftyoneDegreesDataSet", _wrap_new_fiftyoneDegreesDataSet},
+{"FiftyOneDegrees::PatternV3c::delete_fiftyoneDegreesDataSet", _wrap_delete_fiftyoneDegreesDataSet},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesLinkedSignatureListItem_next_set", _wrap_fiftyoneDegreesLinkedSignatureListItem_next_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesLinkedSignatureListItem_next_get", _wrap_fiftyoneDegreesLinkedSignatureListItem_next_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesLinkedSignatureListItem_previous_set", _wrap_fiftyoneDegreesLinkedSignatureListItem_previous_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesLinkedSignatureListItem_previous_get", _wrap_fiftyoneDegreesLinkedSignatureListItem_previous_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesLinkedSignatureListItem_rankedSignatureIndex_set", _wrap_fiftyoneDegreesLinkedSignatureListItem_rankedSignatureIndex_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesLinkedSignatureListItem_rankedSignatureIndex_get", _wrap_fiftyoneDegreesLinkedSignatureListItem_rankedSignatureIndex_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesLinkedSignatureListItem_frequency_set", _wrap_fiftyoneDegreesLinkedSignatureListItem_frequency_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesLinkedSignatureListItem_frequency_get", _wrap_fiftyoneDegreesLinkedSignatureListItem_frequency_get},
+{"FiftyOneDegrees::PatternV3c::new_fiftyoneDegreesLinkedSignatureListItem", _wrap_new_fiftyoneDegreesLinkedSignatureListItem},
+{"FiftyOneDegrees::PatternV3c::delete_fiftyoneDegreesLinkedSignatureListItem", _wrap_delete_fiftyoneDegreesLinkedSignatureListItem},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesLinkedSignatureList_items_set", _wrap_fiftyoneDegreesLinkedSignatureList_items_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesLinkedSignatureList_items_get", _wrap_fiftyoneDegreesLinkedSignatureList_items_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesLinkedSignatureList_first_set", _wrap_fiftyoneDegreesLinkedSignatureList_first_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesLinkedSignatureList_first_get", _wrap_fiftyoneDegreesLinkedSignatureList_first_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesLinkedSignatureList_last_set", _wrap_fiftyoneDegreesLinkedSignatureList_last_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesLinkedSignatureList_last_get", _wrap_fiftyoneDegreesLinkedSignatureList_last_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesLinkedSignatureList_count_set", _wrap_fiftyoneDegreesLinkedSignatureList_count_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesLinkedSignatureList_count_get", _wrap_fiftyoneDegreesLinkedSignatureList_count_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesLinkedSignatureList_current_set", _wrap_fiftyoneDegreesLinkedSignatureList_current_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesLinkedSignatureList_current_get", _wrap_fiftyoneDegreesLinkedSignatureList_current_get},
+{"FiftyOneDegrees::PatternV3c::new_fiftyoneDegreesLinkedSignatureList", _wrap_new_fiftyoneDegreesLinkedSignatureList},
+{"FiftyOneDegrees::PatternV3c::delete_fiftyoneDegreesLinkedSignatureList", _wrap_delete_fiftyoneDegreesLinkedSignatureList},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_dataSet_set", _wrap_fiftyoneDegreesWorkset_dataSet_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_dataSet_get", _wrap_fiftyoneDegreesWorkset_dataSet_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_input_set", _wrap_fiftyoneDegreesWorkset_input_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_input_get", _wrap_fiftyoneDegreesWorkset_input_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_targetUserAgent_set", _wrap_fiftyoneDegreesWorkset_targetUserAgent_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_targetUserAgent_get", _wrap_fiftyoneDegreesWorkset_targetUserAgent_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_targetUserAgentArray_set", _wrap_fiftyoneDegreesWorkset_targetUserAgentArray_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_targetUserAgentArray_get", _wrap_fiftyoneDegreesWorkset_targetUserAgentArray_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_targetUserAgentArrayLength_set", _wrap_fiftyoneDegreesWorkset_targetUserAgentArrayLength_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_targetUserAgentArrayLength_get", _wrap_fiftyoneDegreesWorkset_targetUserAgentArrayLength_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_relevantNodes_set", _wrap_fiftyoneDegreesWorkset_relevantNodes_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_relevantNodes_get", _wrap_fiftyoneDegreesWorkset_relevantNodes_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_closestNodes_set", _wrap_fiftyoneDegreesWorkset_closestNodes_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_closestNodes_get", _wrap_fiftyoneDegreesWorkset_closestNodes_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_profiles_set", _wrap_fiftyoneDegreesWorkset_profiles_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_profiles_get", _wrap_fiftyoneDegreesWorkset_profiles_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_profileCount_set", _wrap_fiftyoneDegreesWorkset_profileCount_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_profileCount_get", _wrap_fiftyoneDegreesWorkset_profileCount_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_nodes_set", _wrap_fiftyoneDegreesWorkset_nodes_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_nodes_get", _wrap_fiftyoneDegreesWorkset_nodes_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_orderedNodes_set", _wrap_fiftyoneDegreesWorkset_orderedNodes_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_orderedNodes_get", _wrap_fiftyoneDegreesWorkset_orderedNodes_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_nodeCount_set", _wrap_fiftyoneDegreesWorkset_nodeCount_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_nodeCount_get", _wrap_fiftyoneDegreesWorkset_nodeCount_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_closestNodeRankedSignatureIndex_set", _wrap_fiftyoneDegreesWorkset_closestNodeRankedSignatureIndex_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_closestNodeRankedSignatureIndex_get", _wrap_fiftyoneDegreesWorkset_closestNodeRankedSignatureIndex_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_linkedSignatureList_set", _wrap_fiftyoneDegreesWorkset_linkedSignatureList_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_linkedSignatureList_get", _wrap_fiftyoneDegreesWorkset_linkedSignatureList_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_signature_set", _wrap_fiftyoneDegreesWorkset_signature_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_signature_get", _wrap_fiftyoneDegreesWorkset_signature_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_signatureAsString_set", _wrap_fiftyoneDegreesWorkset_signatureAsString_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_signatureAsString_get", _wrap_fiftyoneDegreesWorkset_signatureAsString_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_nextCharacterPositionIndex_set", _wrap_fiftyoneDegreesWorkset_nextCharacterPositionIndex_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_nextCharacterPositionIndex_get", _wrap_fiftyoneDegreesWorkset_nextCharacterPositionIndex_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_method_set", _wrap_fiftyoneDegreesWorkset_method_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_method_get", _wrap_fiftyoneDegreesWorkset_method_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_difference_set", _wrap_fiftyoneDegreesWorkset_difference_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_difference_get", _wrap_fiftyoneDegreesWorkset_difference_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_rootNodesEvaluated_set", _wrap_fiftyoneDegreesWorkset_rootNodesEvaluated_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_rootNodesEvaluated_get", _wrap_fiftyoneDegreesWorkset_rootNodesEvaluated_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_stringsRead_set", _wrap_fiftyoneDegreesWorkset_stringsRead_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_stringsRead_get", _wrap_fiftyoneDegreesWorkset_stringsRead_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_nodesEvaluated_set", _wrap_fiftyoneDegreesWorkset_nodesEvaluated_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_nodesEvaluated_get", _wrap_fiftyoneDegreesWorkset_nodesEvaluated_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_signaturesCompared_set", _wrap_fiftyoneDegreesWorkset_signaturesCompared_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_signaturesCompared_get", _wrap_fiftyoneDegreesWorkset_signaturesCompared_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_signaturesRead_set", _wrap_fiftyoneDegreesWorkset_signaturesRead_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_signaturesRead_get", _wrap_fiftyoneDegreesWorkset_signaturesRead_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_closestSignatures_set", _wrap_fiftyoneDegreesWorkset_closestSignatures_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_closestSignatures_get", _wrap_fiftyoneDegreesWorkset_closestSignatures_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_values_set", _wrap_fiftyoneDegreesWorkset_values_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_values_get", _wrap_fiftyoneDegreesWorkset_values_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_valuesCount_set", _wrap_fiftyoneDegreesWorkset_valuesCount_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_valuesCount_get", _wrap_fiftyoneDegreesWorkset_valuesCount_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_startWithInitialScore_set", _wrap_fiftyoneDegreesWorkset_startWithInitialScore_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_startWithInitialScore_get", _wrap_fiftyoneDegreesWorkset_startWithInitialScore_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_functionPtrGetScore_set", _wrap_fiftyoneDegreesWorkset_functionPtrGetScore_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_functionPtrGetScore_get", _wrap_fiftyoneDegreesWorkset_functionPtrGetScore_get},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_functionPtrNextClosestSignature_set", _wrap_fiftyoneDegreesWorkset_functionPtrNextClosestSignature_set},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesWorkset_functionPtrNextClosestSignature_get", _wrap_fiftyoneDegreesWorkset_functionPtrNextClosestSignature_get},
+{"FiftyOneDegrees::PatternV3c::new_fiftyoneDegreesWorkset", _wrap_new_fiftyoneDegreesWorkset},
+{"FiftyOneDegrees::PatternV3c::delete_fiftyoneDegreesWorkset", _wrap_delete_fiftyoneDegreesWorkset},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesInitWithPropertyArray", _wrap_fiftyoneDegreesInitWithPropertyArray},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesInitWithPropertyString", _wrap_fiftyoneDegreesInitWithPropertyString},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesDestroy", _wrap_fiftyoneDegreesDestroy},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesCreateWorkset", _wrap_fiftyoneDegreesCreateWorkset},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesFreeWorkset", _wrap_fiftyoneDegreesFreeWorkset},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesMatch", _wrap_fiftyoneDegreesMatch},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesSetValues", _wrap_fiftyoneDegreesSetValues},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesGetString", _wrap_fiftyoneDegreesGetString},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesGetValueName", _wrap_fiftyoneDegreesGetValueName},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesGetPropertyName", _wrap_fiftyoneDegreesGetPropertyName},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProcessDeviceCSV", _wrap_fiftyoneDegreesProcessDeviceCSV},
+{"FiftyOneDegrees::PatternV3c::fiftyoneDegreesProcessDeviceJSON", _wrap_fiftyoneDegreesProcessDeviceJSON},
 {"FiftyOneDegrees::PatternV3c::destroyDataset", _wrap_destroyDataset},
 {"FiftyOneDegrees::PatternV3c::dataSetInitWithPropertyString", _wrap_dataSetInitWithPropertyString},
 {"FiftyOneDegrees::PatternV3c::getMatch", _wrap_getMatch},
@@ -11501,29 +11501,29 @@ XS(SWIG_init) {
     sv_setsv(sv, SWIG_From_int  SWIG_PERL_CALL_ARGS_1((int)(DATA_SET_INIT_STATUS_FILE_NOT_FOUND)));
     SvREADONLY_on(sv);
   } while(0) /*@SWIG@*/;
-  SWIG_TypeClientData(SWIGTYPE_p_range_t, (void*) "FiftyOneDegrees::PatternV3::RANGE");
-  SWIG_TypeClientData(SWIGTYPE_p_ascii_string_t, (void*) "FiftyOneDegrees::PatternV3::AsciiString");
-  SWIG_TypeClientData(SWIGTYPE_p_component_t, (void*) "FiftyOneDegrees::PatternV3::Component");
-  SWIG_TypeClientData(SWIGTYPE_p_map_t, (void*) "FiftyOneDegrees::PatternV3::Map");
-  SWIG_TypeClientData(SWIGTYPE_p_node_numeric_index_t, (void*) "FiftyOneDegrees::PatternV3::NodeNumericIndex");
-  SWIG_TypeClientData(SWIGTYPE_p_node_index_value_t, (void*) "FiftyOneDegrees::PatternV3::NodeIndexValue");
-  SWIG_TypeClientData(SWIGTYPE_p_node_index_t, (void*) "FiftyOneDegrees::PatternV3::NodeIndex");
-  SWIG_TypeClientData(SWIGTYPE_p_NodeIndex_value, (void*) "FiftyOneDegrees::PatternV3::NodeIndex_value");
-  SWIG_TypeClientData(SWIGTYPE_p_string_t, (void*) "FiftyOneDegrees::PatternV3::String");
-  SWIG_TypeClientData(SWIGTYPE_p_strings_t, (void*) "FiftyOneDegrees::PatternV3::Strings");
-  SWIG_TypeClientData(SWIGTYPE_p_node_t, (void*) "FiftyOneDegrees::PatternV3::Node");
-  SWIG_TypeClientData(SWIGTYPE_p_profile_offset_t, (void*) "FiftyOneDegrees::PatternV3::ProfileOffset");
-  SWIG_TypeClientData(SWIGTYPE_p_property_t, (void*) "FiftyOneDegrees::PatternV3::Property");
-  SWIG_TypeClientData(SWIGTYPE_p_value_t, (void*) "FiftyOneDegrees::PatternV3::Value");
-  SWIG_TypeClientData(SWIGTYPE_p_profile_t, (void*) "FiftyOneDegrees::PatternV3::Profile");
-  SWIG_TypeClientData(SWIGTYPE_p_date_t, (void*) "FiftyOneDegrees::PatternV3::Date");
-  SWIG_TypeClientData(SWIGTYPE_p_entity_header_t, (void*) "FiftyOneDegrees::PatternV3::EntityHeader");
-  SWIG_TypeClientData(SWIGTYPE_p_numeric_node_state, (void*) "FiftyOneDegrees::PatternV3::NumericNodeState");
-  SWIG_TypeClientData(SWIGTYPE_p_dataset_header_t, (void*) "FiftyOneDegrees::PatternV3::DataSetHeader");
-  SWIG_TypeClientData(SWIGTYPE_p_dataset_t, (void*) "FiftyOneDegrees::PatternV3::DataSet");
-  SWIG_TypeClientData(SWIGTYPE_p_linked_signature_list_item_t, (void*) "FiftyOneDegrees::PatternV3::LinkedSignatureListItem");
-  SWIG_TypeClientData(SWIGTYPE_p_linked_signature_list_t, (void*) "FiftyOneDegrees::PatternV3::LinkedSignatureList");
-  SWIG_TypeClientData(SWIGTYPE_p_workset_t, (void*) "FiftyOneDegrees::PatternV3::Workset");
+  SWIG_TypeClientData(SWIGTYPE_p_fiftyoneDegreesRange_t, (void*) "FiftyOneDegrees::PatternV3::fiftyoneDegreesRANGE");
+  SWIG_TypeClientData(SWIGTYPE_p_fiftyoneDegrees_ascii_string_t, (void*) "FiftyOneDegrees::PatternV3::fiftyoneDegreesAsciiString");
+  SWIG_TypeClientData(SWIGTYPE_p_fiftyoneDegrees_component_t, (void*) "FiftyOneDegrees::PatternV3::fiftyoneDegreesComponent");
+  SWIG_TypeClientData(SWIGTYPE_p_fiftyoneDegrees_map_t, (void*) "FiftyOneDegrees::PatternV3::fiftyoneDegreesMap");
+  SWIG_TypeClientData(SWIGTYPE_p_fiftyoneDegrees_node_numeric_index_t, (void*) "FiftyOneDegrees::PatternV3::fiftyoneDegreesNodeNumericIndex");
+  SWIG_TypeClientData(SWIGTYPE_p_fiftyoneDegrees_node_index_value_t, (void*) "FiftyOneDegrees::PatternV3::fiftyoneDegreesNodeIndexValue");
+  SWIG_TypeClientData(SWIGTYPE_p_fiftyoneDegrees_node_index_t, (void*) "FiftyOneDegrees::PatternV3::fiftyoneDegreesNodeIndex");
+  SWIG_TypeClientData(SWIGTYPE_p_fiftyoneDegreesNodeIndex_value, (void*) "FiftyOneDegrees::PatternV3::fiftyoneDegreesNodeIndex_value");
+  SWIG_TypeClientData(SWIGTYPE_p_fiftyoneDegrees_string_t, (void*) "FiftyOneDegrees::PatternV3::fiftyoneDegreesString");
+  SWIG_TypeClientData(SWIGTYPE_p_fiftyoneDegrees_strings_t, (void*) "FiftyOneDegrees::PatternV3::fiftyoneDegreesStrings");
+  SWIG_TypeClientData(SWIGTYPE_p_fiftyoneDegrees_node_t, (void*) "FiftyOneDegrees::PatternV3::fiftyoneDegreesNode");
+  SWIG_TypeClientData(SWIGTYPE_p_fiftyoneDegrees_profile_offset_t, (void*) "FiftyOneDegrees::PatternV3::fiftyoneDegreesProfileOffset");
+  SWIG_TypeClientData(SWIGTYPE_p_property_t, (void*) "FiftyOneDegrees::PatternV3::fiftyoneDegreesProperty");
+  SWIG_TypeClientData(SWIGTYPE_p_fiftyoneDegrees_value_t, (void*) "FiftyOneDegrees::PatternV3::fiftyoneDegreesValue");
+  SWIG_TypeClientData(SWIGTYPE_p_fiftyoneDegrees_profile_t, (void*) "FiftyOneDegrees::PatternV3::fiftyoneDegreesProfile");
+  SWIG_TypeClientData(SWIGTYPE_p_fiftyoneDegrees_date_t, (void*) "FiftyOneDegrees::PatternV3::fiftyoneDegreesDate");
+  SWIG_TypeClientData(SWIGTYPE_p_fiftyoneDegrees_entity_header_t, (void*) "FiftyOneDegrees::PatternV3::fiftyoneDegreesEntityHeader");
+  SWIG_TypeClientData(SWIGTYPE_p_fiftyoneDegrees_numeric_node_state, (void*) "FiftyOneDegrees::PatternV3::fiftyoneDegreesNumericNodeState");
+  SWIG_TypeClientData(SWIGTYPE_p_fiftyoneDegrees_dataset_header_t, (void*) "FiftyOneDegrees::PatternV3::fiftyoneDegreesDataSetHeader");
+  SWIG_TypeClientData(SWIGTYPE_p_fiftyoneDegrees_dataset_t, (void*) "FiftyOneDegrees::PatternV3::fiftyoneDegreesDataSet");
+  SWIG_TypeClientData(SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_item_t, (void*) "FiftyOneDegrees::PatternV3::fiftyoneDegreesLinkedSignatureListItem");
+  SWIG_TypeClientData(SWIGTYPE_p_fiftyoneDegrees_linked_signature_list_t, (void*) "FiftyOneDegrees::PatternV3::fiftyoneDegreesLinkedSignatureList");
+  SWIG_TypeClientData(SWIGTYPE_p_fiftyoneDegrees_workset_t, (void*) "FiftyOneDegrees::PatternV3::fiftyoneDegreesWorkset");
   ST(0) = &PL_sv_yes;
   XSRETURN(1);
 }
