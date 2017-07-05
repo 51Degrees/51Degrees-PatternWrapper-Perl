@@ -1,6 +1,8 @@
 FiftyOneDegrees-Pattern Version 1.0.1.4
 =======================================
 
+**Please note that this repository is no longer actively maintained. Instead, please use the C-Extension which can be found here:** https://github.com/51Degrees/Device-Detection/tree/master/perl
+
 This is a Perl wrapper for 51Degrees Device Detection Pattern library.
 
 It requires a recent Pattern database file from 51Degrees.
